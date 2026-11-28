@@ -273,7 +273,7 @@ h1{color:#3F5A2B}
 .vr{margin:4px 0 10px;background:#FBF6EA;border:1px solid var(--bd);border-radius:14px;padding:10px 12px}
 .vr .vrl{font-size:12.5px;color:#6A8450;font-weight:600;line-height:1.7}
 .vr .vrv{font-size:13px;color:#3a3828;margin-top:6px;line-height:1.7}.vr .vrv b{color:#44602F}
-.vr input.vrs{width:100%;margin:8px 0 0;padding:0;background:none;border:0;box-shadow:none;accent-color:#5E7A3E;height:28px}
+.vtn{display:block;width:100%;margin-top:7px;font-size:13px;padding:8px 10px;border-radius:10px;border:1px solid var(--bd);background:#FBF6EA}.vp{margin-top:6px}.vp .vpl{display:flex;justify-content:space-between;font-size:13px;gap:8px}.vp .vpl span{color:#3a3828}.vp .vpl b{color:#44602F}.vr input.vrp{width:100%;margin:4px 0 0;padding:0;background:none;border:0;box-shadow:none;accent-color:#5E7A3E;height:26px}.vr input.vrs{width:100%;margin:8px 0 0;padding:0;background:none;border:0;box-shadow:none;accent-color:#5E7A3E;height:28px}
 /* macro editing */
 .amac{margin:4px 0 6px}.amac>.f{margin:8px 0 8px;font-size:13.5px;font-weight:700;color:#44602F;line-height:1.7}
 .amac .g3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
@@ -310,6 +310,69 @@ h1{color:#3F5A2B}
 .atabs button.on{background:linear-gradient(180deg,#58773F,#44602F);color:#fff;border-color:transparent}
 .pmform{display:block;margin:8px 0 12px;padding:14px;border:1px solid var(--bd);border-radius:18px;background:var(--m2)}.pmform>b{display:block;margin-bottom:6px;font-size:17px}.pmform .f{display:block;margin-top:10px}.pmform .f input,.pmform .f select{width:100%;box-sizing:border-box}.pmform .sgrp{margin:10px 0 0}.pmform input[type=date]{font:inherit;font-size:16px;padding:12px 14px;min-height:50px;border:1px solid var(--bd);border-radius:14px;background:#FBF6EA;color:var(--tx);direction:ltr;text-align:right}
 .wabox{display:flex;gap:6px;align-items:center;padding:6px 0 10px}.wabox input{flex:1;min-width:0}.wabox button{flex:0 0 auto}
+
+.tyl{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:7px 0;border-bottom:1px dashed rgba(176,150,100,.3);font-size:13px;line-height:1.6}
+.tyl:last-child{border-bottom:0}
+.tya{display:flex;gap:6px;flex:none}
+.del.ed{color:var(--g2);font-size:13px;font-weight:700;border:1px solid var(--g2);border-radius:999px;padding:4px 10px}
+.tya .del{font-size:13px}
+.mpk{margin:-2px 0 12px}
+.mpk .mrow{display:flex;gap:8px}
+.mpk .msel{flex:1;display:flex;align-items:center;justify-content:space-between;gap:6px;background:#F6EEDF;border:1px solid rgba(176,150,100,.38);border-radius:12px;padding:11px 12px;font:inherit;font-size:14px;font-weight:600;color:#5B5A44;cursor:pointer;box-shadow:none;text-align:right;touch-action:manipulation}
+.mpk .msel i{font-style:normal;color:var(--g2);font-size:13px;transition:transform .2s}
+.mpk .msel.open i{transform:rotate(180deg)}
+.mpk .msel.has{color:var(--g2);border-color:var(--g2);background:#EEF3E4}
+.mpk .mbox{display:none;flex-wrap:wrap;gap:6px;background:#FBF6EA;border:1px solid rgba(176,150,100,.32);border-radius:14px;padding:10px;margin-top:8px}
+.mpk .mbox.open{display:flex}
+.mpk .chp{padding:7px 12px;font-size:13px;line-height:1.3;cursor:pointer}
+
+/* v63: تركيب الحصص */
+.amd{display:flex;gap:8px;margin:2px 0 10px}.amd button{flex:1;background:linear-gradient(180deg,#FFFDF8,#F5ECDA);color:var(--g2);border:1px solid var(--bd);padding:9px 8px;font-size:13.5px;box-shadow:none}.amd button.on{background:linear-gradient(180deg,#58773F,#44602F);color:#fff;border-color:transparent}
+.xcr{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:7px 0;border-bottom:1px dashed rgba(176,150,100,.35)}
+.xcr .xcn{flex:1;min-width:0;font-size:13.5px;font-weight:700;color:#3a3828;line-height:1.5}.xcr .xcn b{display:inline-block;min-width:42px;text-align:center;background:#EEF1E0;color:#44602F;border-radius:8px;padding:1px 6px;margin-left:6px;font-size:13px}.xcr .xcn small{display:block;font-weight:500;font-size:11.5px;color:var(--mu)}
+.xcr .xcq{display:flex;align-items:center;gap:6px}.xcr .xcq button{width:34px;height:34px;padding:0;font-size:18px;line-height:1;border-radius:10px;background:linear-gradient(180deg,#FFFDF8,#F5ECDA);color:var(--g2);border:1px solid var(--bd);box-shadow:none}.xcr .xcq .cv{min-width:34px;text-align:center;font-size:15px}.xcr.on .xcv{color:#44602F}
+.cadj{margin-top:10px}.cadj .f{font-size:12.5px;font-weight:700;color:#44602F;margin-bottom:4px}
+
+.wat .wh{display:flex;align-items:center;gap:10px;margin-bottom:6px}.wat .wh h2{margin:0}.wat .wh small{color:var(--mu);font-size:12.5px}
+.wat .wi{width:40px;height:40px;border-radius:14px;background:linear-gradient(180deg,#E3F1F8,#CFE5F1);display:flex;align-items:center;justify-content:center;flex:none}.wat .wi svg{width:22px;height:22px;fill:#3E8DB5}
+.wat .wm{text-align:center;margin:8px 0 4px}.wat .wm b{display:block;font-size:34px;line-height:1.2;color:#2F7BA3}.wat .wm span{font-size:13px;color:var(--mu)}
+.wat .wcups{display:flex;flex-wrap:wrap;justify-content:center;gap:4px;margin:10px 0}.wcup{width:26px;height:32px}.wcup path:first-child{fill:#EAF3F8;stroke:#9CC4DA;stroke-width:1.4}.wcup .wl{fill:#9CC4DA;opacity:.55}.wcup.on path:first-child{fill:#DDEEF7;stroke:#3E8DB5}.wcup.on .wl{fill:#3E8DB5;opacity:1}
+.wat .wr{display:flex;gap:10px}.wat .wr>div{flex:1;background:#F1F7FA;border:1px solid #D5E7F0;border-radius:14px;padding:9px 6px;text-align:center}.wat .wr b{display:block;font-size:17px;color:#2F7BA3}.wat .wr span{font-size:12px;color:var(--mu)}
+.wat .wf{font-size:12px;color:var(--mu);margin-top:10px;line-height:1.8}
+.xch{display:flex;flex-wrap:wrap;gap:6px}.xchip{background:linear-gradient(180deg,#FFFDF8,#F5ECDA);color:var(--g2);border:1px solid var(--bd);border-radius:999px;padding:6px 11px;font-size:12.5px;font-weight:600;box-shadow:none}.xchip.on{border-color:#6F8B4E;background:#EEF1E0}
+
+/* v71: محيط الخصر */
+.wcc .wh{display:flex;align-items:center;gap:10px;margin-bottom:8px}.wcc .wh h2{margin:0}.wcc .wh small{color:var(--mu);font-size:12.5px}
+.wcc .wi{width:40px;height:40px;border-radius:14px;background:linear-gradient(180deg,#EEF1E0,#DCE6C6);display:flex;align-items:center;justify-content:center;flex:none}.wcc .wi svg{width:22px;height:22px;stroke:#44602F;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.wcc .wv{display:flex;align-items:center;gap:12px;margin:6px 0 10px}.wcc .wv b{font-size:38px;color:var(--g2);line-height:1}.wcc .wv em{font-style:normal;font-size:14px;color:var(--mu)}
+.wcc .bb2{display:inline-block;border-radius:999px;padding:4px 12px;font-size:13px;font-weight:700}.wcc .bb2.n{background:#E3EFD6;color:#3C5A27}.wcc .bb2.o{background:#F7E6C9;color:#8A5A12}.wcc .bb2.b{background:#F4D9D2;color:#9B3A2A}
+.wcc .sc2{position:relative;display:flex;height:12px;border-radius:8px;overflow:hidden;margin:10px 0 4px}.wcc .sc2 i{display:block;height:100%}.wcc .sc2 .mk3{position:absolute;top:-3px;width:4px;height:18px;border-radius:3px;background:#2d2b1e;box-shadow:0 0 0 2px #fff;transform:translateX(50%)}
+.wcc .scl{display:flex;justify-content:space-between;font-size:11.5px;color:var(--mu)}
+.wcc .mx{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}.wcc .mx>div{background:#F7F4EA;border:1px solid var(--bd);border-radius:14px;padding:10px;text-align:center}.wcc .mx b{display:block;font-size:19px;color:var(--g2)}.wcc .mx span{font-size:12px;color:var(--mu)}.wcc .mx small{display:block;font-size:11.5px;margin-top:3px}
+.wcc .dl{display:flex;align-items:center;justify-content:space-between;background:#F7F4EA;border:1px solid var(--bd);border-radius:14px;padding:12px;margin-top:12px}.wcc .dl b{font-size:22px}.wcc .dl .up{color:#9B3A2A}.wcc .dl .dn{color:#3C5A27}
+.wcc h3{font-size:14px;margin:16px 0 6px;color:var(--g2)}.wcc .lg{display:flex;justify-content:space-between;font-size:13px;padding:7px 0;border-bottom:1px dashed rgba(176,150,100,.35)}.wcc .lg i{font-style:normal;color:var(--mu);font-size:12px}
+.wcc .wadd{display:flex;gap:8px;margin-top:12px;align-items:flex-end}.wcc .wadd label{flex:1;margin:0}.wcc .wadd button{white-space:nowrap}
+.wcc svg.ch{width:100%;height:90px;margin-top:8px}
+
+/* v72: حالاتي */
+.kz-top{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}.kz-top h1{margin:0}
+.kz-it{display:block;width:100%;text-align:right;background:var(--w);border:1px solid var(--bd);border-radius:20px;padding:14px;margin-bottom:10px;box-shadow:0 6px 16px -10px rgba(110,85,45,.35);color:var(--tx)}
+.kz-h{display:flex;align-items:center;gap:10px}.kz-av{width:42px;height:42px;border-radius:14px;background:linear-gradient(180deg,#EEF1E0,#DCE6C6);color:#44602F;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;flex:none}
+.kz-h b{font-size:16px;display:block}.kz-h small{color:var(--mu);font-size:12.5px}
+.kz-chip{display:inline-block;border-radius:999px;padding:3px 11px;font-size:12px;font-weight:700;background:#E3EFD6;color:#3C5A27}.kz-chip.g{background:#F7E6C9;color:#8A5A12}.kz-chip.k{background:#E8E5D8;color:#5B5A44}
+.kz-nums{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0 8px}.kz-nums>div{background:#F7F4EA;border:1px solid var(--bd);border-radius:14px;padding:9px 4px;text-align:center}.kz-nums b{display:block;font-size:19px;color:var(--g2)}.kz-nums span{font-size:11.5px;color:var(--mu)}
+.kz-bar{height:10px;border-radius:8px;background:#E9E3D2;overflow:hidden;margin:6px 0 4px}.kz-bar i{display:block;height:100%;border-radius:8px;background:linear-gradient(90deg,#7C9A5A,#44602F)}.kz-bar.t i{background:linear-gradient(90deg,#E2C285,#C9A24E)}
+.kz-bl{display:flex;justify-content:space-between;font-size:12px;color:var(--mu)}
+.kz-ph{font-size:12.5px;color:var(--mu);margin:2px 0 8px}
+.kz-fu{border:1px solid var(--bd);border-radius:16px;padding:12px;margin-bottom:8px;background:#fff}.kz-fu.nx{border-color:#6F8B4E;background:#F4F8EC}.kz-fu.em{background:#FAF8F1;border-style:dashed;color:var(--mu)}
+.kz-fh{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}.kz-fh b{font-size:14.5px}.kz-fh span{font-size:12px;color:var(--mu)}
+.kz-r{display:flex;justify-content:space-between;font-size:13px;padding:4px 0}.kz-r i{font-style:normal;font-size:12px}.up{color:#9B3A2A}.dn{color:#3C5A27}
+.kz-note{background:#F7F4EA;border-radius:10px;padding:8px 10px;font-size:12.5px;color:#5B5A44;margin-top:6px;line-height:1.7}
+.kz-pv{background:#EEF1E0;color:#3C5A27;border-radius:14px;padding:10px 12px;font-size:13px;line-height:1.9;margin-top:10px}.kz-pv:empty{display:none}
+.kz-mo{display:flex;gap:6px;margin:4px 0 8px;flex-wrap:wrap}.kz-mo button{padding:7px 14px;font-size:13px}
+.kz-acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.kz-acts button{flex:1;min-width:140px}
+.kz-pl{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}.kz-pl>div{background:#F7F4EA;border:1px solid var(--bd);border-radius:14px;padding:10px;text-align:center}.kz-pl b{display:block;font-size:18px;color:var(--g2)}.kz-pl span{font-size:11.5px;color:var(--mu)}
+#cf-fu input[type=date]{min-height:46px;width:100%;direction:ltr}
 </style>
 </head>
 <body>
@@ -323,21 +386,23 @@ h1{color:#3F5A2B}
  <button data-act="nav" data-p="meals"><svg viewBox="0 0 24 24"><path d="M3 11h18a9 9 0 0 1-18 0z"/><path d="M8 21h8"/></svg>الوجبات</button>
  <button data-act="nav" data-p="sum"><svg viewBox="0 0 24 24"><path d="M12 3v9h9"/><path d="M20 15a9 9 0 1 1-11-11"/></svg>الملخص</button>
  <button data-act="nav" data-p="me"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>حسابي</button>
+ <button data-act="nav" data-p="cases"><svg viewBox="0 0 24 24"><path d="M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM3 20c0-3.3 2.7-5 6-5s6 1.7 6 5"/><path d="M16 5.5a3 3 0 0 1 0 5M18 15c2 .6 3 2.100 3 5"/></svg>حالاتي</button>
  <button data-act="nav" data-p="adm" class="hide"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg>الإدارة</button>
 </div></nav>
 <dialog id="dlg">
  <h2 id="a-t2">إضافة صنف جديد</h2>
  <label class="f">اسم الصنف<input id="a-n" placeholder="مثال: خبز صاج"></label>
- <label class="f">معيار الحصة الواحدة (يحدده الأدمن فقط)<input id="a-d" placeholder="مثال: ½ كوب / 30 جم"></label>
+ <label class="f">معيار الحصة الواحدة (يحدده الأدمن فقط)<input id="a-d" placeholder="مثال: ½ كوب / 30 غم"></label>
+ <div class="mpk" id="a-pick"><div class="mrow"><button type="button" class="msel" data-t="u"><span>اختاري كوباً أو ملعقة</span><i>▾</i></button><button type="button" class="msel" data-t="g"><span>اختاري الغرامات</span><i>▾</i></button></div><div class="mbox" data-g="u"></div><div class="mbox" data-g="g"></div></div>
  <div class="g2"><label class="f">المجموعة<select id="a-g"></select></label><label class="f" id="a-tl">النوع<select id="a-ty"></select></label></div>
  <label class="rtg"><input type="checkbox" id="a-rt"> <span>قيمة متغيرة (نطاق من – إلى)</span></label>
  <div class="arng hide" id="a-rg"><div class="mh">للأصناف ذات القيم غير الثابتة: يُحدَّد النطاق هنا، ثم تضبط المستخدمة القيمة الدقيقة داخله من الصفحة الرئيسية.</div>
   <div class="rrow"><b>السعرات</b><label>من<input id="a-kn" type="number" inputmode="decimal" min="0" step="1"></label><label>إلى<input id="a-kx" type="number" inputmode="decimal" min="0" step="1"></label></div>
-  <div class="rrow"><b>بروتين (جم)</b><label>من<input id="a-pn" type="number" inputmode="decimal" min="0" step="0.5"></label><label>إلى<input id="a-px" type="number" inputmode="decimal" min="0" step="0.5"></label></div>
-  <div class="rrow"><b>دهون (جم)</b><label>من<input id="a-fn" type="number" inputmode="decimal" min="0" step="0.5"></label><label>إلى<input id="a-fx" type="number" inputmode="decimal" min="0" step="0.5"></label></div>
+  <div class="rrow"><b>بروتين (غم)</b><label>من<input id="a-pn" type="number" inputmode="decimal" min="0" step="0.5"></label><label>إلى<input id="a-px" type="number" inputmode="decimal" min="0" step="0.5"></label></div>
+  <div class="rrow"><b>دهون (غم)</b><label>من<input id="a-fn" type="number" inputmode="decimal" min="0" step="0.5"></label><label>إلى<input id="a-fx" type="number" inputmode="decimal" min="0" step="0.5"></label></div>
   <label class="f" style="margin-top:8px">القيمة الافتراضية<select id="a-rd"><option value="mid">المنتصف</option><option value="min">الحد الأدنى</option></select></label>
   <div class="mh">البروتين والدهون اختياريان، والكارب يُحسب تلقائياً من المتبقي.</div></div>
- <div class="amac" id="a-fx2"><div class="f">تخصيص قيم الحصة الواحدة (اختياري — للسكريات والأكلات المركبة)</div><div class="g3"><label>كارب (جم)<input id="a-mc" type="number" inputmode="decimal" min="0" step="0.5"></label><label>بروتين (جم)<input id="a-mp" type="number" inputmode="decimal" min="0" step="0.5"></label><label>دهون (جم)<input id="a-mf" type="number" inputmode="decimal" min="0" step="0.5"></label></div><div class="mk" id="a-mk"></div><div class="mh">اتركيها فارغة ليأخذ الصنف القيم القياسية لمجموعته ونوعه.</div></div>
+<div class="amac" id="a-fx2"><div class="f">طريقة إدخال القيم الغذائية للحصة الواحدة (اختياري)</div><div class="amd" id="a-mode"><button type="button" data-m="cmp" class="on">بالحصص (تركيب الحصص)</button><button type="button" data-m="man">يدوي بالغم</button></div><div id="a-cmp"><div class="mh">حددي كم حصة من كل مجموعة يتكوّن منها الصنف (½ ، 1 ، 1½ ، 2 …)؛ تُحسب السعرات والماكروز تلقائياً وتُخصم الحصص من رصيد كل مجموعة. اتركيها كلها صفراً ليبقى الصنف بقيم مجموعته القياسية.</div><div id="a-crows"></div><div class="cadj"><div class="f">تعديل إضافي اختياري بالغم (يُضاف على مجموع الحصص — الافتراضي 0)</div><div class="g3"><label>كارب (غم)<input id="a-xc" type="number" inputmode="decimal" step="0.5" placeholder="0"></label><label>بروتين (غم)<input id="a-xp" type="number" inputmode="decimal" step="0.5" placeholder="0"></label><label>دهون (غم)<input id="a-xf" type="number" inputmode="decimal" step="0.5" placeholder="0"></label></div></div><div class="mk" id="a-cpv"></div></div> <div id="a-man"><div class="f">تخصيص قيم الحصة الواحدة (اختياري — للسكريات والأكلات المركبة)</div><div class="g3"><label>كارب (غم)<input id="a-mc" type="number" inputmode="decimal" min="0" step="0.5"></label><label>بروتين (غم)<input id="a-mp" type="number" inputmode="decimal" min="0" step="0.5"></label><label>دهون (غم)<input id="a-mf" type="number" inputmode="decimal" min="0" step="0.5"></label></div><div class="mk" id="a-mk"></div><div class="mh">اتركيها فارغة ليأخذ الصنف القيم القياسية لمجموعته ونوعه.</div></div></div>
  <div class="err" id="a-e"></div>
  <div class="acts"><button id="a-ok">حفظ الصنف</button><button class="s" id="a-no">إلغاء</button></div>
 </dialog>
@@ -381,7 +446,8 @@ const EXTRA_GROUPS={groups:[],types:[]};
 /* ====== نهاية كتلة النسخ ====== */
 const EXTRA=EXTRA_FOODS.map((f,i)=>Object.assign({t:''},f,{id:f.id||'x'+i}));
 function applyCfg(c){(c.groups||[]).forEach(x=>{if(!GR[x.key])GR[x.key]={n:x.n,i:x.i||'🍽️',k:+x.k||0,c:+x.c||0,p:+x.p||0,f:+x.f||0};if(x.rg)GR[x.key].rg=x.rg});
- (c.types||[]).forEach(t=>{const G=GR[t.g];if(!G)return;if(!G.ty)G.ty={base:['عام',G.k,G.c,G.p,G.f,G.rg]};G.ty[t.key]=[t.n,+t.k||0,+t.c||0,+t.p||0,+t.f||0,t.rg]})}
+ (c.types||[]).forEach(t=>{const G=GR[t.g];if(!G)return;if(t.del){if(G.ty){delete G.ty[t.key];if(!Object.keys(G.ty).length)delete G.ty}return}if(!G.ty)G.ty={base:['عام',G.k,G.c,G.p,G.f,G.rg]};G.ty[t.key]=[t.n,+t.k||0,+t.c||0,+t.p||0,+t.f||0,t.rg]})}
+const g0b=(g,k)=>{try{const b=JSON.parse(GR0)[g];return !!(b&&b.ty&&b.ty[k])}catch(e){return false}};
 function rebuildGR(){const b=JSON.parse(GR0);Object.keys(GR).forEach(k=>delete GR[k]);Object.assign(GR,b);applyCfg(EXTRA_GROUPS);applyCfg(A.cfg)}
 // مجموعات البدائل الغذائية (قيم الحصة الواحدة): [الاسم، سعرات، كارب، بروتين، دهون]
 const GR={
@@ -390,18 +456,21 @@ const GR={
  fruit:{n:'الفواكه',i:'🍎',k:60,c:15,p:0,f:0},
  milk:{n:'الحليب',i:'🥛',ty:{skim:['خالي الدسم',80,12,8,0],low:['قليل الدسم',125,12,8,5],full:['كامل الدسم',150,12,8,8]}},
  meat:{n:'اللحوم وبدائلها',i:'🍗',ty:{lean:['قليلة الدهون',55,0,7,3],med:['متوسطة الدهون',75,0,7,5],high:['عالية الدهون',100,0,7,8]}},
- fat:{n:'الدهون',i:'🫒',k:45,c:0,p:0,f:5}
+ fat:{n:'الدهون',i:'🫒',k:45,c:0,p:0,f:5},
+ free:{n:'الأطعمة الحرة',i:'🍃',k:0,c:0,p:0,f:0}
 };
 const BASE=[
 ['starch','','ربع رغيف خبز عربي','¼ رغيف'],['starch','','شريحة خبز توست','1 شريحة'],['starch','','أرز مطبوخ','⅓ كوب'],['starch','','شوفان مطبوخ','½ كوب'],
-['starch','','فول مدمس / عدس / حمص مطبوخ','½ كوب'],['starch','','بطاطس مسلوقة','حبة صغيرة (90 جم)'],['starch','','معكرونة مطبوخة','⅓ كوب'],['starch','','ذرة','½ كوب'],
+['starch','','فول مدمس / عدس / حمص مطبوخ','½ كوب'],['starch','','بطاطس مسلوقة','حبة صغيرة (90 غم)'],['starch','','معكرونة مطبوخة','⅓ كوب'],['starch','','ذرة','½ كوب'],
 ['veg','','خضروات مطبوخة','½ كوب'],['veg','','خضروات غير مطبوخة (نيئة / سلطة)','1 كوب'],['veg','','طماطم','حبة كبيرة'],['veg','','بروكلي / قرنبيط','½ كوب'],
 ['fruit','','تفاح','حبة صغيرة'],['fruit','','موز','½ حبة متوسطة'],['fruit','','برتقال','حبة متوسطة'],['fruit','','تمر','2–3 حبات'],['fruit','','بطيخ مكعبات','1 كوب'],['fruit','','عنب','15 حبة صغيرة'],
 ['milk','skim','حليب خالي الدسم','1 كوب (240 مل)'],['milk','low','حليب قليل الدسم','1 كوب (240 مل)'],['milk','full','حليب كامل الدسم','1 كوب (240 مل)'],['milk','low','زبادي سادة قليل الدسم','¾ كوب'],['milk','low','لبن رائب','1 كوب'],
-['meat','med','بيض','1 بيضة'],['meat','lean','صدر دجاج بدون جلد','30 جم مطبوخ'],['meat','lean','سمك مشوي','30 جم'],['meat','lean','تونة مصفاة من الزيت','¼ كوب'],['meat','lean','لحم بقري قليل الدهن','30 جم مطبوخ'],
-['meat','lean','جبنة قريش / لبنة قليلة الدسم','¼ كوب'],['meat','med','لحم غنم متوسط الدهن','30 جم مطبوخ'],['meat','med','جبن أبيض / حلوم','30 جم'],['meat','high','جبن تشيدر','30 جم'],['meat','high','نقانق / مرتديلا','30 جم'],
+['meat','med','بيض','1 بيضة'],['meat','lean','صدر دجاج بدون جلد','30 غم مطبوخ'],['meat','lean','سمك مشوي','30 غم'],['meat','lean','تونة مصفاة من الزيت','¼ كوب'],['meat','lean','لحم بقري قليل الدهن','30 غم مطبوخ'],
+['meat','lean','جبنة قريش / لبنة قليلة الدسم','¼ كوب'],['meat','med','لحم غنم متوسط الدهن','30 غم مطبوخ'],['meat','med','جبن أبيض / حلوم','30 غم'],['meat','high','جبن تشيدر','30 غم'],['meat','high','نقانق / مرتديلا','30 غم'],
 ['fat','','زيت زيتون / سمن / زبدة','1 ملعقة صغيرة'],['fat','','لوز','6 حبات'],['fat','','طحينة','2 ملعقة صغيرة'],['fat','','أفوكادو','⅛ حبة'],['fat','','زيتون','8–10 حبات'],['fat','','فول سوداني','10 حبات'],['veg','','عصير خضروات','½ كوب'],
-['starch','','خبز الطابون كبير (حصاوي، قطر 47 سم)','\u20661/12\u2069 رغيف']
+['starch','','خبز الطابون كبير (حصاوي، قطر 47 سم)','\u20661/12\u2069 رغيف'],
+['free','','شاي / قهوة بدون سكر','غير محدد'],['free','','ماء / ماء بالنكهات خالٍ من السكر','غير محدد'],['free','','ليمون / خل','غير محدد'],['free','','أعشاب وتوابل','غير محدد'],
+['free','','مشروب غازي دايت (خالٍ من السكر)','غير محدد'],['free','','مرق خالٍ من الدسم','غير محدد'],['free','','خردل','1 ملعقة صغيرة'],['free','','جيلي دايت (خالٍ من السكر)','½ كوب']
 ].map((a,i)=>({id:'b'+i,g:a[0],t:a[1],name:a[2],d:a[3]}));
 const COL=['#047857','#10B981','#34D399','#86EFAC'];
 const $=s=>document.querySelector(s),R=Math.round;
@@ -465,6 +534,7 @@ function cat2ov(cat){const gs=(cat&&cat.groups)||[],fs=(cat&&cat.foods)||[];if(!
  const g0=JSON.parse(GR0),base=new Map(BASE.concat(EXTRA).map(f=>[f.id,f])),cfg={groups:[],types:[]},foods=[],seen=new Set();
  gs.forEach(g=>{const b=g0[g.key],rgc=g.rg&&typeof g.rg==='object'?g.rg:null;
   if(!b||JSON.stringify(rgc)!==JSON.stringify(b.rg||null)){const o={key:g.key,n:g.name,i:g.icon,k:+g.kcal||0,c:+g.carb||0,p:+g.prot||0,f:+g.fat||0};if(rgc)o.rg=rgc;cfg.groups.push(o)}
+  if(b&&b.ty)Object.keys(b.ty).forEach(bk=>{if(bk!=='base'&&!(g.types&&g.types[bk]))cfg.types.push({g:g.key,key:bk,del:true})});
   Object.entries(g.types||{}).forEach(([tk,a])=>{const bt=b&&b.ty&&b.ty[tk];if(bt&&JSON.stringify(trimA(bt))===JSON.stringify(trimA(a)))return;const t={g:g.key,key:tk,n:a[0],k:a[1],c:a[2],p:a[3],f:a[4]};if(a[5])t.rg=a[5];cfg.types.push(t)})});
  fs.forEach(f=>{if(!f||!f.id)return;seen.add(f.id);const o={id:f.id,g:f.grp,t:f.typ||'',name:f.name,d:f.descr||''};if(f.mac)o.mac=f.mac;if(f.rng)o.rng=f.rng;const b=base.get(f.id);if(b&&sameF(b,o))return;o.custom=true;foods.push(o)});
  return{foods,hidden:[...base.keys()].filter(id=>!seen.has(id)),cfg}}
@@ -579,13 +649,13 @@ ${pWho()}${pStats()}${can('activate')?`\u0001subs\u0002<div class="card"><h2>${a
  <label class="f">الاسم الكامل<input id="u-n" value="${esc(e.name)}"></label>
  <label class="f">رقم الجوال<input id="u-ph" inputmode="tel" value="${esc(e.phone)}"></label>
  <label class="f">كود الاشتراك (اتركيه فارغاً ليُولَّد تلقائياً)<input id="u-p" autocapitalize="characters" style="direction:ltr;text-align:left" value="${esc(e.pass)}"></label>
- <div class="g2"><label class="f">مدة الاشتراك<select id="u-m"><option value="0"${e.td?' selected':''}>يومان (تجربة)</option>${[1,2,3,6,12].map(m=>`<option value="${m}"${!e.td&&(e.months||2)===m?' selected':''}>${m===2?'شهران':m===1?'شهر':m+(m>10?' شهراً':' أشهر')}</option>`).join('')}</select></label><label class="f">الحالة<select id="u-s"><option value="1"${e.active?' selected':''}>مفعّل</option><option value="0"${e.active?'':' selected'}>موقوف</option></select></label></div>
+ <div class="g2"><label class="f">مدة الاشتراك<select id="u-m"><option value="0"${e.td&&e.td!==7?' selected':''}>يومان تجربة</option><option value="-7"${e.td===7?' selected':''}>اشتراك أسبوع</option>${[1,2,3,6,12].map(m=>`<option value="${m}"${!e.td&&(e.months||2)===m?' selected':''}>${m===2?'شهران':m===1?'شهر':m+(m>10?' شهراً':' أشهر')}</option>`).join('')}</select></label><label class="f">الحالة<select id="u-s"><option value="1"${e.active?' selected':''}>مفعّل</option><option value="0"${e.active?'':' selected'}>موقوف</option></select></label></div>
  <div class="mh">تبدأ المدة من أول تفعيل للكود على جهاز الطالبة، ويُقفل الكود على ذلك الجهاز.</div>
  <div class="err" id="u-e"></div><div class="acts"><button data-act="saveu">${admEdit?'حفظ التعديل':'إضافة الطالبة'}</button>${admEdit?'<button class="s" data-act="cancelu">إلغاء</button>':''}</div></div>
 `:''}${canAny('activate','codes','stats')?`\u0001subs\u0002<div class="card"><h2>الاشتراكات (${A.users.length})</h2><button class="s full" data-act="refu" style="margin-bottom:8px">تحديث القائمة من السحابة</button>
  ${A.users.length?A.users.filter(u=>!(u.src==='bulk'&&!u.exp&&!u.name)).map(u=>{const now=Date.now(),ex=u.exp&&u.exp<now,st=!u.active?['موقوف','background:var(--rd2);color:#B04A43']:ex?['منتهٍ','background:var(--rd2);color:#B04A43']:['مفعّل',''];
-  return `<div class="fi"><div><b>${esc(u.name)||'(بدون اسم)'}</b><span class="bd" style="${st[1]}">${st[0]}</span>${u.td?'<span class="bd" style="background:#F6E7BF;color:#8A6A1F">تجربة</span>':''}<small>${esc(u.phone)}${canAny('activate','codes')?` • الكود: <span dir="ltr" style="font-weight:700">${esc(u.pass)}</span>`:''}</small><small>${u.exp?(ex?'انتهى في ':'ينتهي في ')+fdate(u.exp)+(ex?'':' (متبقي '+Math.max(0,Math.ceil((u.exp-now)/864e5))+' يوم)'):'لم يُفعَّل بعد — تبدأ المدة ('+(u.td?'يومان تجربة':(u.months||2)+' شهر')+') من أول تفعيل'}</small><small>${u.dev?'🔒 مرتبط بـ '+(u.dev2?'جهازين (الحد الأقصى)':'جهاز (يسمح بجهاز ثانٍ)')+' منذ '+fdate(u.devAt):'🔓 غير مرتبط بجهاز'}${u.seen?' • آخر ظهور '+fdate(u.seen):''}</small>${u.by?`<small>✅ بواسطة: <b>${esc(u.by)}</b></small>`:''}</div>
- ${can('activate')?`<div style="display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end"><button class="s" data-act="editu" data-id="${u.id}">تعديل</button>${u.dev?`<button class="s" data-act="unb" data-id="${u.id}">فك ارتباط الأجهزة</button>`:''}${u.exp?'':`<button class="s" data-act="cwa" data-id="${u.id}">واتساب</button>`}<button class="s" data-act="renu" data-id="${u.id}">تجديد</button><button class="s" data-act="togu" data-id="${u.id}">${u.active?'إيقاف':'تفعيل'}</button><button class="s" data-act="newc" data-id="${u.id}">كود جديد</button>${isOwner()?`<button class="r" data-act="delu" data-id="${u.id}">حذف</button>`:''}</div>`:''}</div>`}).join(''):'<div style="color:var(--mu);text-align:center;padding:10px">لا توجد اشتراكات بعد.</div>'}</div>`:''}
+  return `<div class="fi"><div><b>${esc(u.name)||'(بدون اسم)'}</b><span class="bd" style="${st[1]}">${st[0]}</span>${u.td&&u.td!==7?'<span class="bd" style="background:#F6E7BF;color:#8A6A1F">يومان تجربة</span>':u.td===7?'<span class="bd" style="background:#E6EEDB;color:#44602F">اشتراك أسبوع</span>':''}<small>${esc(u.phone)}${canAny('activate','codes')?` • الكود: <span dir="ltr" style="font-weight:700">${esc(u.pass)}</span>`:''}</small><small>${u.exp?(ex?'انتهى في ':'ينتهي في ')+fdate(u.exp)+(ex?'':' (متبقي '+Math.max(0,Math.ceil((u.exp-now)/864e5))+' يوم)'):'لم يُفعَّل بعد — تبدأ المدة ('+(u.td===7?'أسبوع':u.td?'يومان تجربة':(u.months||2)+' شهر')+') من أول تفعيل'}</small><small>${u.dev?'🔒 مرتبط بـ '+(u.dev2?'جهازين (الحد الأقصى)':'جهاز (يسمح بجهاز ثانٍ)')+' منذ '+fdate(u.devAt):'🔓 غير مرتبط بجهاز'}${u.seen?' • آخر ظهور '+fdate(u.seen):''}</small>${u.by?`<small>✅ بواسطة: <b>${esc(u.by)}</b></small>`:''}</div>
+ ${can('activate')?`<div style="display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end"><button class="s" data-act="editu" data-id="${u.id}">تعديل</button><button class="s" data-act="ulog" data-id="${u.id}">السجل</button>${u.dev?`<button class="s" data-act="unb" data-id="${u.id}">فك ارتباط الأجهزة</button>`:''}${u.exp?'':`<button class="s" data-act="cwa" data-id="${u.id}">واتساب</button>`}<button class="s" data-act="renu" data-id="${u.id}">تجديد</button><button class="s" data-act="togu" data-id="${u.id}">${u.active?'إيقاف':'تفعيل'}</button><button class="s" data-act="newc" data-id="${u.id}">كود جديد</button>${isOwner()?`<button class="r" data-act="delu" data-id="${u.id}">حذف</button>`:''}</div>`:''}</div>`}).join(''):'<div style="color:var(--mu);text-align:center;padding:10px">لا توجد اشتراكات بعد.</div>'}</div>`:''}
  ${can('stats')?`\u0001stat\u0002<div class="card"><h2>سجل النشاط</h2><button class="s full" data-act="logs">${admLogs?'تحديث السجل':'عرض آخر النشاطات'}</button>${admLogs?(admLogs.length?`<div style="margin-top:8px;max-height:260px;overflow:auto">${admLogs.map(l=>`<div class="fi" style="padding:6px 0"><div><b>${esc(l.name||'—')}</b><span class="bd">${esc(l.action)}</span><small>${fdate(l.created_at)} ${new Date(l.created_at).toLocaleTimeString('ar',{hour:'2-digit',minute:'2-digit'})}</small></div></div>`).join('')}</div>`:'<div class="mh">لا يوجد نشاط بعد.</div>'):''}</div>`:''}`}
 /* بطاقة الإعلان: رسم مباشر على canvas (بدون مكتبات أو صور خارجية) */
 const AD_F="Cairo,'Reem Kufi',Tahoma,'Segoe UI',Arial,sans-serif",AD_PH='[رقم التواصل / حسابكِ]';
@@ -661,7 +731,8 @@ async function copyTxt(t){try{if(navigator.clipboard&&window.isSecureContext){aw
  try{const a=document.createElement('textarea');a.value=t;a.setAttribute('readonly','');a.style.cssText='position:fixed;top:0;left:0;opacity:0';document.body.appendChild(a);a.focus();a.select();a.setSelectionRange(0,t.length);const ok=document.execCommand('copy');a.remove();return ok}catch(e){return false}}
 const appUrl=()=>((payInfo&&payInfo.app_url)||'').trim()||location.origin+location.pathname;
 const mLbl=m=>m===1?'شهر':m===2?'شهران':m<=10?m+' أشهر':m+' شهراً';
-function codeMsg(code,name,trial,months){return 'مرحباً '+(name?name+' ':'')+'🌿\nتم قبول اشتراككِ في تطبيق مِقدار | MIQDAR ✅\n\n🔑 كود الاشتراك: '+code+'\n⏳ مدة الاشتراك: '+(trial?'يومان (تجربة مجانية)':mLbl(+months||2))+' (تبدأ من لحظة أول تفعيل للكود، وليس من تاريخ إرساله)\n\nطريقة التفعيل:\n1) افتحي الرابط: '+appUrl()+'\n2) اكتبي الكود في خانة «كود الاشتراك / كلمة المرور» ثم اضغطي «دخول».\n\n⚠️ الكود يعمل على جهازين كحد أقصى، فلا تشاركيه مع أحد.'}
+const tdLbl=d=>d===1?'يوم':d===2?'يومان':d===7?'أسبوع':d+' أيام';
+function codeMsg(code,name,trial,months){return 'مرحباً '+(name?name+' ':'')+'🌿\nتم قبول اشتراككِ في تطبيق مِقدار | MIQDAR ✅\n\n🔑 كود الاشتراك: '+code+'\n⏳ مدة الاشتراك: '+(+trial===7?'أسبوع':trial?'يومان (تجربة مجانية)':mLbl(+months||2))+' (تبدأ من لحظة أول تفعيل للكود، وليس من تاريخ إرساله)\n\nطريقة التفعيل:\n1) افتحي الرابط: '+appUrl()+'\n2) اكتبي الكود في خانة «كود الاشتراك / كلمة المرور» ثم اضغطي «دخول».\n\n⚠️ الكود يعمل على جهازين كحد أقصى، فلا تشاركيه مع أحد.'}
 function waNorm(ph){let d=String(ph||'').replace(/[^0-9]/g,'');if(d.startsWith('00'))d=d.slice(2);if(/^0[0-9]{8,9}$/.test(d))d='967'+d.slice(1);else if(/^7[0-9]{8}$/.test(d))d='967'+d;return d.length>=10?d:''}
 function waLink(msg,phone){return 'https://wa.me/'+waNorm(phone)+'?text='+encodeURIComponent(msg)}
 const markD=(id,f)=>admAct(()=>rpc('admin_mark_delivered',{p_admin:ADM_PASS,p_id:id,p_flag:f}));
@@ -673,7 +744,7 @@ function subHTML(done){const pi=payInfo||{},num=jNum();
  ${num?`<div class="jbox"><span class="jlbl">رقم حساب جيب</span><span class="jn" id="jn">${esc(num)}</span></div>${pi.jeeb_name?`<div class="jnm">باسم: ${esc(pi.jeeb_name)}</div>`:''}<button class="full" data-act="jcopy" style="margin-top:10px">📋 نسخ الرقم</button>`:`<div class="warn">لم يُضف رقم حساب جيب بعد. تواصلي مع الأدمن لمعرفة رقم التحويل.</div>`}
  <div class="ok2" id="jmsg"></div></div>
  <div class="mh">٢) بعد التحويل اكتبي بياناتك ليصلك الكود:</div>
- <label class="f">اسم الطالبة<input id="s-n" autocomplete="name"></label>
+ <label class="f">الاسم<input id="s-n" autocomplete="name"></label>
  <label class="f">رقم التواصل (واتساب)<input id="s-c" inputmode="tel" autocomplete="tel" style="direction:ltr;text-align:left" placeholder="مثال: 967777123456"></label>
  <label class="f">رقم الحوالة / مرجعها (اختياري)<input id="s-r" style="direction:ltr;text-align:left"></label>
  <div class="err" id="s-e"></div><div class="acts"><button data-act="sreq">إرسال الطلب</button><button class="s" data-act="sclose">إغلاق</button></div>
@@ -703,11 +774,11 @@ function pSubs(){
   ${q.status!=='new'&&can('activate')?`<button class="r xs2" data-act="rq-del" data-id="${q.id}">حذف</button>`:''}</div></div>`};
  const pool=A.users.filter(u=>!u.exp&&!u.name&&u.src==='bulk'),av=pool.filter(u=>!u.dlv),dl=pool.filter(u=>u.dlv);
  const codeRow=u=>`<div><div class="fi" style="padding:8px 0"><div><span class="codev">${esc(u.pass)}</span> ${u.dlv?'<span class="bd dl">سُلِّم ✓</span>':'<span class="bd nw">متاح</span>'}${u.by?` <small style="color:var(--mu)">بواسطة: ${esc(u.by)}</small>`:''}</div>
-  <div style="display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end"><button class="xs2" data-act="ccode" data-id="${u.id}">نسخ</button><button class="s xs2" data-act="cwb" data-id="${u.id}">واتساب</button>${u.dlv?`<button class="s xs2" data-act="dlv" data-id="${u.id}" data-f="0">إلغاء التسليم</button>`:`<button class="s xs2" data-act="dlv" data-id="${u.id}" data-f="1">تم التسليم</button>`}${isOwner()?`<button class="r xs2" data-act="delu" data-id="${u.id}">حذف</button>`:''}</div>${waRow===u.id?`<div class="wabox"><input id="wap" inputmode="tel" style="direction:ltr;text-align:left" placeholder="رقم الطالبة (مثال: 770001111) — اتركيه فارغاً لاختيار المحادثة"><button data-act="cwago" data-id="${u.id}">إرسال على واتساب</button></div>`:''}</div>`;
+  <div style="display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end"><button class="xs2" data-act="ccode" data-id="${u.id}">نسخ</button><button class="s xs2" data-act="cwb" data-id="${u.id}">واتساب</button>${u.dlv?`<button class="s xs2" data-act="dlv" data-id="${u.id}" data-f="0">إلغاء التسليم</button>`:`<button class="s xs2" data-act="dlv" data-id="${u.id}" data-f="1">تم التسليم</button>`}${isOwner()?`<button class="r xs2" data-act="delu" data-id="${u.id}">حذف</button>`:''}</div>${waRow===u.id?`<div class="wabox"><input id="wap" inputmode="tel" style="direction:ltr;text-align:left" placeholder="رقم الجوال (مثال: 770001111) — اتركيه فارغاً لاختيار المحادثة"><button data-act="cwago" data-id="${u.id}">إرسال على واتساب</button></div>`:''}</div>`;
  return `${canAny('activate','stats')?`\u0001req\u0002<div class="card"><div class="hd2"><h2 style="margin:0">طلبات الاشتراك (${nw.length} جديد)</h2><button class="s xs2" data-act="refu">🔄 تحديث</button></div><div class="qres"><small>تصل هنا طلبات الطالبات بعد تحويلهن عبر جيب. تحققي من الحوالة في تطبيق جيب ثم اضغطي «موافقة» فيُولَّد كود من 6 خانات جاهز للإرسال.</small></div>
   ${reqs.length?nw.map(reqRow).join('')+(rest.length?`<details style="margin-top:8px"><summary style="color:var(--mu);font-size:14px">الطلبات السابقة (${rest.length})</summary>${rest.map(reqRow).join('')}</details>`:''):'<div style="color:var(--mu);text-align:center;padding:10px">لا توجد طلبات بعد.</div>'}</div>`:''}${can('codes')?` \u0001codes\u0002${pmCard()}<div class="card"><h2>توليد أكواد دفعة واحدة</h2><div class="qres"><small>تُحفظ الأكواد غير مستخدمة، ولا تبدأ مدة الشهرين إلا عند أول تفعيل من الطالبة. عند نسخ كود يُعلَّم «سُلِّم» حتى لا يُرسل لطالبتين.</small></div>
   <div class="sgrp">${[10,25,50].map(n=>`<button type="button" class="chp${bkN===n?' on':''}" data-act="bq" data-v="${n}">${n}</button>`).join('')}<label class="adjin"><input type="number" id="bk-n" inputmode="numeric" min="1" max="100" value="${bkN}"><span>كوداً</span></label></div>
-  <label class="f" style="margin-top:8px">نوع الأكواد<select id="bk-m"><option value="0"${bkM===0?' selected':''}>تجربة (يومان)</option>${[1,2,3,6,12].map(m=>`<option value="${m}"${bkM===m?' selected':''}>اشتراك ${mLbl(m)}</option>`).join('')}</select></label>
+  <label class="f" style="margin-top:8px">نوع الأكواد<select id="bk-m"><option value="0"${bkM===0?' selected':''}>يومان تجربة</option><option value="-7"${bkM===-7?' selected':''}>اشتراك أسبوع</option>${[1,2,3,6,12].map(m=>`<option value="${m}"${bkM===m?' selected':''}>اشتراك ${mLbl(m)}</option>`).join('')}</select></label>
   <button class="full" data-act="bulk" style="margin-top:8px">توليد الأكواد</button>
   <div class="mh" style="margin-top:12px">متاحة: <b>${av.length}</b> • مُسلَّمة غير مفعَّلة: <b>${dl.length}</b></div>
   ${isOwner()&&av.length?`<button class="r full" data-act="delav" style="margin:8px 0">حذف كل الأكواد المتاحة (${av.length})</button>`:''}
@@ -813,7 +884,7 @@ function subAct(b){const a=b.dataset.act,id=b.dataset.id,u=id?A.users.find(x=>x.
  if(a==='sreq'){subSend(b);return true}
  if(a==='rq-ok'){const q=reqs.find(z=>z.id===id)||{},w=window.open('about:blank','_blank');
   admAct(async()=>{const r=await rpc('admin_approve_request',{p_admin:ADM_PASS,p_id:id,p_months:2});
-   if(r&&r.ok&&r.sub){toast('تمت الموافقة ✓ — جارٍ فتح واتساب بالرسالة الجاهزة');const url=waLink(codeMsg(r.sub.code,q.name||r.sub.name,!!r.sub.trial_days,r.sub.months),q.contact||r.sub.phone);
+   if(r&&r.ok&&r.sub){toast('تمت الموافقة ✓ — جارٍ فتح واتساب بالرسالة الجاهزة');const url=waLink(codeMsg(r.sub.code,q.name||r.sub.name,r.sub.trial_days||0,r.sub.months),q.contact||r.sub.phone);
     try{await rpc('admin_mark_delivered',{p_admin:ADM_PASS,p_id:r.sub.id,p_flag:true})}catch(e){}
     if(w){try{w.location.href=url}catch(e){window.open(url,'_blank')}}else{toast('تمت الموافقة ✓ — اضغطي زر «واتساب» بجانب الطلب لإرسال الكود')}}
    else if(w){try{w.close()}catch(e){}}
@@ -859,14 +930,14 @@ function lzUnpack(p){const wd=p[0],n=Math.floor((p.length-1)*8/wd),cs=[];let bit
  if(!cs.length)return new Uint8Array(0);const d=[];for(let i=0;i<256;i++)d[i]=[i];let w=d[cs[0]];if(!w)throw 0;const out=w.slice();
  for(let j=1;j<cs.length;j++){const c=cs[j];let e;if(d[c])e=d[c];else if(c===d.length)e=w.concat(w[0]);else throw 0;for(let q=0;q<e.length;q++)out.push(e[q]);d.push(w.concat(e[0]));w=e}return Uint8Array.from(out)}
 const ra7=r=>[r.k?r.k[0]:-1,r.k?r.k[1]:-1,r.p?r.p[0]:-1,r.p?r.p[1]:-1,r.f?r.f[0]:-1,r.f?r.f[1]:-1,r.def==='min'?1:0];
-const packF=l=>(l||[]).filter(f=>f.custom).map(f=>{const a=[f.id,f.g,f.t||'',f.name,f.d];if(f.mac||f.rng)a.push(f.mac?[f.mac.c,f.mac.p,f.mac.f]:0);if(f.rng&&f.rng.k)a.push([f.rng.k[0],f.rng.k[1],f.rng.p?f.rng.p[0]:-1,f.rng.p?f.rng.p[1]:-1,f.rng.f?f.rng.f[0]:-1,f.rng.f?f.rng.f[1]:-1,f.rng.def==='min'?1:0]);return a});
+const packF=l=>(l||[]).filter(f=>f.custom).map(f=>{const a=[f.id,f.g,f.t||'',f.name,f.d];if(f.mac||f.rng)a.push(f.mac?(Array.isArray(f.mac.x)?[f.mac.c,f.mac.p,f.mac.f,f.mac.x,f.mac.adj||0]:[f.mac.c,f.mac.p,f.mac.f]):0);if(f.rng&&f.rng.k)a.push([f.rng.k[0],f.rng.k[1],f.rng.p?f.rng.p[0]:-1,f.rng.p?f.rng.p[1]:-1,f.rng.f?f.rng.f[0]:-1,f.rng.f?f.rng.f[1]:-1,f.rng.def==='min'?1:0]);return a});
 const packC=c=>{c=c||{};return[(c.groups||[]).map(g=>[g.key,g.n,g.i||'',g.k,g.c,g.p,g.f].concat(g.rg?[ra7(g.rg)]:[])),(c.types||[]).map(t=>[t.g,t.key,t.n,t.k,t.c,t.p,t.f].concat(t.rg?[ra7(t.rg)]:[]))]};
 function encAcc(u){const o={v:3,u:[[u.name,u.phone,u.user,u.pass,u.active?0:1].concat(u.dev?[u.dev,u.devAt||0]:[])]},fs=packF(A.foods),pc=packC(A.cfg);
  if(fs.length)o.f=fs;if(pc[0].length||pc[1].length)o.c=pc;if((A.hidden||[]).length)o.h=A.hidden;
  const raw=new TextEncoder().encode(JSON.stringify(o)),a='M1.'+b64u(raw),z='M2.'+b64u(lzPack(raw));return z.length<a.length?z:a}
 // كود تحديث الأصناف والمجموعات (يستبدل القائمة القديمة على جهاز الطالبة دون لمس بياناتها ووجباتها)
 function encCat(){const o={v:4,ver:A.pubver||Date.now(),f:packF(A.foods),h:A.hidden||[],c:packC(A.cfg)},raw=new TextEncoder().encode(JSON.stringify(o)),a='M3.'+b64u(raw),z='M4.'+b64u(lzPack(raw));return z.length<a.length?z:a}
-const unF=l=>(l||[]).map(a=>{const x={id:a[0],g:a[1],t:a[2],name:a[3],d:a[4],custom:true};if(a[5])x.mac={c:a[5][0],p:a[5][1],f:a[5][2]};if(a[6]){const q=a[6];x.rng={k:[q[0],q[1]],def:q[6]?'min':'mid'};if(q[2]>=0)x.rng.p=[q[2],q[3]];if(q[4]>=0)x.rng.f=[q[4],q[5]]}return x});
+const unF=l=>(l||[]).map(a=>{const x={id:a[0],g:a[1],t:a[2],name:a[3],d:a[4],custom:true};if(a[5]){x.mac={c:a[5][0],p:a[5][1],f:a[5][2]};if(Array.isArray(a[5][3])){x.mac.x=a[5][3];if(a[5][4])x.mac.adj=a[5][4]}}if(a[6]){const q=a[6];x.rng={k:[q[0],q[1]],def:q[6]?'min':'mid'};if(q[2]>=0)x.rng.p=[q[2],q[3]];if(q[4]>=0)x.rng.f=[q[4],q[5]]}return x});
 const unC=c=>{const rd=q=>{const r={def:q[6]?'min':'mid'};if(q[0]>=0)r.k=[q[0],q[1]];if(q[2]>=0)r.p=[q[2],q[3]];if(q[4]>=0)r.f=[q[4],q[5]];return r};return{groups:(c[0]||[]).map(a=>{const x={key:a[0],n:a[1],i:a[2],k:a[3],c:a[4],p:a[5],f:a[6]};if(a[7])x.rg=rd(a[7]);return x}),types:(c[1]||[]).map(a=>{const x={g:a[0],key:a[1],n:a[2],k:a[3],c:a[4],p:a[5],f:a[6]};if(a[7])x.rg=rd(a[7]);return x})}};
 function decAcc(t){let c=String(t||'').replace(/[\s\u200b-\u200f\u202a-\u202e\u2066-\u2069\ufeff"'`]/g,'');
  const m=/^M([1-4])\.(.+)$/.exec(c);
@@ -891,15 +962,15 @@ function expText(){const J=v=>JSON.stringify(v).replace(/</g,'\\u003c'),u=A.user
  const fl=(A.foods||[]).filter(f=>f.custom);
  return 'const CATALOG_VER='+(A.pubver||0)+';\nconst DEFAULT_USERS=[\n'+u.map(x=>'  '+J(x)).join(',\n')+'\n];\nconst EXTRA_FOODS=[\n'+fl.map(f=>'  '+J(Object.assign({id:f.id,g:f.g,t:f.t,name:f.name,d:f.d},f.mac?{mac:f.mac}:{},f.rng?{rng:f.rng}:{}))).join(',\n')+'\n];\nconst HIDDEN_FOODS='+J(A.hidden||[])+';\nconst EXTRA_GROUPS='+J(A.cfg)+';'}
 function admExtra(){
- const gs=Object.keys(GR),cg=(A.cfg.groups||[]).map(x=>x.key),ct=(A.cfg.types||[]).map(x=>x.g+'|'+x.key);
+ const g0=JSON.parse(GR0),gs=Object.keys(GR),cg=(A.cfg.groups||[]).map(x=>x.key),ct=(A.cfg.types||[]).map(x=>x.g+'|'+x.key);
  const rgf=p=>`<label class="rtg"><input type="checkbox" id="${p}-rt" data-rtp="${p}"> <span>نطاق تقديري (من – إلى)</span></label><div class="arng hide" id="${p}-rg"><div class="mh">اتركي الكارب في الخانات أعلاه ثابتاً، وحددي هنا المدى المتغير. اتركي أي نطاق فارغاً لتثبيت قيمته.</div>
   <div class="rrow"><b>السعرات</b><label>من<input id="${p}-kn" type="number" inputmode="decimal" min="0" step="1"></label><label>إلى<input id="${p}-kx" type="number" inputmode="decimal" min="0" step="1"></label></div>
-  <div class="rrow"><b>بروتين (جم)</b><label>من<input id="${p}-pn" type="number" inputmode="decimal" min="0" step="0.5"></label><label>إلى<input id="${p}-px" type="number" inputmode="decimal" min="0" step="0.5"></label></div>
-  <div class="rrow"><b>دهون (جم)</b><label>من<input id="${p}-fn" type="number" inputmode="decimal" min="0" step="0.5"></label><label>إلى<input id="${p}-fx" type="number" inputmode="decimal" min="0" step="0.5"></label></div>
+  <div class="rrow"><b>بروتين (غم)</b><label>من<input id="${p}-pn" type="number" inputmode="decimal" min="0" step="0.5"></label><label>إلى<input id="${p}-px" type="number" inputmode="decimal" min="0" step="0.5"></label></div>
+  <div class="rrow"><b>دهون (غم)</b><label>من<input id="${p}-fn" type="number" inputmode="decimal" min="0" step="0.5"></label><label>إلى<input id="${p}-fx" type="number" inputmode="decimal" min="0" step="0.5"></label></div>
   <label class="f" style="margin-top:8px">القيمة الافتراضية<select id="${p}-rd"><option value="mid">المنتصف</option><option value="min">الحد الأدنى</option></select></label></div>`;
  const n4=p=>`<div class="g4"><input id="${p}-k" type="number" inputmode="decimal" placeholder="سعرات"><input id="${p}-c" type="number" inputmode="decimal" placeholder="كارب"><input id="${p}-p" type="number" inputmode="decimal" placeholder="بروتين"><input id="${p}-f" type="number" inputmode="decimal" placeholder="دهون"></div>`+rgf(p);
  return `\u0001foods\u0002<div class="card"><h2>المجموعات والأنواع (للأدمن)</h2><div class="qres"><small>معيار الحصة الواحدة وقيمها يحددها الأدمن فقط؛ تتحكم الطالبة بعدد الحصص فقط.</small></div>
- ${gs.map(g=>{const G=GR[g];return `<div class="it"><div><b>${G.i} ${esc(G.n)}</b><small>${G.ty?Object.entries(G.ty).map(([k,a])=>esc(a[0])+(ct.includes(g+'|'+k)?` <button class="del" data-act="delt" data-g="${g}" data-t="${k}">×</button>`:'')).join(' · '):'الحصة: '+G.c+' كارب • '+G.p+' بروتين • '+G.f+' دهون ('+G.k+' سعرة)'+(G.rg?'<br>نطاق تقديري: '+esc(gRtxt({r:G.rg,b:{c:G.c}})):'')}</small></div>${cg.includes(g)?`<button class="del" data-act="delg" data-g="${g}">×</button>`:''}</div>`}).join('')}
+ ${gs.map(g=>{const G=GR[g];return `<div class="it"><div><b>${G.i} ${esc(G.n)}</b><small>${G.ty?Object.entries(G.ty).map(([k,a])=>`<div class="tyl"><span><b>${esc(a[0])}</b>${k==='base'?'':' — '+a[2]+' كارب ▪ '+a[3]+' بروتين ▪ '+a[4]+' دهون ('+a[1]+' سعرة)'+(a[5]?' · نطاق تقديري':'')}</span><span class="tya">${k==='base'?'':`<button class="del ed" data-act="edt" data-g="${g}" data-t="${k}">✎ تعديل</button>`}${k==='base'?'':(ct.includes(g+'|'+k)&&g0[g]&&g0[g].ty&&g0[g].ty[k]?`<button class="del" data-act="delt" data-g="${g}" data-t="${k}">↺ الأصل</button>`:'')+`<button class="del" data-act="delt" data-m="del" data-g="${g}" data-t="${k}">×</button>`}</span></div>`).join('')+(A.cfg.types||[]).filter(x=>x.g===g&&x.del).map(x=>`<div class="tyl"><span style="color:var(--mu)">محذوف: ${esc(((g0[g]&&g0[g].ty&&g0[g].ty[x.key])||[x.key])[0])}</span><span class="tya"><button class="del ed" data-act="delt" data-g="${g}" data-t="${x.key}">↺ استرجاع</button></span></div>`).join(''):'الحصة: '+G.c+' كارب • '+G.p+' بروتين • '+G.f+' دهون ('+G.k+' سعرة)'+(G.rg?'<br>نطاق تقديري: '+esc(gRtxt({r:G.rg,b:{c:G.c}})):'')}</small></div>${cg.includes(g)?`<button class="del" data-act="delg" data-g="${g}">×</button>`:''}</div>`}).join('')}
  <div class="f" style="margin-top:12px">إضافة مجموعة جديدة (قيم الحصة الواحدة)</div><div class="g2"><input id="ng-n" placeholder="اسم المجموعة"><input id="ng-i" placeholder="أيقونة (إيموجي)"></div>${n4('ng')}<button class="s full" style="margin-top:8px" data-act="addg">+ إضافة المجموعة</button>
  <div class="f" style="margin-top:14px">إضافة نوع فرعي داخل مجموعة</div><div class="g2"><select id="nt-g">${gs.map(g=>`<option value="${g}">${esc(GR[g].n)}</option>`).join('')}</select><input id="nt-n" placeholder="اسم النوع"></div>${n4('nt')}<div style="font-size:12px;color:var(--mu);margin:4px 0 8px">اتركي القيم فارغة لاستخدام قيم المجموعة.</div><button class="s full" data-act="addt">+ إضافة النوع</button>
  <div class="err" id="cfg-e"></div></div>
@@ -914,16 +985,39 @@ const byId=id=>all().find(f=>f.id===id)||((typeof S!=='undefined'&&S&&S.ex&&S.ex
 const mk4=(c,p,f)=>+(4*c+4*p+9*f).toFixed(1);
 const rgT=f=>{const m=(typeof S!=='undefined'&&S&&S.ex&&S.ex.rt)||{},v=m[f.id];return v!=null?v:(f.rng&&f.rng.def==='min'?0:.5)};
 function rgV(f,t){const r=f.rng,L=a=>a[0]+(a[1]-a[0])*t,k=L(r.k),p=r.p?L(r.p):0,x=r.f?L(r.f):0;return{k:+k.toFixed(1),c:+Math.max(0,(k-4*p-9*x)/4).toFixed(1),p:+p.toFixed(1),f:+x.toFixed(1)}}
-const rgTxt=(f,n)=>{const r=f.rng,k=r.k;let t='النطاق: '+fm(k[0])+' – '+fm(k[1])+' سعرة للحصة';if(r.p&&(r.p[1]>0))t+=' • بروتين '+fm(r.p[0])+' – '+fm(r.p[1])+' جم';if(r.f&&(r.f[1]>0))t+=' • دهون '+fm(r.f[0])+' – '+fm(r.f[1])+' جم';if(n&&n!==1)t+=' — لـ '+nf(n)+' حصة: '+fm(k[0]*n)+' – '+fm(k[1]*n)+' سعرة';return t};
-function iv(f){if(f&&f.rng&&f.rng.k)return rgV(f,rgT(f));if(f&&f.mac){const c=+f.mac.c||0,p=+f.mac.p||0,x=+f.mac.f||0;return{c,p,f:x,k:mk4(c,p,x)}}return gv(f.g,f.t)}
+const rgTxt=(f,n)=>{const r=f.rng,k=r.k;let t='النطاق: '+fm(k[0])+' – '+fm(k[1])+' سعرة للحصة';if(r.p&&(r.p[1]>0))t+=' • بروتين '+fm(r.p[0])+' – '+fm(r.p[1])+' غم';if(r.f&&(r.f[1]>0))t+=' • دهون '+fm(r.f[0])+' – '+fm(r.f[1])+' غم';if(n&&n!==1)t+=' — لـ '+nf(n)+' حصة: '+fm(k[0]*n)+' – '+fm(k[1]*n)+' سعرة';return t};
+function iv(f){if(f&&f.rng&&f.rng.k)return rgV(f,rgT(f));if(isC(f))return cIv(f);if(f&&f.mac){const c=+f.mac.c||0,p=+f.mac.p||0,x=+f.mac.f||0;return{c,p,f:x,k:mk4(c,p,x)}}return gvD(f.g,f.t)}
 const ex=()=>S.ex||(S.ex={items:{},q:{}});
+/* v78: نوع الخضار (اختياري) لكل حالة — S.ex.vn={b8:'كوسا',...} */
+const VEGS={b8:'مطبوخة',b9:'غير مطبوخة',b39:'عصير'};
+function vegLbl(id){const nm=String((ex().vn||{})[id]||'').replace(/\s+/g,' ').trim();return id==='b39'?(nm?'عصير '+nm:'عصير خضروات'):(nm?nm+' ':'خضار ')+VEGS[id]}
+function vegFull(id,n,v,f){return vegLbl(id)+' ('+fd(f.d)+' • '+nf(n)+' حصة) — '+R(v.k*n)+' سعرة • '+fm(v.c*n)+' كارب غم • '+fm(v.p*n)+' بروتين غم • '+fm(v.f*n)+' دهون غم'}
 const qg=g=>ex().q[g]||(ex().q[g]={t:GR[g].ty?Object.keys(GR[g].ty)[0]:'',n:0});
 function gInfo(g,t){const G=GR[g];if(G.ty){const tk=G.ty[t]?t:Object.keys(G.ty)[0],a=G.ty[tk];return{b:{k:a[1],c:a[2],p:a[3],f:a[4]},r:a[5],key:g+'|'+tk}}return{b:{k:G.k,c:G.c,p:G.p,f:G.f},r:G.rg,key:g}}
 function gT(key,r){const m=(typeof S!=='undefined'&&S&&S.ex&&S.ex.gt)||{},v=m[key];return v!=null?v:(r.def==='min'?0:.5)}
 function gvT(i,tt){const r=i.r,b=i.b,L=a=>a[0]+(a[1]-a[0])*tt,p=r.p?L(r.p):b.p,f=r.f?L(r.f):b.f,k=r.k?L(r.k):4*b.c+4*p+9*f;return{k:+k.toFixed(1),c:b.c,p:+p.toFixed(1),f:+f.toFixed(1)}}
 function gv(g,t){const i=gInfo(g,t);return i.r?gvT(i,gT(i.key,i.r)):i.b}
+/* v76: ضبط كل حصة عامة على حدة — S.ex.gp[key]=[tt,...] (فهرس الحصة العامة)، وغير المضبوطة تأخذ قيمة الشريط العام */
+function gpT(i,j){const m=(typeof S!=='undefined'&&S&&S.ex&&S.ex.gp&&S.ex.gp[i.key])||null;return m&&m[j]!=null?m[j]:gT(i.key,i.r)}
+function gvA(g,t,rest){const i=gInfo(g,t);if(!i.r||!(rest>1e-9))return gv(g,t);let k=0,c=0,p=0,f=0;for(let j=0;j<Math.ceil(rest-1e-9);j++){const w=Math.min(1,rest-j),v=gvT(i,gpT(i,j));k+=v.k*w;c+=v.c*w;p+=v.p*w;f+=v.f*w}return{k:k/rest,c:c/rest,p:p/rest,f:f/rest}}
+/* v65: قيمة الصنف المحدد = القيمة الافتراضية للمجموعة (لا تتأثر بشريط التقدير؛ الشريط للحصص العامة فقط) */
+function gvD(g,t){const i=gInfo(g,t);return i.r?gvT(i,i.r.def==='min'?0:.5):i.b}
 const gRtxt=i=>{const r=i.r,x=[];if(r.k)x.push(fm(r.k[0])+' – '+fm(r.k[1])+' سعرة');if(r.p)x.push(fm(r.p[0])+' – '+fm(r.p[1])+' بروتين');if(r.f)x.push(fm(r.f[0])+' – '+fm(r.f[1])+' دهون');x.push(fm(i.b.c)+' كارب');return x.join(' • ')};
 const tn=(g,t)=>(GR[g].ty&&GR[g].ty[t]||[''])[0];
+/* v63: تركيب الحصص — يُحفظ داخل mac.x = [[المجموعة، النوع، عدد الحصص]] و mac.adj = {c,p,f} (تعديل بالغم) */
+const OTH={k:60,c:15,p:0,f:0};
+const CCODE={starch:'ن',veg:'خ',fruit:'ف',milk:'ح',meat:'ل',fat:'د'};
+const MCODE={vl:'ل ق ج د',lean:'ل ق د',med:'ل م د',high:'ل ع د',skim:'ح خالي الدسم',low:'ح قليل الدسم',full:'ح كامل الدسم'};
+const MEAT_VL={k:35,c:0,p:7,f:1};
+const isC=f=>!!(f&&f.mac&&Array.isArray(f.mac.x));
+function cV(g,t){if(g==='oth')return OTH;if(g==='meat'&&t==='vl')return MEAT_VL;return gvD(g,t)}
+function cCode(g,t){if(g==='oth')return 'ك. أخرى';if(g==='meat'&&t==='vl')return MCODE.vl;if(MCODE[t]&&(g==='meat'||g==='milk'))return MCODE[t];return CCODE[g]||(GR[g]?GR[g].n:g)}
+const cX=f=>isC(f)?f.mac.x.filter(a=>a&&(a[0]==='oth'||GR[a[0]])&&+a[2]>0):[];
+function cAdj(f){const a=(f&&f.mac&&f.mac.adj)||{};return{c:+a.c||0,p:+a.p||0,f:+a.f||0}}
+function cIv(f){let k=0,c=0,p=0,x=0;cX(f).forEach(([g,t,n])=>{const v=cV(g,t);k+=v.k*n;c+=v.c*n;p+=v.p*n;x+=v.f*n});const a=cAdj(f);c=Math.max(0,c+a.c);p=Math.max(0,p+a.p);x=Math.max(0,x+a.f);k+=mk4(a.c,a.p,a.f);return{k:+Math.max(0,k).toFixed(1),c:+c.toFixed(1),p:+p.toFixed(1),f:+x.toFixed(1)}}
+const pIn=(f,g)=>isC(f)?cX(f).reduce((s,[a,,n])=>(a===g||(a==='oth'&&g===f.g))?s+(+n):s,0):(f&&f.g===g?1:0);
+const cLabel=(f,q)=>{const l=cX(f).map(([g,t,n])=>nf(n*(q||1))+' '+cCode(g,t)).join(' + '),a=cAdj(f),e=[];if(a.c)e.push((a.c>0?'+':'')+fm(a.c)+' كارب');if(a.p)e.push((a.p>0?'+':'')+fm(a.p)+' بروتين');if(a.f)e.push((a.f>0?'+':'')+fm(a.f)+' دهون');return l+(e.length?(l?' • ':'')+'تعديل: '+e.join(' ، ')+' غم':'')};
+
 let op={},eid=null,lastTog=null,anim=true;
 const GOAL={loss:'إنقاص وزن',keep:'ثبات',gain:'زيادة وزن'};
 // استبيان النشاط: [مفتاح، سؤال، خيارات، نقاط كل خيار]
@@ -960,20 +1054,25 @@ function targets(p){
 }
 function ring(lab,req,used){
  const rem=req-used,o=rem<-.5,C=2*Math.PI*34,pc=Math.min(1,used/Math.max(1,req));
- return `<div class="rg${o?' o':''}"><svg viewBox="0 0 80 80"><circle class="tr" cx="40" cy="40" r="34"/><circle class="pg" cx="40" cy="40" r="34" stroke-dasharray="${(C*pc).toFixed(1)} ${C.toFixed(1)}" transform="rotate(-90 40 40)"/></svg><div class="ct"><b>${R(Math.abs(rem))}</b><span>جم ${o?'زيادة':'متبقي'}</span></div><div class="rl">${lab}</div><div class="rs">${R(used)} / ${req} جم</div></div>`;
+ return `<div class="rg${o?' o':''}"><svg viewBox="0 0 80 80"><circle class="tr" cx="40" cy="40" r="34"/><circle class="pg" cx="40" cy="40" r="34" stroke-dasharray="${(C*pc).toFixed(1)} ${C.toFixed(1)}" transform="rotate(-90 40 40)"/></svg><div class="ct"><b>${R(Math.abs(rem))}</b><span>غم ${o?'زيادة':'متبقي'}</span></div><div class="rl">${lab}</div><div class="rs">${R(used)} / ${req} غم</div></div>`;
 }
 const needP=()=>`<div class="card" style="text-align:center"><h2>ابدأ بإدخال بياناتك</h2><p style="color:var(--mu);margin:0 0 12px">نحتاج الجنس والعمر والوزن والطول لحساب احتياجك اليومي.</p><button data-act="nav" data-p="me">إدخال البيانات</button></div>`;
 
 function totals(){
  const T={k:0,p:0,c:0,f:0},per={};
- Object.keys(GR).forEach(g=>per[g]={n:0,k:0,c:0,p:0,f:0,items:[]});
+ Object.keys(GR).forEach(g=>per[g]={n:0,k:0,c:0,p:0,f:0,cx:0,items:[]});
  const add=(g,t,n,v0)=>{if(!(n>0))return;const v=v0||gv(g,t),x=per[g];x.n+=n;['k','c','p','f'].forEach(z=>{x[z]+=v[z]*n;T[z]+=v[z]*n})};
  const e=ex();
  // رفع عدد حصص المجموعة تلقائياً ليطابق مجموع حصص أصنافها إن تجاوزته
- {let ch=false;Object.keys(GR).forEach(g=>{let sm=0;Object.entries(e.items).forEach(([id,n])=>{const f=byId(id);if(f&&f.g===g&&n>0)sm+=n});sm=+sm.toFixed(2);const q=qg(g);if(sm>q.n){q.n=sm;ch=true}});if(ch)save()}
+ {let ch=false;Object.keys(GR).forEach(g=>{let sm=0;Object.entries(e.items).forEach(([id,n])=>{const f=byId(id);if(f&&n>0)sm+=n*pIn(f,g)});sm=+sm.toFixed(2);const q=qg(g);if(sm>q.n){q.n=sm;ch=true}});if(ch)save()}
  Object.keys(GR).forEach(g=>{const q=e.q[g]||{t:GR[g].ty?Object.keys(GR[g].ty)[0]:'',n:0},x=per[g];x.N=+q.n||0;x.t=q.t;x.sum=0});
- Object.entries(e.items).forEach(([id,n])=>{const f=byId(id);if(f&&n>0){add(f.g,f.t,n,iv(f));per[f.g].sum+=n;per[f.g].items.push(f.name+' ('+n+')')}});
- Object.keys(GR).forEach(g=>{const x=per[g],rest=x.N-x.sum;if(rest>0)add(g,x.t,rest);x.over=Math.max(0,x.sum-x.N);x.n=Math.max(x.N,x.sum)});
+ Object.entries(e.items).forEach(([id,n])=>{const f=byId(id);if(f&&n>0){
+  if(isC(f)){const xs=cX(f),P=per[f.g],v=iv(f);
+   ['k','c','p','f'].forEach(z=>{P[z]+=v[z]*n;T[z]+=v[z]*n});
+   xs.forEach(([g,t,q])=>{const m=q*n,g2=g==='oth'?f.g:g;per[g2].sum+=m;per[g2].cx+=m;if(g2!==f.g)per[g2].items.push(f.name+' ('+nf(m)+' حصة من تركيب — سعراتها محسوبة في «'+GR[f.g].n+'»)')});
+   P.items.push(f.name+' ('+n+')')}
+  else{add(f.g,f.t,n,iv(f));per[f.g].sum+=n;per[f.g].items.push(VEGS[id]&&f.g==='veg'?vegFull(id,n,iv(f),f):f.g==='free'?f.name+' ('+fd(f.d)+' • '+nf(n)+' حصة) — '+R(iv(f).k*n)+' سعرة':f.name+' ('+n+')')}}});
+ Object.keys(GR).forEach(g=>{const x=per[g],rest=x.N-x.sum;if(rest>0)add(g,x.t,rest,gvA(g,x.t,rest));x.over=Math.max(0,x.sum-x.N);x.n=Math.max(x.N,x.sum)});
  return{T,per};
 }
 const rr=()=>{const y=scrollY;render();scrollTo(0,y)};
@@ -992,37 +1091,51 @@ function autoPlan(t){const K=t.k,tr=(a,b,c)=>K<1600?a:K<2400?b:c,rd=x=>Math.max(
  // 4) الدهون من السعرات والدهون المتبقية
  if(has('fat')){const remK=K-sum('k',['starch','veg','fruit','milk','meat']),remF=t.f-sum('f',['starch','veg','fruit','milk','meat']),a=v.fat.k>0?remK/v.fat.k:0,b=v.fat.f>0?remF/v.fat.f:a;o.fat=rd(Math.min(a,b))}else o.fat=0;
  return o}
-function autoApply(t){const o=autoPlan(t),e=ex();Object.keys(o).forEach(g=>{if(!GR[g])return;let sm=0;Object.entries(e.items).forEach(([id,n])=>{const f=byId(id);if(f&&f.g===g&&n>0)sm+=n});qg(g).n=Math.max(o[g],+sm.toFixed(2))});e.sug=true;S.mv={};save()}
+function autoApply(t){const o=autoPlan(t),e=ex();Object.keys(o).forEach(g=>{if(!GR[g])return;let sm=0;Object.entries(e.items).forEach(([id,n])=>{const f=byId(id);if(f&&n>0)sm+=n*pIn(f,g)});qg(g).n=Math.max(o[g],+sm.toFixed(2))});e.sug=true;S.mv={};save()}
 function autoBox(t,T,per){const e=ex();let h=`<div class="autod"><button type="button" class="s full" data-act="autod">✨ توزيع تقريبي للحصص</button></div>`;if(!e.sug)return h;
  const ch=Object.keys(GR).filter(g=>per[g]&&per[g].N>0).map(g=>`<span class="sgc">${GR[g].i} ${esc(GR[g].n)} <b>${nf(per[g].N)}</b></span>`).join(''),d=(a,b)=>fm(a)+' من '+fm(b);
- return `<div class="sug"><b>توزيع تقريبي مقترح</b><p>بُني على سعراتك وماكروزك المستهدفة: خضار وفواكه وحليب بحسب مستوى طاقتك، ثم النشويات من الكارب، واللحوم من البروتين، والدهون من المتبقي، مع تقريب الحصص لأقرب نصف. هو اقتراح فقط: عدّلي أي حصة أدناه بحرية (+ / −) أو أضيفي أصنافاً.</p><div class="sgw">${ch}</div><div class="sgd">النتيجة الحالية: <b>${R(T.k)}</b> من ${R(t.k)} سعرة • كارب ${d(T.c,t.c)} • بروتين ${d(T.p,t.p)} • دهون ${d(T.f,t.f)} جم</div>${button_hide()}</div>`}
+ return `<div class="sug"><b>توزيع تقريبي مقترح</b><p>بُني على سعراتك وماكروزك المستهدفة: خضار وفواكه وحليب بحسب مستوى طاقتك، ثم النشويات من الكارب، واللحوم من البروتين، والدهون من المتبقي، مع تقريب الحصص لأقرب نصف. هو اقتراح فقط: عدّلي أي حصة أدناه بحرية (+ / −) أو أضيفي أصنافاً.</p><div class="sgw">${ch}</div><div class="sgd">النتيجة الحالية: <b>${R(T.k)}</b> من ${R(t.k)} سعرة • كارب ${d(T.c,t.c)} • بروتين ${d(T.p,t.p)} • دهون ${d(T.f,t.f)} غم</div>${button_hide()}</div>`}
 const button_hide=()=>`<button type="button" class="s" style="margin-top:8px" data-act="autoh">إخفاء الاقتراح</button>`;
 function pHome(){
  if(!S.profile)return `<h1>الرئيسية</h1>`+needP();
  const t=targets(S.profile);if(!(t.k>0))return `<div class="card" style="text-align:center"><h2>أدخلي السعرات المستهدفة</h2><p style="color:var(--mu);margin:0 0 12px">لا تُحسب سعرات من هم دون 18 سنة تلقائياً. أدخلي السعرات اليومية المستهدفة يدوياً من صفحة حسابي.</p><button data-act="nav" data-p="me">الذهاب إلى حسابي</button></div>`;
  const {T,per}=totals(),rem=t.k-T.k,o=rem<0,w=[];
  if(o)w.push(`السعرات بمقدار ${R(-rem)} سعرة`);
- [['البروتين',t.p,T.p],['الكارب',t.c,T.c],['الدهون',t.f,T.f]].forEach(([n,r,u])=>{if(u-r>.5)w.push(`${n} بمقدار ${R(u-r)} جم`)});
+ [['البروتين',t.p,T.p],['الكارب',t.c,T.c],['الدهون',t.f,T.f]].forEach(([n,r,u])=>{if(u-r>.5)w.push(`${n} بمقدار ${R(u-r)} غم`)});
  return `<div class="sb"><div class="sbi"><div class="sk${o?' o':''}"><small>${o?'تجاوز السعرات':'السعرات المتبقية'}</small><b>${R(Math.abs(rem))}</b><small>مطلوب ${t.k} · مستهلك ${R(T.k)}</small></div><div class="rings cmp">${ring('كارب',t.c,T.c)}${ring('بروتين',t.p,T.p)}${ring('دهون',t.f,T.f)}</div></div></div>
  ${w.length?`<div class="warn" style="margin:0 0 10px">تنبيه لطيف: تجاوزت الحد في ${w.join('، ')}.</div>`:''}
  ${autoBox(t,T,per)}<h2>مجموعات البدائل الغذائية</h2>${Object.keys(GR).map(g=>gcard(g,per[g])).join('')}
+ <button class="full" data-act="newcase" style="margin-bottom:8px">＋ حالة جديدة (تصفير الجدول والبيانات)</button>
  <button class="r full" data-act="reset">بدء يوم جديد (تصفير الوجبات)</button>`;
 }
 const fm=v=>+(+v).toFixed(1);
 const FR={'¼':.25,'½':.5,'⅓':1/3,'⅔':2/3,'¾':.75,'⅛':.125};
 function nf(v){const w=Math.floor(v+1e-6),r=v-w,g=[[.125,'⅛'],[.25,'¼'],[1/3,'⅓'],[.5,'½'],[2/3,'⅔'],[.75,'¾']].find(x=>Math.abs(x[0]-r)<.02);if(g)return(w?w:'')+g[1];const k=Math.round(r*12);if(k>0&&k<12&&Math.abs(r*12-k)<.2){const gc=(a,b)=>b?gc(b,a%b):a,q=gc(k,12);return(w?w+' ':'')+'\u2066'+k/q+'/'+12/q+'\u2069'}return r<.02?String(w):String(+v.toFixed(1))}
 // المقدار الكلي = معيار الحصة × عدد الحصص (يضرب كل رقم داخل نص المعيار)
-function fd(d){return String(d==null?'':d).replace(/[\u200e\u200f\u202a-\u202e\u2066-\u2069\u061c]/g,'').replace(/([0-9\u0660-\u0669]+)\s*[\/\\\u2044\u2215]\s*([0-9\u0660-\u0669]+)/g,'\u2066$1/$2\u2069')}
-function tot(d,n){const c=String(d).replace(/[\u2066\u2069]/g,'').replace(/(\d+)\s*[\/\\]\s*(\d+)/g,'$1/$2');if(!/^\s*(\d|[¼½⅓⅔¾⅛])/.test(c))return nf(n)+' × '+d;
+const GMRE=/(?<![\u0621-\u064A])\u062C\u0645(?![\u0621-\u064A])/g,gm=v=>String(v==null?'':v).replace(GMRE,'\u063A\u0645');
+function fd(d){return gm(d==null?'':d).replace(/[\u200e\u200f\u202a-\u202e\u2066-\u2069\u061c]/g,'').replace(/([0-9\u0660-\u0669]+)\s*[\/\\\u2044\u2215]\s*([0-9\u0660-\u0669]+)/g,'\u2066$1/$2\u2069')}
+function tot(d,n){d=gm(d);const c=String(d).replace(/[\u2066\u2069]/g,'').replace(/(\d+)\s*[\/\\]\s*(\d+)/g,'$1/$2');if(!/^\s*(\d|[¼½⅓⅔¾⅛])/.test(c))return nf(n)+' × '+d;
  const fr=/\d+\/\d+/.test(c),r=c.replace(/(\d+)\/(\d+)|(\d+(?:\.\d+)?)?([¼½⅓⅔¾⅛])|\d+(?:\.\d+)?/g,(m,x,y,a,b)=>y?nf(x/y*n):nf(((a?+a:0)+(b?FR[b]:(a?0:+m)))*n));
  return fr&&/^1 رغيف$/.test(r)?'1 رغيف كامل':r}
 function pls(g,x,q){const live=x.n>0,v=live?x:gv(g,q.t);
- return `<span class="pl k">${fm(v.k)} سعرة</span><span class="pl c">كارب ${fm(v.c)} جم</span><span class="pl p">بروتين ${fm(v.p)} جم</span><span class="pl f">دهون ${fm(v.f)} جم</span>${live?'':'<span class="pl r">لكل حصة</span>'}`}
+ return `<span class="pl k">${fm(v.k)} سعرة</span><span class="pl c">كارب ${fm(v.c)} غم</span><span class="pl p">بروتين ${fm(v.p)} غم</span><span class="pl f">دهون ${fm(v.f)} غم</span>${live?'':'<span class="pl r">لكل حصة</span>'}`}
 function isGen(g,t){const a=GR[g]&&GR[g].ty&&GR[g].ty[t];return !t||/^(base|gen|general|all|common|عام|الكل|عامة)$/i.test(String(t).trim())||!!(a&&/^\s*(عام|عامة|الكل)\s*$/.test(String(a[0])))}
 const pk={};
-function csList(g,q,G){return all().filter(f=>f.g===g&&(!G.ty||isGen(g,q.t)||f.t===q.t))}
+function csRaw(g,q,G){return all().filter(f=>f.g===g&&(!G.ty||isGen(g,q.t)||f.t===q.t))}
+/* v66: دمج الأصناف المتطابقة في القيم (سعرات/كارب/بروتين/دهون) في خيار واحد باسم المجموعة؛ تبقى الأصناف المختلفة أو المخصصة منفصلة */
+const csM={},csGet=id=>byId(id)||csM[id]||null;
+function csList(g,q,G){return csRaw(g,q,G)}
+function csListMerged_unused(g,q,G){const raw=csRaw(g,q,G),cl={},out=[];
+ raw.forEach(f=>{if(f.rng||f.mac)return;const v=iv(f),k=[v.k,v.c,v.p,v.f].map(x=>(+x).toFixed(1)).join('|');(cl[k]=cl[k]||[]).push(f)});
+ const done={};
+ raw.forEach(f=>{if(f.rng||f.mac){out.push(f);return}const v=iv(f),k=[v.k,v.c,v.p,v.f].map(x=>(+x).toFixed(1)).join('|'),c=cl[k];
+  if(c.length<2){out.push(f);return}
+  if(done[k])return;done[k]=1;
+  const tt=G.ty&&!isGen(g,q.t)?q.t:'',id='gen|'+g+'|'+tt+'|'+k,code=cCode(g,tt),nm=(CCODE[g]||(G.ty&&tt&&MCODE[tt])?code+' — ':'')+G.n+(tt&&G.ty&&G.ty[tt]?' · '+G.ty[tt][0]:'');
+  const e={id,g,t:tt,name:nm,d:'حصة واحدة',_m:true,_v:v,_names:c.map(x=>x.name)};csM[id]=e;out.push(e)});
+ return out}
 function csSel(g,l){return l.find(f=>f.id===pk[g])||l[0]||null}
-const csLab=f=>f?`<span class="n">${esc(fd(f.name))}</span><span class="m">${esc(fd(f.d))}${f.rng&&f.rng.k?' • '+fm(f.rng.k[0])+'–'+fm(f.rng.k[1])+' سعرة':''}</span>`:'<span class="n">لا توجد أصناف لهذا النوع</span>';
+const csLab=f=>f&&f._m?`<span class="n">${esc(f.name)}</span><span class="m">${R(f._v.k)} سعرة • ${fm(f._v.c)} كارب • ${fm(f._v.p)} بروتين • ${fm(f._v.f)} دهون<i class="hide"> ${esc(f._names.join(' '))}</i></span>`:f?`<span class="n">${esc(fd(f.name))}</span><span class="m">${esc(fd(f.d))}${f.rng&&f.rng.k?' • '+fm(f.rng.k[0])+'–'+fm(f.rng.k[1])+' سعرة':''}</span>`:'<span class="n">لا توجد أصناف لهذا النوع</span>';
 function csPick(g,q,G){const l=csList(g,q,G),c=csSel(g,l);
  return `<select id="sel-${g}" class="hide" tabindex="-1" aria-hidden="true">${l.length?l.map(f=>`<option value="${f.id}"${c&&c.id===f.id?' selected':''}>${esc(f.name)}</option>`).join(''):'<option value="" disabled selected></option>'}</select><button type="button" class="cs-b cs-w" id="csb-${g}" data-act="cso" data-g="${g}"${l.length?'':' disabled'} aria-haspopup="listbox">${csLab(c)}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>`}
 function csPanel(g,q,G){const l=csList(g,q,G),c=csSel(g,l);if(!l.length)return'';
@@ -1030,32 +1143,39 @@ function csPanel(g,q,G){const l=csList(g,q,G),c=csSel(g,l);if(!l.length)return''
 const csN=t=>String(t||'').toLowerCase().replace(/[ً-ٰٟـ⁦⁩]/g,'').replace(/[أإآ]/g,'ا').replace(/ة/g,'ه').replace(/ى/g,'ي').trim();
 document.addEventListener('input',e=>{const t=e.target;if(!t.classList||!t.classList.contains('cs-q'))return;const q=csN(t.value),p=t.closest('.cs-p');let n=0;p.querySelectorAll('.cs-i').forEach(b=>{const m=!q||csN(b.textContent).includes(q);b.classList.toggle('hide',!m);if(m)n++});p.querySelector('.cs-e').classList.toggle('hide',n>0)});
 function macPanel(g,q,G){if(!csList(g,q,G).length)return'';
- return `<button type="button" class="mtog" data-act="mact" data-g="${g}">＋ تعديل الماكروز (اختياري)</button><div class="mac hide" id="mac-${g}"><div class="mh">عدّلي قيم الحصة الواحدة لهذه الإضافة فقط، ولا يتغيّر الصنف الأصلي.</div><div class="g3"><label>كارب (جم)<input class="mi" data-g="${g}" id="mc-${g}" type="number" inputmode="decimal" min="0" step="0.5"></label><label>بروتين (جم)<input class="mi" data-g="${g}" id="mp-${g}" type="number" inputmode="decimal" min="0" step="0.5"></label><label>دهون (جم)<input class="mi" data-g="${g}" id="mf-${g}" type="number" inputmode="decimal" min="0" step="0.5"></label></div><div class="mk" id="mk-${g}"></div><label class="mchk"><input type="checkbox" id="ms-${g}" data-g="${g}"> حفظه كصنف مخصص عندي</label><input class="mi2 hide" id="mn-${g}" placeholder="اسم الصنف المعدّل (اختياري)"><div class="err" id="me-${g}"></div></div>`}
-function macFill(g){const s=$('#sel-'+g),f=s&&s.value?byId(s.value):null;if(!f)return;const v=iv(f);$('#mc-'+g).value=fm(v.c);$('#mp-'+g).value=fm(v.p);$('#mf-'+g).value=fm(v.f);macCalc(g)}
+ return `<button type="button" class="mtog" data-act="mact" data-g="${g}">＋ تعديل الماكروز (اختياري)</button><div class="mac hide" id="mac-${g}"><div class="mh">عدّلي قيم الحصة الواحدة لهذه الإضافة فقط، ولا يتغيّر الصنف الأصلي.</div><div class="g3"><label>كارب (غم)<input class="mi" data-g="${g}" id="mc-${g}" type="number" inputmode="decimal" min="0" step="0.5"></label><label>بروتين (غم)<input class="mi" data-g="${g}" id="mp-${g}" type="number" inputmode="decimal" min="0" step="0.5"></label><label>دهون (غم)<input class="mi" data-g="${g}" id="mf-${g}" type="number" inputmode="decimal" min="0" step="0.5"></label></div><div class="mk" id="mk-${g}"></div><label class="mchk"><input type="checkbox" id="ms-${g}" data-g="${g}"> حفظه كصنف مخصص عندي</label><input class="mi2 hide" id="mn-${g}" placeholder="اسم الصنف المعدّل (اختياري)"><div class="err" id="me-${g}"></div></div>`}
+function macFill(g){const s=$('#sel-'+g),f=s&&s.value?csGet(s.value):null;if(!f)return;const v=iv(f);$('#mc-'+g).value=fm(v.c);$('#mp-'+g).value=fm(v.p);$('#mf-'+g).value=fm(v.f);macCalc(g)}
 function macVals(g){const r=['mc','mp','mf'].map(k=>{const e=$('#'+k+'-'+g);return e&&e.value!==''?+e.value:NaN});return r}
-function macCalc(g){const [c,p,f]=macVals(g),e=$('#mk-'+g);if(!e)return;if([c,p,f].some(x=>!(x>=0))){e.textContent='';return}const k=mk4(c,p,f),n=+($('#sn-'+g)||{}).value||1;e.innerHTML=`<b>${R(k)} سعرة</b> للحصة (كارب×4 + بروتين×4 + دهون×9)<br>الإجمالي لـ ${nf(n)} حصة: كارب ${fm(c*n)} • بروتين ${fm(p*n)} • دهون ${fm(f*n)} جم — ${R(k*n)} سعرة`}
-document.addEventListener('input',e=>{const t=e.target;if(t.classList&&t.classList.contains('mi'))macCalc(t.dataset.g);if(t.classList&&t.classList.contains('vrs')&&t.dataset.key){const key=t.dataset.key,g=key.split('|')[0],gi=gInfo(g,key.split('|')[1]||''),tt=+t.value/100;(ex().gt=ex().gt||{})[key]=tt;const v=gvT(gi,tt),e2=document.getElementById('gv-'+key);if(e2)e2.innerHTML='القيمة المحددة للحصة: <b>'+R(v.k)+'</b> سعرة • بروتين <b>'+fm(v.p)+'</b> • دهون <b>'+fm(v.f)+'</b> • كارب <b>'+fm(v.c)+'</b>';return}
+function macCalc(g){const [c,p,f]=macVals(g),e=$('#mk-'+g);if(!e)return;if([c,p,f].some(x=>!(x>=0))){e.textContent='';return}const k=mk4(c,p,f),n=+($('#sn-'+g)||{}).value||1;e.innerHTML=`<b>${R(k)} سعرة</b> للحصة (كارب×4 + بروتين×4 + دهون×9)<br>الإجمالي لـ ${nf(n)} حصة: كارب ${fm(c*n)} • بروتين ${fm(p*n)} • دهون ${fm(f*n)} غم — ${R(k*n)} سعرة`}
+document.addEventListener('input',e=>{const t=e.target;if(t.classList&&t.classList.contains('vtn')&&t.dataset.id){const E=ex();(E.vn=E.vn||{})[t.dataset.id]=t.value.slice(0,40);save();return}if(t.classList&&t.classList.contains('vrp')&&t.dataset.key){const key=t.dataset.key,g=key.split('|')[0],gi=gInfo(g,key.split('|')[1]||''),tt=+t.value/100,j=+t.dataset.j,E=ex();E.gp=E.gp||{};const a=E.gp[key]=E.gp[key]||{};a[j]=tt;const v=gvT(gi,tt),l=document.getElementById('gp-'+key+'-'+j);if(l)l.innerHTML='<b>'+R(v.k)+'</b> سعرة • ب '+fm(v.p)+' • د '+fm(v.f);return}
+if(t.classList&&t.classList.contains('mi'))macCalc(t.dataset.g);if(t.classList&&t.classList.contains('vrs')&&t.dataset.key){const key=t.dataset.key,g=key.split('|')[0],gi=gInfo(g,key.split('|')[1]||''),tt=+t.value/100;(ex().gt=ex().gt||{})[key]=tt;if(ex().gp)delete ex().gp[key];document.querySelectorAll('.vrp[data-key="'+key+'"]').forEach(r=>{r.value=Math.round(tt*100);const pv=gvT(gi,tt),l=document.getElementById('gp-'+key+'-'+r.dataset.j);if(l)l.innerHTML='<b>'+R(pv.k)+'</b> سعرة • ب '+fm(pv.p)+' • د '+fm(pv.f)});const v=gvT(gi,tt),e2=document.getElementById('gv-'+key);if(e2)e2.innerHTML='القيمة المحددة للحصة: <b>'+R(v.k)+'</b> سعرة • بروتين <b>'+fm(v.p)+'</b> • دهون <b>'+fm(v.f)+'</b> • كارب <b>'+fm(v.c)+'</b>';return}
  if(t.classList&&t.classList.contains('vrs')){const id=t.dataset.id,f=byId(id);if(!f||!f.rng)return;const tt=+t.value/100;(ex().rt=ex().rt||{})[id]=tt;const v=rgV(f,tt),n=ex().items[id]||0,e2=$('#rv-'+id);if(e2)e2.innerHTML='القيمة المحددة: <b>'+R(v.k)+'</b> سعرة للحصة — <b>'+R(v.k*n)+'</b> سعرة لـ '+nf(n)+' حصة'}});
-document.addEventListener('change',e=>{const t=e.target;if(t.classList&&t.classList.contains('vrs')){save();rr()}if(t.dataset&&t.dataset.rtp){const p=document.getElementById(t.dataset.rtp+'-rg');if(p)p.classList.toggle('hide',!t.checked)}});
+document.addEventListener('change',e=>{const t=e.target;if(t.classList&&t.classList.contains('vrs')||t.classList.contains('vrp')){save();rr()}if(t.dataset&&t.dataset.rtp){const p=document.getElementById(t.dataset.rtp+'-rg');if(p)p.classList.toggle('hide',!t.checked)}});
 document.addEventListener('change',e=>{const t=e.target,i=t.id||'';if(i.indexOf('sn-')===0)macCalc(i.slice(3));else if(i.indexOf('ms-')===0){const n=$('#mn-'+i.slice(3));if(n)n.classList.toggle('hide',!t.checked)}});
-function macAdd(g,id,n){const mp=$('#mac-'+g);if(!mp||mp.classList.contains('hide'))return false;const f0=byId(id);if(!f0)return false;const [c,p,f]=macVals(g),er=$('#me-'+g);
+function macAdd(g,id,n){const mp=$('#mac-'+g);if(!mp||mp.classList.contains('hide'))return false;const f0=csGet(id);if(!f0)return false;const [c,p,f]=macVals(g),er=$('#me-'+g);
  if([c,p,f].some(x=>!(x>=0))){er.textContent='أدخلي قيماً صحيحة (0 أو أكبر) للكارب والبروتين والدهون.';return null}
  const d0=iv(f0);if(Math.abs(c-d0.c)<.001&&Math.abs(p-d0.p)<.001&&Math.abs(f-d0.f)<.001)return false;
  const nm=(($('#mn-'+g)||{}).value||'').trim()||f0.name+' (معدّل)',keep=$('#ms-'+g).checked,nid=(keep?'m':'o')+Date.now().toString(36)+Math.floor(Math.random()*1e4).toString(36);
  const it={id:nid,g:f0.g,t:f0.t,name:nm,d:f0.d,mac:{c:+c.toFixed(2),p:+p.toFixed(2),f:+f.toFixed(2)}};
  if(keep){it.mine=true;(S.mine=S.mine||[]).push(it)}else{(ex().cu=ex().cu||{})[nid]=it}
  addItem(nid,n);return true}
+function gpUi(g,gi,x){const rest=Math.max(0,(x.N||0)-(x.sum||0)),np=Math.ceil(rest-1e-9);if(!(np>=1))return'<div class="mh" style="font-size:12px;color:var(--mu);margin-top:6px">لا توجد حصص عامة غير مخصصة لأصناف لضبطها.</div>';
+ let h='<div class="f" style="margin-top:10px">أو اضبطي كل حصة على حدة</div>';
+ for(let j=0;j<np;j++){const tt=gpT(gi,j),v=gvT(gi,tt),w=Math.min(1,rest-j);
+  h+=`<div class="vp"><div class="vpl"><b>الحصة ${j+1}${w<1?' (نصف)':''}</b><span id="gp-${esc(gi.key)}-${j}"><b>${R(v.k)}</b> سعرة • ب ${fm(v.p)} • د ${fm(v.f)}</span></div><input type="range" class="vrp" min="0" max="100" step="1" value="${Math.round(tt*100)}" data-key="${esc(gi.key)}" data-j="${j}" aria-label="ضبط الحصة ${j+1}"></div>`}
+ return h}
 function gcard(g,x){
  const G=GR[g],q=qg(g),std=t=>{const v=gv(g,t);return `${v.c} كارب • ${v.p} بروتين • ${v.f} دهون (${v.k} سعرة)`};
  let h=`<div class="gc"><button class="gh" data-act="tog" data-g="${g}"><span class="ic">${G.i}</span><span class="gn"><b>${G.n}</b><div class="pls">${pls(g,x,q)}</div></span><span class="gt"><b>${x.N}</b> حصة${x.over>0?'<small class="bad">زيادة '+(+x.over.toFixed(2))+'</small>':'<small>'+R(x.k)+' سعرة</small>'}</span></button>`;
  if(op[g]){
   h+=`<div class="gb${lastTog===g?' opn':''}">`;
+  if(g==='free')h+=`<div class="qres" style="margin:8px 0"><small><b>الأطعمة الحرة:</b> أقل من 20 سعرة أو ≤ 5 غم كارب للحصة — يُفضّل ألا تتجاوز 3 حصص يومياً موزعة خلال اليوم للأطعمة ذات الحصة المحددة، وغير محددة للخالية من الطاقة.<br>قيمها صفرية افتراضياً (0 سعرة • 0 كارب • 0 بروتين • 0 دهون) ولا تُخصم من حصص المجموعات الأخرى. لإدخال قيمة فعلية لصنف معيّن في حالة خاصة استخدمي «إضافة صنف جديد» ثم اختاري الإدخال اليدوي.</small></div>`;
   if(G.ty)h+=`<div class="f" style="margin-top:10px">نوع الحصص غير المخصصة لأصناف</div><div class="opts">${Object.entries(G.ty).map(([k,a])=>`<button class="${q.t===k?'on':''}" data-act="gty" data-g="${g}" data-t="${k}">${a[0]}</button>`).join('')}</div>`;
-  {const gi=gInfo(g,q.t);if(gi.r){const tt=gT(gi.key,gi.r),v=gvT(gi,tt);h+=`<div class="vr"><div class="vrl">نطاق تقديري للحصة: ${esc(gRtxt(gi))}</div><input type="range" class="vrs" min="0" max="100" step="1" value="${Math.round(tt*100)}" data-key="${esc(gi.key)}" aria-label="ضبط القيمة داخل النطاق"><div class="vrv" id="gv-${esc(gi.key)}">القيمة المحددة للحصة: <b>${R(v.k)}</b> سعرة • بروتين <b>${fm(v.p)}</b> • دهون <b>${fm(v.f)}</b> • كارب <b>${fm(v.c)}</b></div><div class="mh" style="font-size:12px;color:var(--mu);margin-top:6px">تُطبَّق على حصص المجموعة غير المخصصة لأصناف وعلى أصنافها التي بلا قيم خاصة. الافتراضي: ${gi.r.def==='min'?'الحد الأدنى':'المنتصف'}.</div></div>`}}
+  {const gi=gInfo(g,q.t);if(gi.r){const tt=gT(gi.key,gi.r),v=gvT(gi,tt);h+=`<div class="vr"><div class="vrl">نطاق تقديري للحصة: ${esc(gRtxt(gi))}</div><input type="range" class="vrs" min="0" max="100" step="1" value="${Math.round(tt*100)}" data-key="${esc(gi.key)}" aria-label="ضبط القيمة داخل النطاق"><div class="vrv" id="gv-${esc(gi.key)}">القيمة المحددة للحصة: <b>${R(v.k)}</b> سعرة • بروتين <b>${fm(v.p)}</b> • دهون <b>${fm(v.f)}</b> • كارب <b>${fm(v.c)}</b></div><div class="mh" style="font-size:12px;color:var(--mu);margin-top:6px">تُطبَّق على الحصص العامة غير المخصصة لأصناف فقط؛ أما الأصناف المحددة فتُحسب بقيمها الخاصة. الافتراضي: ${gi.r.def==='min'?'الحد الأدنى':'المنتصف'}.</div>${gpUi(g,gi,x)}</div>`}}
   h+=`<div class="std">الحصة الواحدة: ${std(q.t)}</div><div class="it"><div><b>عدد حصص المجموعة</b><small>تحددينه أنتِ، والأصناف أدناه تُحسب ضمنه</small></div><div class="q"><button data-act="qm" data-g="${g}">−</button><b class="qn">${q.n}</b><button data-act="qp" data-g="${g}">+</button></div></div>`;
-  if(g==='veg')h+=`<div class="f" style="margin-top:10px">حالة الخضروات — حددي عدد الحصص لكل حالة</div>`+[['b8','مطبوخ'],['b9','غير مطبوخ'],['b39','عصير خضروات']].map(([id,lb])=>{const f=byId(id);if(!f)return'';const n=ex().items[id]||0;return `<div class="it"><div><b>${lb}</b><small>الحصة الواحدة = ${esc(fd(f.d))}${n?`<br><b class="tq">المقدار الكلي: ${esc(tot(f.d,n))}</b>`:''}</small></div><div class="q"><button data-act="im" data-id="${id}">−</button><b class="qn">${n}</b><button data-act="ip" data-id="${id}">+</button></div></div>`}).join('');
-  Object.entries(ex().items).forEach(([id,n])=>{const f=byId(id);if(!f||f.g!==g)return;if(g==='veg'&&['b8','b9','b39'].includes(id))return;const v=iv(f);
-   h+=`<div class="it"><div><b>${esc(fd(f.name))}</b>${f.mac?' <span class="bd">ماكروز معدّلة</span>':''}<small>الحصة الواحدة = ${esc(fd(f.d))}${f.t?' · '+tn(g,f.t):''}<br><b class="tq">المقدار الكلي: ${esc(tot(f.d,n))}</b> — ${R(v.k*n)} سعرة${f.mac?'<br>كارب '+fm(v.c*n)+' • بروتين '+fm(v.p*n)+' • دهون '+fm(v.f*n)+' جم':''}</small></div><div class="q"><button data-act="im" data-id="${id}">−</button><b class="qn">${n}</b><button data-act="ip" data-id="${id}">+</button><button class="del" data-act="irm" data-id="${id}" aria-label="حذف">×</button></div></div>${f.rng?`<div class="vr"><div class="vrl">${esc(rgTxt(f,n))}</div><input type="range" class="vrs" min="0" max="100" step="1" value="${Math.round(rgT(f)*100)}" data-id="${id}" aria-label="ضبط القيمة داخل النطاق"><div class="vrv" id="rv-${id}">القيمة المحددة: <b>${R(v.k)}</b> سعرة للحصة — <b>${R(v.k*n)}</b> سعرة لـ ${nf(n)} حصة</div></div>`:''}`});
+  if(g==='veg')h+=`<div class="f" style="margin-top:10px">حالة الخضروات — حددي عدد الحصص لكل حالة</div>`+[['b8','مطبوخ'],['b9','غير مطبوخ'],['b39','عصير خضروات']].map(([id,lb])=>{const f=byId(id);if(!f)return'';const n=ex().items[id]||0;return `<div class="it"><div><b>${lb}</b><small>الحصة الواحدة = ${esc(fd(f.d))}${n?`<br><b class="tq">المقدار الكلي: ${esc(tot(f.d,n))}</b>`:''}</small><input type="text" class="vtn" data-id="${id}" maxlength="40" placeholder="نوع الخضار (اختياري، مثل: كوسا، خيار، طماطم)" value="${esc((ex().vn||{})[id]||'')}" aria-label="نوع الخضار (اختياري)"></div><div class="q"><button data-act="im" data-id="${id}">−</button><b class="qn">${n}</b><button data-act="ip" data-id="${id}">+</button></div></div>`}).join('');
+  Object.entries(ex().items).forEach(([id,n])=>{const f=byId(id);if(!f||(f.g!==g&&!(isC(f)&&pIn(f,g)>0)))return;if(f.g!==g){const pn=pIn(f,g)*n;h+=`<div class="it"><div><b>${esc(fd(f.name))}</b> <span class="bd">من تركيب حصص</span><small>${nf(pn)} حصة من هذه المجموعة ضمن تركيب الصنف، تُخصم من رصيدها وسعراتها محسوبة في «${esc(GR[f.g].n)}» (للتعديل: من هناك)</small></div></div>`;return}if(g==='veg'&&['b8','b9','b39'].includes(id))return;const v=iv(f);
+   h+=`<div class="it"><div><b>${esc(fd(f.name))}</b>${isC(f)?' <span class="bd">تركيب حصص</span>':f.mac?' <span class="bd">ماكروز معدّلة</span>':''}<small>الحصة الواحدة = ${esc(fd(f.d))}${f.t?' · '+tn(g,f.t):''}${isC(f)?'<br>التركيب: '+esc(cLabel(f,n))+(n!==1?' (لـ '+nf(n)+' حصة)':''):''}<br><b class="tq">المقدار الكلي: ${esc(tot(f.d,n))}</b> — ${R(v.k*n)} سعرة${f.mac?'<br>كارب '+fm(v.c*n)+' • بروتين '+fm(v.p*n)+' • دهون '+fm(v.f*n)+' غم':''}</small></div><div class="q"><button data-act="im" data-id="${id}">−</button><b class="qn">${n}</b><button data-act="ip" data-id="${id}">+</button><button class="del" data-act="irm" data-id="${id}" aria-label="حذف">×</button></div></div>${f.rng?`<div class="vr"><div class="vrl">${esc(rgTxt(f,n))}</div><input type="range" class="vrs" min="0" max="100" step="1" value="${Math.round(rgT(f)*100)}" data-id="${id}" aria-label="ضبط القيمة داخل النطاق"><div class="vrv" id="rv-${id}">القيمة المحددة: <b>${R(v.k)}</b> سعرة للحصة — <b>${R(v.k*n)}</b> سعرة لـ ${nf(n)} حصة</div></div>`:''}`});
   h+=x.over>0?`<div class="warn">الأصناف المختارة (${+x.sum.toFixed(2)} حصة) تتجاوز حصص المجموعة المحددة (${x.N}). لم يتغيّر العدد المحدد، والزيادة محسوبة في السعرات؛ زيدي حصص المجموعة أو قلّلي الأصناف.</div>`:`<div class="std">موزّع على أصناف: ${+x.sum.toFixed(2)} من ${x.N} — غير مخصص: ${+(x.N-x.sum).toFixed(2)}${x.N-x.sum>0&&G.ty?' (يُحسب بنوع '+tn(g,q.t)+')':''}</div>`;
   h+=`<div class="pick">${csPick(g,q,G)}<select id="sn-${g}">${[.5,1,1.5,2,3].map(n=>`<option${n===1?' selected':''}>${n}</option>`).join('')}</select><button data-act="iadd" data-g="${g}">إضافة</button>${macPanel(g,q,G)}${csPanel(g,q,G)}</div>`;
   h+='</div>';
@@ -1072,7 +1192,7 @@ function pFoods(){
 function fList(){
  const q=fq.trim(),l=all().filter(f=>(!q||f.name.includes(q))&&(ff==='all'||f.g===ff));
  $('#fl').innerHTML=l.length?l.map(f=>{const n=ex().items[f.id]||0;
-  return `<div class="fi"><div><b>${esc(fd(f.name))}</b><span class="bd">${GR[f.g].n}${f.t?' · '+tn(f.g,f.t):''}</span><small>الحصة الواحدة = ${esc(fd(f.d))}${f.rng&&f.rng.k?'<br>'+esc(rgTxt(f,0)):''}${f.mac?' • كارب '+fm(f.mac.c)+' • بروتين '+fm(f.mac.p)+' • دهون '+fm(f.mac.f):''}${n?' — مضاف: '+n+' حصة ('+esc(tot(f.d,n))+')':''}</small></div><div style="display:flex;gap:4px;align-items:center"><button class="s" data-act="fadd" data-id="${f.id}">+ حصة</button>${f.mine?`<button class="del" data-act="mdel" data-id="${f.id}" aria-label="حذف">×</button>`:''}${can('foods')&&!f.mine?`<button class="s" data-act="fedit" data-id="${f.id}">تعديل</button><button class="del" data-act="fdel" data-id="${f.id}" aria-label="حذف">×</button>`:''}</div></div>`}).join(''):'<div style="color:var(--mu);text-align:center;padding:10px">لا توجد أصناف مطابقة.</div>';
+  return `<div class="fi"><div><b>${esc(fd(f.name))}</b><span class="bd">${GR[f.g].n}${f.t?' · '+tn(f.g,f.t):''}</span><small>الحصة الواحدة = ${esc(fd(f.d))}${f.rng&&f.rng.k?'<br>'+esc(rgTxt(f,0)):''}${isC(f)?'<br>التركيب: '+esc(cLabel(f))+' • '+R(iv(f).k)+' سعرة • كارب '+fm(iv(f).c)+' • بروتين '+fm(iv(f).p)+' • دهون '+fm(iv(f).f)+' غم':f.mac?' • كارب '+fm(f.mac.c)+' • بروتين '+fm(f.mac.p)+' • دهون '+fm(f.mac.f):''}${n?' — مضاف: '+n+' حصة ('+esc(tot(f.d,n))+')':''}</small></div><div style="display:flex;gap:4px;align-items:center"><button class="s" data-act="fadd" data-id="${f.id}">+ حصة</button>${f.mine?`<button class="del" data-act="mdel" data-id="${f.id}" aria-label="حذف">×</button>`:''}${can('foods')&&!f.mine?`<button class="s" data-act="fedit" data-id="${f.id}">تعديل</button><button class="del" data-act="fdel" data-id="${f.id}" aria-label="حذف">×</button>`:''}</div></div>`}).join(''):'<div style="color:var(--mu);text-align:center;padding:10px">لا توجد أصناف مطابقة.</div>';
 }
 function bmiCard(p){
  const hm=p.h/100,v=+(p.w/(hm*hm)).toFixed(1),lv=v<18.5?['أقل من الطبيعي','u']:v<25?['وزن طبيعي','n']:v<30?['زيادة في الوزن','o']:['سمنة','b'];
@@ -1080,7 +1200,16 @@ function bmiCard(p){
  return `<div class="card"><h2>مؤشر كتلة الجسم (BMI)</h2><div class="bmi"><b class="bn">${v}</b><span class="bb ${lv[1]}">${lv[0]}</span></div>
  <div class="sc"><i style="width:14%;background:#E8D5A3"></i><i style="width:26%;background:#9DB383"></i><i style="width:20%;background:#DDB27C"></i><i style="width:40%;background:#D49A8A"></i><span class="mk2" style="inset-inline-start:${pos}%"></span></div>
  <div style="font-size:12px;color:var(--mu);display:flex;justify-content:space-between"><span>أقل من 18.5</span><span>18.5–24.9</span><span>25–29.9</span><span>30+</span></div>
- <div class="kv" style="margin-top:8px"><span>المدى التقريبي للوزن الطبيعي لطولك</span><b>${lo} – ${hi} كجم</b></div></div>`}
+ <div class="kv" style="margin-top:8px"><span>المدى التقريبي للوزن الطبيعي لطولك</span><b>${lo} – ${hi} كجم</b></div></div>${waterCard(p)}${waistCard(p)}`}
+function waterCard(p){
+ const w=+p.w;if(!(w>0))return '';
+ const a=w*30,b=w*35,L=x=>+(x/1000).toFixed(2),C=x=>+(x/250).toFixed(1),nc=Math.min(20,Math.ceil(b/250)),fc=Math.floor(a/250);
+ const cup=(on)=>`<svg viewBox="0 0 24 30" class="wcup${on?' on':''}"><path d="M3 3h18l-2.2 22a3 3 0 0 1-3 2.7H8.2a3 3 0 0 1-3-2.7z"/><path class="wl" d="M4.3 12h15.4l-1 10.4a2.4 2.4 0 0 1-2.4 2.2H7.7a2.4 2.4 0 0 1-2.4-2.2z"/></svg>`;
+ return `<div class="card wat"><div class="wh"><span class="wi"><svg viewBox="0 0 24 24"><path d="M12 3c3.5 4.4 6 7.4 6 10.5a6 6 0 0 1-12 0C6 10.400 8.500 7.400 12 3z"/></svg></span><div><h2>احتياجك اليومي من الماء</h2><small>بحسب وزنك: ${fm(w)} كجم</small></div></div>
+ <div class="wm"><b dir="ltr">${L(a)} – ${L(b)}</b><span>لتر في اليوم</span></div>
+ <div class="wcups" dir="ltr">${Array.from({length:nc},(_,i)=>cup(i<fc)).join('')}</div>
+ <div class="wr"><div><b dir="ltr">${C(a)} – ${C(b)}</b><span>كوب (250 مل)</span></div><div><b dir="ltr">${R(a)} – ${R(b)}</b><span>مل</span></div></div>
+ <div class="wf">المعادلة: الوزن × 30–35 مل ÷ 250 = عدد الأكواب. مثال: 80 × 35 = 2800 مل = 2.8 لتر = 11.2 كوب. قد يزيد الاحتياج مع الحر والرياضة.</div></div>`}
 function childCard(p,t){return `<div class="card"><h2>خطة الطفل / المراهق</h2><div class="qres"><b>تنبيه مهم</b><small>تقييم وزن الأطفال يعتمد على منحنيات النمو بحسب العمر والجنس، ولذلك لا تُطبَّق عليهم شارة BMI ولا معادلات البالغين. احتياجهم من السعرات له مسار خاص يراعي النمو؛ يُنصح بالرجوع للأخصائي، ثم أدخلي السعرات اليومية المستهدفة يدوياً.</small></div>
  <label class="f">السعرات اليومية المستهدفة<input id="kc" type="number" inputmode="numeric" min="0" value="${p.kc||''}"></label>${t.k>0?'':'<div class="err">لم تُحدَّد السعرات بعد.</div>'}<div class="acts"><button data-act="savekc">حفظ السعرات</button></div></div>`}
 const mCard=t=>`<div class="card"><h2>نسب الماكروز من السعرات</h2>
@@ -1096,7 +1225,7 @@ function mUpd(id){
  if(c<45||c>65)w.push('نسبة الكارب ('+c+'%) خارج النطاق المرجعي 45%–65%.');
  if(sum!==100)w.push('مجموع النسب '+sum+'% وليس 100%، راجعي النسب.');
  $('#m-w').innerHTML=w.map(x=>`<div class="warn" style="margin-top:8px">${x}</div>`).join('');
- $('#m-g').textContent=`كارب ${R(t.k*c/400)} جم • بروتين ${R(t.k*p/400)} جم • دهون ${R(t.k*f/900)} جم`;
+ $('#m-g').textContent=`كارب ${R(t.k*c/400)} غم • بروتين ${R(t.k*p/400)} غم • دهون ${R(t.k*f/900)} غم`;
 }
 const MEALS=[['b','الصبوح','🌅'],['l','الغداء','☀️'],['d','العشاء','🌙'],['s','السناك','🍎']];
 const MW={starch:[.3,.35,.2,.15],veg:[.1,.45,.4,.05],fruit:[.25,.15,.1,.5],milk:[.4,.05,.25,.3],meat:[.25,.45,.25,.05],fat:[.25,.35,.3,.1]};
@@ -1107,24 +1236,29 @@ function dist(){
  const ok=(k,h)=>{const o=mv[k];return o&&o.length===4&&o.every(v=>Number.isInteger(v)&&v>=0)&&o.reduce((a,b)=>a+b,0)<=h?o.slice():null};
  const pool=(k,g,id,h,a)=>{const d=h-a.reduce((x,y)=>x+y,0);if(d>0)un[k]={g,id,half:d}};
  Object.keys(GR).forEach(g=>{
-  const x=per[g],T=x.n;if(!(T>0))return;
+  const x=per[g],T=Math.max(0,x.n-(x.cx||0)),cf=Object.entries(ex().items).filter(([id,n])=>{const f=byId(id);return f&&isC(f)&&f.g===g&&n>0});if(!(T>0)&&!cf.length)return;
   const w=MW[g]||[.25,.25,.25,.25],H=Math.round(T*2),al=w.map(v=>Math.floor(H*v)),rm=w.map((v,i)=>[H*v-al[i],i]);
   rm.sort((a,b)=>b[0]-a[0]).slice(0,H-al.reduce((a,b)=>a+b,0)).forEach(([,i])=>al[i]++);
   const as=[0,0,0,0],it=[[],[],[],[]],pend=[];
-  Object.entries(ex().items).forEach(([id,n])=>{const f=byId(id);if(!f||f.g!==g||!(n>0))return;const k=g+'|'+id,o=ok(k,Math.round(n*2));
+  Object.entries(ex().items).forEach(([id,n])=>{const f=byId(id);if(!f||isC(f)||f.g!==g||!(n>0))return;const k=g+'|'+id,o=ok(k,Math.round(n*2));
    if(o){plc[k]=o;pool(k,g,id,Math.round(n*2),o);o.forEach((c,m)=>{as[m]+=c;if(c)it[m].push({f,n:c/2})})}else pend.push([f,n])});
   pend.forEach(([f,n])=>{const pr=pm(f),cnt=[0,0,0,0];
    for(let u=0;u<Math.round(n*2);u++){let b=pr[0];pr.forEach(m=>{const a=al[m]-as[m],c=al[b]-as[b];if(a>c||(a===c&&w[m]>w[b]))b=m});as[b]++;cnt[b]++}
    plc[g+'|'+f.id]=cnt;cnt.forEach((c,m)=>{if(c)it[m].push({f,n:c/2})})});
-  const ih=Object.entries(ex().items).reduce((a,[id,n])=>{const f=byId(id);return a+(f&&f.g===g&&n>0?Math.round(n*2):0)},0),rh=H-ih;let rest=ok(g+'|_',rh);
+  const cit=[[],[],[],[]],cc=[0,0,0,0];
+  cf.forEach(([id,n])=>{const f=byId(id),k=g+'|'+id,h=Math.round(n*2),o=ok(k,h);let cnt;
+   if(o){cnt=o;plc[k]=o;pool(k,g,id,h,o)}else{const pr=pm(f);cnt=[0,0,0,0];for(let u=0;u<h;u++){let b=pr[0];pr.forEach(m=>{if(cc[m]+cnt[m]<cc[b]+cnt[b])b=m});cnt[b]++}plc[k]=cnt}
+   cnt.forEach((c,m)=>{if(c){cit[m].push({f,n:c/2})}})});
+  cit.forEach((l,m)=>{cc[m]=l.reduce((a,y)=>a+y.n*2,0)});
+  const ih=Object.entries(ex().items).reduce((a,[id,n])=>{const f=byId(id);return a+(f&&!isC(f)&&f.g===g&&n>0?Math.round(n*2):0)},0),rh=H-ih;let rest=ok(g+'|_',rh);
   if(!rest){rest=[0,0,0,0];let left=rh;while(left>0){let b=0;[0,1,2,3].forEach(m=>{if(al[m]-as[m]-rest[m]>al[b]-as[b]-rest[b])b=m});rest[b]++;left--}}
   plc[g+'|_']=rest;pool(g+'|_',g,'_',rh,rest);
   [0,1,2,3].forEach(m=>{
-   const n=(as[m]+rest[m])/2;if(n<=0)return;
-   const e=M[m],gg={n,items:it[m],rest:rest[m]/2,t:x.t};let K=0,C=0,Pp=0,F=0;
-   it[m].forEach(({f:fo,n:q})=>{const v=iv(fo);K+=v.k*q;C+=v.c*q;Pp+=v.p*q;F+=v.f*q});
-   const v=gv(g,x.t);K+=v.k*gg.rest;C+=v.c*gg.rest;Pp+=v.p*gg.rest;F+=v.f*gg.rest;
-   e.g[g]=gg;e.k+=K;e.c+=C;e.p+=Pp;e.f+=F;e.n+=n});
+   const n=(as[m]+rest[m])/2;if(n<=0&&!cit[m].length)return;
+   const e=M[m],gg={n,items:it[m].concat(cit[m]),rest:rest[m]/2,t:x.t};let K=0,C=0,Pp=0,F=0,cn=0;
+   it[m].concat(cit[m]).forEach(({f:fo,n:q})=>{const v=iv(fo);K+=v.k*q;C+=v.c*q;Pp+=v.p*q;F+=v.f*q;if(isC(fo))cn+=cX(fo).reduce((a,[g2,,q2])=>a+q2*q,0)});
+   const v=gvA(g,x.t,Math.max(0,x.N-x.sum));K+=v.k*gg.rest;C+=v.c*gg.rest;Pp+=v.p*gg.rest;F+=v.f*gg.rest;
+   e.g[g]=gg;e.k+=K;e.c+=C;e.p+=Pp;e.f+=F;e.n+=n+cn});
  });
  return M;
 }
@@ -1140,8 +1274,8 @@ function mrow(g,id,name,sub,n,v,m,pl){
  return `<tr><td><b>${GR[g].i} ${esc(name)}</b>${sub?`<small>${esc(sub)}</small>`:''}</td><td><div class="q"><button data-act="mm" ${a} aria-label="إرجاع نصف حصة إلى غير الموزّع">−</button><b class="qn">${n}</b><button data-act="mp" ${a}${pl>0?'':' disabled style="opacity:.35"'} aria-label="أخذ نصف حصة من غير الموزّع">+</button></div></td><td>${R(v.k*n)}</td><td>${fm(v.c*n)}</td><td>${fm(v.p*n)}</td><td>${fm(v.f*n)}</td><td class="ac"><select class="mvs" ${a}><option value="">نقل إلى…</option>${MEALS.map(([k,nm],j)=>j===m?'':`<option value="${j}">${nm}</option>`).join('')}</select><button class="del" data-act="md" ${a} aria-label="إرجاع إلى غير الموزّع">×</button></td></tr>`}
 function undist(D,per){
  const L=Object.entries(D.un);let kc=0;
- const rows=L.map(([k,u])=>{const f=u.id==='_'?null:byId(u.id),t=qg(u.g).t,v=f?iv(f):gv(u.g,t),n=u.half/2;kc+=v.k*n;
-  return `<div class="it"><div><b>${GR[u.g].i} ${esc(f?f.name:'حصة '+GR[u.g].n+' بدون صنف محدد')}</b> <span class="bd">${n} حصة</span><small>${R(v.k*n)} سعرة · كارب ${fm(v.c*n)} · بروتين ${fm(v.p*n)} · دهون ${fm(v.f*n)}</small></div><select class="mvs asg" data-g="${u.g}" data-i="${u.id}"><option value="">وزّعي على…</option>${MEALS.map(([x,nm],j)=>`<option value="${j}">${nm}</option>`).join('')}</select></div>`}).join('');
+ const rows=L.map(([k,u])=>{const f=u.id==='_'?null:byId(u.id),t=qg(u.g).t,v=f?iv(f):gvA(u.g,t,Math.max(0,per[u.g].N-per[u.g].sum)),n=u.half/2;kc+=v.k*n;
+  return `<div class="it"><div><b>${GR[u.g].i} ${esc(f?(VEGS[f.id]&&f.g==='veg'?vegLbl(f.id):f.name):'حصة '+GR[u.g].n+' بدون صنف محدد')}</b> <span class="bd">${n} حصة</span><small>${f&&isC(f)?'التركيب: '+esc(cLabel(f,n))+'<br>':''}${R(v.k*n)} سعرة · كارب ${fm(v.c*n)} · بروتين ${fm(v.p*n)} · دهون ${fm(v.f*n)}</small></div><select class="mvs asg" data-g="${u.g}" data-i="${u.id}"><option value="">وزّعي على…</option>${MEALS.map(([x,nm],j)=>`<option value="${j}">${nm}</option>`).join('')}</select></div>`}).join('');
  return `<div class="card"><h2>ما لم يُوزَّع على الوجبات</h2>${L.length?rows+`<div class="warn">حصص محسوبة ضمن إجماليك اليومي (${R(kc)} سعرة) لكنها لم تُوضع في وجبة بعد؛ وزّعيها على وجبة أو اضغطي «إعادة التوزيع التلقائي».</div>`:'<div class="qres" style="margin:0"><b>✓ كل الحصص موزَّعة على الوجبات</b><small>يمكنك نقل الحصص بين الوجبات فقط؛ العدد الإجمالي يتحدد من الرئيسية.</small></div>'}</div>`}
 function pMeals(){
  if(!S.profile)return `<h1>الوجبات</h1>`+needP();
@@ -1152,8 +1286,8 @@ function pMeals(){
  ${over?'<div class="warn" style="margin-bottom:10px">بعض الأصناف تتجاوز حصص مجموعتها المحددة؛ الزيادة محسوبة في المجاميع.</div>':''}`
  +undist(D,per)+MEALS.map(([k,n,ic],i)=>{const m=D[i];let rows='';
   Object.entries(m.g).forEach(([g,x])=>{
-   x.items.forEach(y=>rows+=mrow(g,y.f.id,y.f.name,tot(y.f.d,y.n)+' (الحصة = '+fd(y.f.d)+')'+(y.f.t?' · '+tn(g,y.f.t):''),y.n,iv(y.f),i,(D.un[g+'|'+y.f.id]||{half:0}).half));
-   if(x.rest>0)rows+=mrow(g,'_','حصة '+GR[g].n+' بدون صنف محدد',GR[g].ty?tn(g,x.t):'',x.rest,gv(g,x.t),i,(D.un[g+'|_']||{half:0}).half)});
+   x.items.forEach(y=>rows+=mrow(g,y.f.id,(VEGS[y.f.id]&&g==='veg')?vegLbl(y.f.id):y.f.name,(g==='free'&&!isC(y.f))?'('+fd(y.f.d)+' • '+nf(y.n)+' حصة) — '+R(iv(y.f).k*y.n)+' سعرة • '+fm(iv(y.f).c*y.n)+' كارب غم • '+fm(iv(y.f).p*y.n)+' بروتين غم • '+fm(iv(y.f).f*y.n)+' دهون غم':(VEGS[y.f.id]&&g==='veg')?'('+fd(y.f.d)+' • '+nf(y.n)+' حصة) — '+R(iv(y.f).k*y.n)+' سعرة • '+fm(iv(y.f).c*y.n)+' كارب غم • '+fm(iv(y.f).p*y.n)+' بروتين غم • '+fm(iv(y.f).f*y.n)+' دهون غم':isC(y.f)?'التركيب: '+cLabel(y.f,y.n):tot(y.f.d,y.n)+' (الحصة = '+fd(y.f.d)+')'+(y.f.t?' · '+tn(g,y.f.t):''),y.n,iv(y.f),i,(D.un[g+'|'+y.f.id]||{half:0}).half));
+   if(x.rest>0)rows+=mrow(g,'_','حصة '+GR[g].n+' بدون صنف محدد',GR[g].ty?tn(g,x.t):'',x.rest,gvA(g,x.t,Math.max(0,per[g].N-per[g].sum)),i,(D.un[g+'|_']||{half:0}).half)});
   return `<div class="card"><div class="hd2"><b style="font-size:17px">${ic} ${n}</b><span class="mk">${R(m.k)} سعرة${tk?' · '+R(m.k/tk*100)+'%':''}</span></div>
   <div class="mm"><span>كارب <b>${R(m.c)}</b></span><span>بروتين <b>${R(m.p)}</b></span><span>دهون <b>${R(m.f)}</b></span><span>حصص <b>${+m.n.toFixed(2)}</b></span></div>
   ${rows?`<div class="tw"><table class="tbl mt"><tr><th>الصنف</th><th>الحصص</th><th>سعرات</th><th>كارب</th><th>بروتين</th><th>دهون</th><th>إجراءات</th></tr>${rows}</table></div>`:'<div style="color:var(--mu);font-size:13px;padding:6px 0">لا شيء في هذه الوجبة بعد.</div>'}</div>`}).join('');
@@ -1173,6 +1307,168 @@ function adjPrev(){const e=$('#adjprev');if(!e)return;const a=+$('#p-a').value,w
 function adjSync(m){const v=m==='form'?(fadj>0?fadj:adjDef(fg)):adjVal(S.profile);document.querySelectorAll('.adjr [data-act=adjq][data-m='+m+']').forEach(b=>b.classList.toggle('on',+b.dataset.v===v))}
 function adjApply(m,v){if(m==='form'){fadj=v;$('#adjbox').innerHTML=adjHTML(fg,v,'form');adjPrev()}else{S.profile.adj=v;save();rr()}}
 let sumOpen={};
+
+/* v69: السجل — حفظ الجدول اليومي (الحصص والأصناف وتوزيع الوجبات) والرجوع إليه */
+const hDate=t=>{const d=new Date(t),z=n=>String(n).padStart(2,'0');return z(d.getDate())+'/'+z(d.getMonth()+1)+'/'+d.getFullYear()};
+const hCopy=o=>JSON.parse(JSON.stringify(o||{}));
+
+/* v71: محيط الخصر — سجل القياسات S.wlog=[{t,wc,w,s}] (s=1 تمت مزامنته مع Supabase) */
+const wcLv=(sex,v)=>sex==='m'?(v<94?['ضمن النطاق الصحي','n']:v<102?['ارتفاع متوسط','o']:['مرتفع','b']):(v<80?['ضمن النطاق الصحي','n']:v<88?['ارتفاع متوسط','o']:['مرتفع','b']);
+const wcCut=sex=>sex==='m'?[94,102]:[80,88];
+const wcDay=t=>{const d=new Date(t);return d.getFullYear()+'-'+d.getMonth()+'-'+d.getDate()};
+const wlog=()=>{const m={};(S.wlog||[]).slice().sort((a,b)=>a.t-b.t).forEach(e=>{m[wcDay(e.t)]=e});return Object.keys(m).map(k=>m[k]).sort((a,b)=>a.t-b.t)};
+function wcPush(e){const x=who();if(!x||x.admin||!x.pass)return;rpc('save_measurement',{p_code:x.pass,p_device:devId(),p_waist:e.wc,p_weight:e.w||null,p_height:(S.profile&&S.profile.h)||null,p_sex:(S.profile&&S.profile.sex)||null,p_at:new Date(e.t).toISOString()}).then(r=>{if(r&&r.ok){e.s=1;save()}}).catch(()=>{})}
+function wcAdd(v,w){v=+v;if(!(v>=40&&v<=250))return false;const L=S.wlog=S.wlog||[],last=wlog().pop();
+ if(last&&wcDay(last.t)===wcDay(Date.now())){if(last.wc===+v.toFixed(1))return true;last.wc=+v.toFixed(1);last.t=Date.now();if(w>0)last.w=w;last.s=0;if(S.profile)S.profile.wc=last.wc;save();wcPush(last);return true}
+ const e={t:Date.now(),wc:+v.toFixed(1)};if(w>0)e.w=w;L.push(e);if(S.profile)S.profile.wc=e.wc;save();wcPush(e);return true}
+function wcRetry(){(S.wlog||[]).filter(e=>!e.s).slice(0,10).forEach(wcPush)}
+/* v73: قياسات المشرف — قراءة واحدة لكل يوم (آخر تحديث في اليوم) + سجل المستخدم */
+function measDays(r){const rows=((r&&r.rows)||[]).filter(e=>+e.waist_cm>0).map(e=>({t:new Date(e.measured_at).getTime(),wc:+e.waist_cm,w:e.weight_kg?+e.weight_kg:0,h:e.height_cm?+e.height_cm:0,sx:e.sex||''})).sort((a,b)=>a.t-b.t),m={},c={};
+ rows.forEach(e=>{const k=wcDay(e.t);c[k]=(c[k]||0)+1;m[k]=e});return Object.keys(m).map(k=>Object.assign({},m[k],{n:c[k]})).sort((a,b)=>a.t-b.t)}
+function measHtml(r){const L=measDays(r);if(!L.length)return '<div class="qres"><small>لا توجد قياسات مسجّلة لهذه المشتركة بعد.</small></div>';
+ const f=L[0],l=L[L.length-1],hh=l.h||f.h||0,sx=l.sx||f.sx||'f',multi=L.length>1,dd=multi?+(l.wc-f.wc).toFixed(1):null;
+ return `<div class="wcc"><div class="mx"><div><b dir="ltr">${f.wc}</b><span>${multi?'أول قياس':'قياس البداية'}</span><small>${hDate(f.t)}${f.n>1?' • عُدّل في نفس اليوم':''}</small></div>${multi?`<div><b dir="ltr">${l.wc}</b><span>آخر قياس</span><small>${hDate(l.t)}${l.n>1?' • عُدّل في نفس اليوم':''}</small></div>`:''}</div>${multi?`<div class="dl"><span>الفرق منذ أول قياس</span><b class="${dd>0?'up':dd<0?'dn':''}"><span dir="ltr">${(dd>0?'+':dd<0?'−':'')+Math.abs(dd)}</span> سم</b></div>`:'<div class="mh" style="font-size:12.5px;margin-top:8px">قياس واحد حتى الآن — لا يظهر فرق قبل تسجيل قياس لاحق.</div>'}${multi?wcChart(L):''}<h3>التقييم</h3><div class="lg"><span>التقييم (WHO)</span><b>${wcLv(sx,l.wc)[0]}</b></div>${hh?`<div class="lg"><span>نسبة الخصر ÷ الطول</span><b dir="ltr">${(l.wc/hh).toFixed(2)}</b></div>`:''}<h3>السجل</h3>${L.slice().reverse().map(e=>`<div class="lg"><span>${hDate(e.t)}${e.w?` <i>• ${e.w} كجم</i>`:''}</span><b><span dir="ltr">${e.wc}</span> سم</b></div>`).join('')}</div>`}
+function ulogHtml(u,r,cs){const now=Date.now(),ex=u.exp&&u.exp<now,tr=u.td&&u.td!==7,
+  stt=!u.active?'موقوف':!u.exp?'لم يُفعَّل بعد':ex?'منتهٍ':'مفعّل',typ=tr?'يومان تجربة':u.td===7?'اشتراك أسبوع':'اشتراك '+mLbl(u.months||2),ev=[];
+ if(u.devAt)ev.push({t:u.devAt,a:'تفعيل الكود وربط أول جهاز'});
+ if(u.exp)ev.push({t:u.exp,a:ex?'انتهى الاشتراك':'ينتهي الاشتراك'});
+ if(u.seen)ev.push({t:typeof u.seen==='number'?u.seen:Date.parse(u.seen),a:'آخر ظهور'});
+ const L=ev.filter(e=>e.t>0).sort((a,b)=>b.t-a.t);
+ let cb;
+ if(!cs||cs.ok===false)cb='<div class="warn">تعذّر جلب الحالات. تأكدي من تشغيل ملف v63.sql في Supabase.</div>';
+ else if(!(cs.cases||[]).length)cb='<div class="qres"><small>لا توجد سجلات إضافية بعد — لم تُضِف هذه المشتركة أي حالة.</small></div>';
+ else cb=cs.cases.map(o=>ucaseHtml(o)).join('');
+ return '<h2>سجل '+esc(u.name||'المشتركة')+'</h2><div class="qres"><small><b>حالة الاشتراك:</b> '+stt+' • '+typ+(u.exp?' • '+(ex?'انتهى في ':'ينتهي في ')+fdate(u.exp):'')+'</small></div>'+
+ '<h3 style="font-size:14px;margin:14px 0 6px;color:var(--g2)">الحالات'+(cs&&cs.cases?' ('+cs.cases.length+')':'')+'</h3>'+cb+
+ (L.length?'<h3 style="font-size:14px;margin:14px 0 6px;color:var(--g2)">نشاط الحساب</h3>'+L.map(e=>'<div class="lg"><span>'+hDate(e.t)+'</span><b>'+e.a+'</b></div>').join(''):'')+
+ '<div class="acts"><button class="s" data-act="meas" data-id="'+esc(u.id)+'">القياسات</button><button class="s" data-act="sclose">إغلاق</button></div>'}
+function ucaseHtml(o){const f=(o.followups||[]).map(x=>({no:+x.no,t:x.at?Date.parse(x.at):0,w:x.w!=null?+x.w:0,wc:x.wc!=null?+x.wc:0,note:x.note||'',k:x.k||0})),
+  c={sex:o.sex||'f',a:+o.age,h:+o.height,pal:+o.pal,w0:+o.w0,wt:+o.wt,months:+o.months,fu:f},last=f.filter(x=>x.w).pop(),w=last?last.w:c.w0;
+ let pl=null;try{pl=cPlan(c,w,f.length)}catch(e){}
+ const done=f.length,tot=c.months,rem=+(c.wt-w).toFixed(1),ch=+(w-c.w0).toFixed(1),sg=v=>(v>0?'+':v<0?'−':'')+Math.abs(v);
+ return `<div class="qres" style="margin:8px 0"><b>${esc(o.name||'حالة')}</b><br><small>${o.sex==='m'?'ذكر':'أنثى'} • ${c.a} سنة • ${c.h} سم${o.start?' • بدأت '+hDate(Date.parse(o.start)):''}</small>
+ <div class="lg"><span>الوزن: البداية ← الهدف</span><b><span dir="ltr">${c.w0} ← ${c.wt}</span> كجم</b></div>
+ <div class="lg"><span>الوزن الحالي</span><b><span dir="ltr">${w}</span> كجم${last?` <i>(<span dir="ltr">${sg(ch)}</span>)</i>`:''}</b></div>
+ <div class="lg"><span>المتبقي للهدف</span><b><span dir="ltr">${Math.abs(rem)}</span> كجم</b></div>
+ <div class="lg"><span>مدة الخطة / الزيارات</span><b>${tot} أشهر • ${done} زيارة</b></div>
+ ${o.wc0?`<div class="lg"><span>محيط الخصر عند البداية</span><b><span dir="ltr">${o.wc0}</span> سم</b></div>`:''}
+ ${pl?`<div class="lg"><span>السعرات المقترحة</span><b><span dir="ltr">${pl.k}</span> سعرة</b></div><div class="lg"><span>كارب / بروتين / دهون</span><b><span dir="ltr">${pl.c} / ${pl.p} / ${pl.f}</span> غم</b></div>`:''}
+ ${f.length?`<h3 style="font-size:13px;margin:10px 0 2px;color:var(--g2)">الزيارات</h3>`+f.map(x=>`<div class="lg"><span>#${x.no}${x.t?' • '+hDate(x.t):''}</span><b>${x.w?`<span dir="ltr">${x.w}</span> كجم`:''}${x.wc?` • <span dir="ltr">${x.wc}</span> سم`:''}</b>${x.note?`<small>${esc(x.note)}</small>`:''}</div>`).join(''):'<div class="mh" style="font-size:12.5px;margin-top:6px">لا توجد زيارات متابعة بعد.</div>'}
+ </div>`}
+function wcChart(L){if(L.length<2)return'';const W=300,H=90,p=10,v=L.map(e=>e.wc),mn=Math.min(...v)-1,mx=Math.max(...v)+1,t0=L[0].t,t1=L[L.length-1].t||1,X=t=>p+(t1===t0?0:(t-t0)/(t1-t0))*(W-2*p),Y=x=>H-p-(x-mn)/(mx-mn||1)*(H-2*p),pts=L.map(e=>X(e.t).toFixed(1)+','+Y(e.wc).toFixed(1));
+ return `<svg class="ch" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true"><polyline points="${pts.join(' ')}" fill="none" stroke="#5E7A3E" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>${L.map(e=>`<circle cx="${X(e.t).toFixed(1)}" cy="${Y(e.wc).toFixed(1)}" r="3.4" fill="#44602F"/>`).join('')}</svg>`}
+function waistCard(p){
+ if(!p||p.a<18)return '';
+ const L=wlog(),icon='<svg viewBox="0 0 24 24"><path d="M5 4c1 3 1 5 0 8s-1 5 0 8M19 4c-1 3-1 5 0 8s1 5 0 8M5 9h14M5 15h14"/></svg>';
+ const add=`<div class="wadd"><label class="f">${L.length?'قياس جديد (سم)':'محيط الخصر (سم)'}<input id="wc-in" type="number" inputmode="decimal" step="0.5" placeholder="مثال: 82"></label><button data-act="wcadd">تسجيل القياس</button></div><div class="err" id="wc-e"></div>`;
+ if(!L.length)return `<div class="card wcc"><div class="wh"><span class="wi">${icon}</span><div><h2>محيط الخصر</h2><small>اختياري — يقيس دهون البطن وخطر الأمراض</small></div></div><div class="qres"><small>أدخلي محيط خصرك لتظهر لك الحالة (معايير WHO) ونسبة الخصر إلى الطول، وتتابعين تطوّرك بالسنتيمتر.</small></div>${add}</div>`;
+ const cur=L[L.length-1],f=L[0],v=cur.wc,lv=wcLv(p.sex,v),ct=wcCut(p.sex),lo=ct[0]-20,hi=ct[1]+16,pos=Math.max(2,Math.min(98,(v-lo)/(hi-lo)*100)),w1=(ct[0]-lo)/(hi-lo)*100,w2=(ct[1]-ct[0])/(hi-lo)*100;
+ const r=p.h>0?v/p.h:0,rl=r<.5?['مثالي','n']:['يحتاج تحسين','o'],rpos=Math.max(2,Math.min(98,(r-.35)/.35*100));
+ const d=+(cur.wc-f.wc).toFixed(1),dtxt='<span dir="ltr">'+(d>0?'+':d<0?'−':'')+Math.abs(d)+'</span> سم';
+ return `<div class="card wcc"><div class="wh"><span class="wi">${icon}</span><div><h2>محيط الخصر</h2><small>آخر قياس: ${hDate(cur.t)}</small></div></div>
+ <div class="wv"><b dir="ltr">${v}</b><em>سم</em><span class="bb2 ${lv[1]}">${lv[0]}</span></div>
+ <div class="sc2"><i style="width:${w1}%;background:#9DB383"></i><i style="width:${w2}%;background:#DDB27C"></i><i style="flex:1;background:#D49A8A"></i><span class="mk3" style="inset-inline-start:${pos}%"></span></div>
+ <div class="scl"><span>أقل من ${ct[0]}</span><span>${ct[0]}–${ct[1]-.1}</span><span>${ct[1]} فأكثر</span></div>
+ <div class="mx"><div><b dir="ltr">${r?r.toFixed(2):'—'}</b><span>نسبة الخصر ÷ الطول</span><small class="bb2 ${rl[1]}" style="padding:2px 10px">${rl[0]}</small></div><div><b dir="ltr">0.50</b><span>الحد المثالي (أقل من)</span><small style="color:var(--mu)">لكل الأعمار والأجناس تقريباً</small></div></div>
+ ${L.length>1?`<div class="dl"><span>الفرق بين أول وآخر قياس<br><i style="font-style:normal;font-size:12px;color:var(--mu)" dir="ltr">${f.wc} ← ${cur.wc} سم</i></span><b class="${d>0?'up':d<0?'dn':''}">${dtxt}</b></div>${wcChart(L)}`:''}
+ <h3>سجل القياسات</h3>${L.slice().reverse().map((e,i,a)=>{const pv=a[i+1],df=pv?+(e.wc-pv.wc).toFixed(1):null;return `<div class="lg"><span>${hDate(e.t)}${e.w?` <i>• ${e.w} كجم</i>`:''}</span><b><span dir="ltr">${e.wc}</span> سم${df?` <i style="color:${df>0?'#9B3A2A':'#3C5A27'}">(<span dir="ltr">${df>0?'+':'−'}${Math.abs(df)}</span>)</i>`:''}</b></div>`}).join('')}
+ ${add}<div class="mh" style="font-size:11.5px;color:var(--mu);margin-top:8px;line-height:1.7">معايير WHO للبالغين: ${p.sex==='m'?'ذكور أقل من 94 صحي، 94–101.9 ارتفاع متوسط، 102 فأكثر مرتفع.':'إناث أقل من 80 صحي، 80–87.9 ارتفاع متوسط، 88 فأكثر مرتفع.'} هذه مؤشرات إرشادية وليست تشخيصاً.</div></div>`}
+
+/* v72: حالاتي — ملفات حالات ومتابعة دورية. S.cases=[{id,name,sex,a,h,pal,w0,wc0,wt,months,start,plan,fu:[{no,at,w,wc,note,k,s}],s}] */
+const PALS=[['خامل',1.2],['خفيف',1.375],['متوسط',1.55],['نشيط',1.725],['نشيط جداً',1.9]];
+let cmode='list',cid=null;
+const cases=()=>S.cases||(S.cases=[]);
+const cget=id=>cases().find(c=>c.id===id);
+const cToday=()=>{const d=new Date(),z=n=>String(n).padStart(2,'0');return d.getFullYear()+'-'+z(d.getMonth()+1)+'-'+z(d.getDate())};
+const cDate=v=>{const m=/^(\d{4})-(\d\d)-(\d\d)/.exec(v||'');return m?m[3]+'/'+m[2]+'/'+m[1]:''};
+const cLast=c=>c.fu.length?c.fu[c.fu.length-1]:null;
+const cWt=c=>cLast(c)&&cLast(c).w>0?cLast(c).w:c.w0;
+const cGoal=c=>c.wt<c.w0?['إنقاص وزن','']:c.wt>c.w0?['زيادة وزن','g']:['ثبات','k'];
+const sg=(v,u,d)=>'<span dir="ltr">'+(v>0?'+':v<0?'−':'')+Math.abs(+(+v).toFixed(d==null?1:d))+'</span> '+u;
+function cPlan(c,w,used){
+ w=+w||c.w0;used=used==null?c.fu.length:used;
+ const t=targets({sex:c.sex,a:c.a,w,h:c.h,pal:c.pal,goal:'keep'}),rem=+(c.wt-w).toFixed(2),ml=Math.max(1,c.months-used),pm=rem/ml,pw=pm/4.345,adj=pm*7700/30;
+ let k=t.tdee+adj,note='';
+ if(k<1200){k=1200;note='وُضع الحد الأدنى 1200 سعرة؛ المعدل المطلوب أسرع من الآمن، يُنصح بتمديد المدة.'}
+ else if(Math.abs(pw)>1)note='المعدل الأسبوعي أعلى من 1 كجم؛ يُنصح بتمديد المدة لتغيير آمن ومستدام.';
+ const pr=w*(rem<0?2:rem>0?1.8:1.6),fa=k*.25/9,ca=Math.max(0,(k-pr*4-fa*9)/4);
+ return{tdee:R(t.tdee),rem,ml,pm,pw,adj:R(adj),k:R(k),p:R(pr),c:R(ca),f:R(fa),note}}
+const cPct=(c,w)=>{const t=c.wt-c.w0;return t?Math.max(0,Math.min(100,(w-c.w0)/t*100)):100};
+function cloudCase(c){const x=who();if(!x||x.admin||!x.pass)return;
+ rpc('upsert_case',{p_code:x.pass,p_device:devId(),p_case:{local_id:c.id,name:c.name,sex:c.sex,age:c.a,height:c.h,pal:c.pal,w0:c.w0,wt:c.wt,months:c.months,wc0:c.wc0||'',start:c.start||'',plan:c.plan||null}}).then(r=>{if(r&&r.ok){c.s=1;save()}}).catch(()=>{})}
+function cloudFu(c,f){const x=who();if(!x||x.admin||!x.pass)return;
+ rpc('upsert_followup',{p_code:x.pass,p_device:devId(),p_local_id:c.id,p_no:f.no,p_at:f.at,p_weight:f.w||null,p_waist:f.wc||null,p_note:f.note||'',p_kcal:f.k||null}).then(r=>{if(r&&r.ok){f.s=1;save()}}).catch(()=>{})}
+function casesRetry(){cases().forEach(c=>{if(!c.s)cloudCase(c);c.fu.filter(f=>!f.s).forEach(f=>cloudFu(c,f))})}
+function casesPull(){const x=who();if(!x||x.admin||!x.pass)return;
+ rpc('get_my_cases',{p_code:x.pass,p_device:devId()}).then(r=>{if(!r||!r.ok)return;let ch=false;
+  (r.cases||[]).forEach(o=>{let c=cget(o.local_id);if(!c){c={id:o.local_id,name:o.name,sex:o.sex||'f',a:+o.age,h:+o.height,pal:+o.pal,w0:+o.w0,wc0:o.wc0?+o.wc0:0,wt:+o.wt,months:+o.months,start:o.start||cToday(),plan:o.plan||null,fu:[],s:1};cases().push(c);ch=true}
+   (o.followups||[]).forEach(f=>{if(!c.fu.some(y=>y.no===f.no)){c.fu.push({no:f.no,at:f.at,w:f.w?+f.w:0,wc:f.wc?+f.wc:0,note:f.note||'',k:f.k||0,s:1});ch=true}});c.fu.sort((a,b)=>a.no-b.no)});
+  if(ch){save();if(page==='cases')rr()}}).catch(()=>{})}
+
+function pCases(){
+ if(cmode==='form')return cForm();
+ if(cmode==='det'&&cget(cid))return cDetail(cget(cid));
+ cmode='list';const L=cases();
+ return `<div class="kz-top"><h1>حالاتي</h1></div><button class="full" data-act="cnew" style="margin-bottom:12px">+ إضافة حالة جديدة</button>`+
+ (L.length?L.map(c=>{const w=cWt(c),g=cGoal(c),pc=cPct(c,w),lf=cLast(c);return `<button class="kz-it" data-act="copen" data-id="${c.id}"><div class="kz-h"><span class="kz-av">${esc((c.name||'؟').trim().charAt(0))}</span><div style="flex:1"><b>${esc(c.name)}</b><small>${c.sex==='m'?'ذكر':'أنثى'} • ${c.a} سنة • ${c.months} أشهر</small></div><span class="kz-chip ${g[1]}">${g[0]}</span></div>
+  <div class="kz-bl" style="margin-top:10px"><span dir="ltr">${c.w0} → ${w} → ${c.wt} كجم</span><span>${R(pc)}%</span></div><div class="kz-bar"><i style="width:${pc}%"></i></div>
+  <div class="kz-bl"><span>زيارات: ${c.fu.length} من ${c.months}</span><span>${lf?'آخر متابعة: '+cDate(lf.at):'لا متابعات بعد'}</span></div></button>`}).join(''):
+ `<div class="card" style="text-align:center"><h2>لا توجد حالات بعد</h2><p style="color:var(--mu);margin:0 0 12px;line-height:1.8">أضيفي حالة لتحسبي مسار الخطة (الهدف والمدة) وتتابعي الوزن ومحيط الخصر شهرياً.</p></div>`)
+}
+function cForm(){const c=cget(cid)||{},ed=!!cget(cid),u=S.profile;
+ const v=(k,d)=>c[k]!=null&&c[k]!==0?c[k]:(d==null?'':d);
+ return `<div class="kz-top"><h1>${ed?'تعديل الحالة':'حالة جديدة'}</h1></div><div class="card" id="cf-box">
+ ${!ed&&u&&u.sex?`<button class="s full" data-act="cfrom" style="margin-bottom:10px">تعبئة من بياناتي الحالية</button>`:''}
+ <label class="f">اسم الحالة / رمز المراجع<input id="cf-n" maxlength="40" placeholder="مثال: حالة 1 - سارة" value="${esc(v('name'))}"></label>
+ <div class="g2"><label class="f">الجنس<select id="cf-s"><option value="f"${c.sex!=='m'?' selected':''}>أنثى</option><option value="m"${c.sex==='m'?' selected':''}>ذكر</option></select></label>
+ <label class="f">العمر (سنة)<input id="cf-a" type="number" inputmode="numeric" value="${v('a')}"></label>
+ <label class="f">الطول (سم)<input id="cf-h" type="number" inputmode="decimal" value="${v('h')}"></label>
+ <label class="f">مستوى النشاط<select id="cf-p">${PALS.map(([n,p])=>`<option value="${p}"${(+c.pal||1.375)===p?' selected':''}>${n} (${p})</option>`).join('')}</select></label>
+ <label class="f">الوزن الحالي (كجم)<input id="cf-w" type="number" inputmode="decimal" ${ed?'disabled ':''}value="${v('w0')}"></label>
+ <label class="f">محيط الخصر (سم) — اختياري<input id="cf-c" type="number" inputmode="decimal" ${ed?'disabled ':''}value="${v('wc0')}"></label>
+ <label class="f">الوزن المستهدف (كجم)<input id="cf-t" type="number" inputmode="decimal" value="${v('wt')}"></label>
+ <label class="f">مدة الخطة (أشهر)<input id="cf-m" type="number" inputmode="numeric" min="1" max="36" value="${v('months',3)}"></label></div>
+ <div class="kz-mo">${[3,4,5,6].map(n=>`<button type="button" class="chp" data-act="cmo" data-v="${n}">${n} أشهر</button>`).join('')}</div>
+ <div class="kz-pv" id="cf-pv"></div><div class="err" id="cf-e"></div>
+ <div class="acts"><button data-act="csave">${ed?'حفظ التعديلات':'حفظ الحالة'}</button><button class="s" data-act="cback">إلغاء</button></div></div>`}
+function cfRead(){const n=i=>{const e=$('#'+i);return e&&e.value!==''?+e.value:NaN},c=cget(cid);
+ return{name:($('#cf-n').value||'').trim(),sex:$('#cf-s').value,a:n('cf-a'),h:n('cf-h'),pal:n('cf-p'),w0:c?c.w0:n('cf-w'),wc0:c?c.wc0:(isNaN(n('cf-c'))?0:n('cf-c')),wt:n('cf-t'),months:n('cf-m'),fu:c?c.fu:[]}}
+function cfCheck(o){if(!o.name)return 'اكتبي اسم الحالة أو رمز المراجع.';if(!(o.a>=18&&o.a<=100))return 'العمر من 18 إلى 100 سنة (الخطة مخصصة للبالغين).';if(!(o.h>=100&&o.h<=230))return 'أدخلي الطول بالسنتيمتر (100–230).';if(!(o.w0>=30&&o.w0<=300))return 'أدخلي الوزن الحالي بالكيلوغرام.';if(o.wc0&&!(o.wc0>=40&&o.wc0<=250))return 'محيط الخصر بين 40 و250 سم (أو اتركيه فارغاً).';if(!(o.wt>=30&&o.wt<=300))return 'أدخلي الوزن المستهدف بالكيلوغرام.';if(!(o.months>=1&&o.months<=36&&Number.isInteger(o.months)))return 'مدة الخطة من 1 إلى 36 شهراً.';return ''}
+function cfPrev(){const e=$('#cf-pv');if(!e)return;const o=cfRead();if(cfCheck(o)){e.innerHTML='';return}const p=cPlan(o,o.w0,0),g=o.wt-o.w0;
+ e.innerHTML=`<b>مسار الخطة:</b> ${g===0?'ثبات الوزن':(g<0?'نزول ':'زيادة ')+Math.abs(+g.toFixed(1))+' كجم خلال '+o.months+' أشهر'}<br>المعدل: <b>${Math.abs(+p.pm.toFixed(2))} كجم شهرياً</b> (${Math.abs(+p.pw.toFixed(2))} كجم أسبوعياً)<br>السعرات اليومية المقترحة: <b>${p.k} سعرة</b> • بروتين ${p.p} • كارب ${p.c} • دهون ${p.f} غم${p.note?'<br><span style="color:#9B3A2A">'+esc(p.note)+'</span>':''}`}
+document.addEventListener('input',e=>{if(e.target.closest&&e.target.closest('#cf-box'))cfPrev()});
+document.addEventListener('change',e=>{if(e.target.closest&&e.target.closest('#cf-box'))cfPrev()});
+
+function cDetail(c){const w=cWt(c),g=cGoal(c),pc=cPct(c,w),L=c.fu,last=cLast(c),pl=cPlan(c,w),tp=Math.min(100,L.length/c.months*100),ch=+(w-c.w0).toFixed(1),lastWc=[...L].reverse().find(f=>f.wc>0),wcc=lastWc&&c.wc0?+(lastWc.wc-c.wc0).toFixed(1):null;
+ const rows=Math.max(c.months,L.length),tl=[];
+ for(let i=0;i<rows;i++){const f=L[i];
+  if(f){const pv=i?L[i-1]:null,pw=pv&&pv.w?pv.w:c.w0,pwc=pv&&pv.wc?pv.wc:c.wc0;
+   tl.push(`<div class="kz-fu"><div class="kz-fh"><b>${i<c.months?'الشهر '+(i+1):'زيارة إضافية '+(i+1)}</b><span>${cDate(f.at)}</span></div>
+   ${f.w?`<div class="kz-r"><span>الوزن</span><b><span dir="ltr">${f.w}</span> كجم <i class="${f.w<pw?'dn':f.w>pw?'up':''}">(${sg(f.w-pw,'عن السابق')}${i?' • '+sg(f.w-c.w0,'عن البداية'):''})</i></b></div>`:''}
+   ${f.wc?`<div class="kz-r"><span>محيط الخصر</span><b><span dir="ltr">${f.wc}</span> سم ${pwc?`<i class="${f.wc<pwc?'dn':f.wc>pwc?'up':''}">(${sg(f.wc-pwc,'سم')})</i>`:''}</b></div>`:''}
+   ${f.k?`<div class="kz-r"><span>السعرات المحدّثة</span><b>${f.k} سعرة</b></div>`:''}${f.note?`<div class="kz-note">${esc(f.note)}</div>`:''}</div>`)}
+  else tl.push(`<div class="kz-fu ${i===L.length?'nx':'em'}"><div class="kz-fh"><b>الشهر ${i+1}</b><span>${i===L.length?'الزيارة القادمة':'لم يُسجَّل بعد'}</span></div></div>`)}
+ const nxt=L.length+1;
+ return `<div class="kz-top"><button class="s" data-act="cback">← الحالات</button></div>
+ <div class="card"><div class="kz-h"><span class="kz-av">${esc((c.name||'؟').trim().charAt(0))}</span><div style="flex:1"><b style="font-size:18px">${esc(c.name)}</b><small>${c.sex==='m'?'ذكر':'أنثى'} • ${c.a} سنة • ${c.h} سم • ${(PALS.find(p=>p[1]===c.pal)||['','']) [0]}</small></div><span class="kz-chip ${g[1]}">${g[0]}</span></div>
+ <div class="kz-nums"><div><b dir="ltr">${c.w0}</b><span>البداية (كجم)</span></div><div><b dir="ltr">${w}</b><span>الحالي</span></div><div><b dir="ltr">${c.wt}</b><span>الهدف</span></div></div>
+ <div class="kz-bl"><span>الإنجاز من الهدف</span><b>${R(pc)}%</b></div><div class="kz-bar"><i style="width:${pc}%"></i></div>
+ <div class="kz-bl" style="margin-top:8px"><span>الزيارات المنجزة</span><b>${L.length} من ${c.months} أشهر</b></div><div class="kz-bar t"><i style="width:${tp}%"></i></div>
+ <div class="kz-pl"><div><b class="${ch<0?'dn':ch>0?'up':''}">${sg(ch,'كجم')}</b><span>التغيّر منذ البداية</span></div><div><b class="${wcc<0?'dn':wcc>0?'up':''}">${wcc===null?'—':sg(wcc,'سم')}</b><span>محيط الخصر منذ البداية</span></div></div>
+ <div class="kz-acts"><button class="s" data-act="cedit" data-id="${c.id}">تعديل بيانات الحالة</button><button class="r" data-act="cdel" data-id="${c.id}">حذف الحالة</button></div></div>
+ <div class="card"><h2>مسار الخطة والسعرات</h2><div class="kz-ph">محسوبة لوزنك الحالي (${w} كجم) وللأشهر المتبقية (${pl.ml}).</div>
+ <div class="kz-pl"><div><b>${Math.abs(+pl.pm.toFixed(2))}</b><span>كجم شهرياً المطلوب ${pl.rem<0?'نزولاً':pl.rem>0?'زيادة':''}</span></div><div><b>${Math.abs(+pl.pw.toFixed(2))}</b><span>كجم أسبوعياً</span></div><div><b>${pl.k}</b><span>سعرة يومياً مقترحة</span></div><div><b>${pl.tdee}</b><span>إجمالي الحرق اليومي</span></div></div>
+ <div class="kz-ph" style="text-align:center">بروتين ${pl.p} • كارب ${pl.c} • دهون ${pl.f} غم</div>${pl.note?`<div class="warn">${esc(pl.note)}</div>`:''}
+ <div class="kz-acts"><button data-act="capply" data-id="${c.id}">تحديث خطة الحصص للوزن الجديد</button><button class="s" data-act="csavep" data-id="${c.id}">حفظ الخطة الحالية لهذه الحالة</button>${c.plan?`<button class="s" data-act="copenp" data-id="${c.id}">فتح الخطة المحفوظة</button>`:''}</div>
+ <div class="kz-ph" style="margin-top:8px">«تحديث خطة الحصص» يستبدل ملفك الشخصي وجدول حصصك الحالي بما يناسب بيانات هذه الحالة (وتُحفظ الخطة في ملفها).</div>${c.plan?`<div class="kz-ph" style="margin-top:4px">الخطة المحفوظة: ${cDate(c.plan.at)} • ${c.plan.k} سعرة</div>`:''}</div>
+ <div class="card"><h2>سجل المتابعة</h2>${tl.join('')}</div>
+ <div class="card" id="cf-fu"><h2>تسجيل ${nxt<=c.months?'متابعة الشهر '+nxt:'زيارة إضافية'}</h2><div class="g2">
+ <label class="f">تاريخ المتابعة<input id="fu-d" type="date" lang="en" dir="ltr" value="${cToday()}"></label>
+ <label class="f">الوزن الجديد (كجم)<input id="fu-w" type="number" inputmode="decimal" placeholder="${w}"></label>
+ <label class="f">محيط الخصر (سم) — اختياري<input id="fu-c" type="number" inputmode="decimal"></label></div>
+ <label class="f">ملاحظات (الالتزام بالحصص، التعديلات المقترحة)<textarea id="fu-n" rows="3" maxlength="500" style="width:100%"></textarea></label>
+ <div class="err" id="fu-e"></div><div class="acts"><button data-act="cfu" data-id="${c.id}">حفظ المتابعة</button></div>
+ ${L.length?`<button class="r full" style="margin-top:8px" data-act="cfudel" data-id="${c.id}">حذف آخر متابعة</button>`:''}</div>`}
 function pSum(){
  if(!S.profile)return `<h1>الملخص</h1>`+needP();
  const t=targets(S.profile),{T,per}=totals();let ns=0;const ks=Object.keys(GR);
@@ -1183,7 +1479,7 @@ function pSum(){
   if(op)r+=`<tr class="sx"><td colspan="6">${n?'<div class="schips">'+x.items.map(i=>'<span class="schip">'+esc(i)+'</span>').join('')+'</div>':'<div class="nochip">لم تختاري أصنافاً لهذه المجموعة بعد.</div>'}${un>0?'<div class="unas">غير مخصص: '+(+un.toFixed(2))+' حصة</div>':''}</td></tr>`;
   return r}).join('');
  const dv=(r,u,unit)=>{const d=r-u;return `<td class="${d<-.5?'bad':'ok'}">${d<-.5?'زيادة<br>'+R(-d):'متبقي<br>'+R(d)}</td>`};
- return `<h1>الملخص</h1><div class="card"><div class="hd2"><h2 style="margin:0">جدول الحصص اليومي</h2><button class="s xs" data-act="sxa">${allOpen?'إخفاء الأصناف':'عرض كل الأصناف'}</button></div><div class="hint">اضغطي على اسم المجموعة لعرض أصنافها.</div><div class="tw"><table class="tbl sum"><tr><th>المجموعة</th><th>الحصص</th><th>كارب<br>جم</th><th>بروتين<br>جم</th><th>دهون<br>جم</th><th>سعرات</th></tr>${rows}
+ return `<h1>الملخص</h1><div class="card"><div class="hd2"><h2 style="margin:0">جدول الحصص اليومي</h2><button class="s xs" data-act="sxa">${allOpen?'إخفاء الأصناف':'عرض كل الأصناف'}</button></div><div class="hint">اضغطي على اسم المجموعة لعرض أصنافها.</div><div class="tw"><table class="tbl sum"><tr><th>المجموعة</th><th>الحصص</th><th>كارب<br>غم</th><th>بروتين<br>غم</th><th>دهون<br>غم</th><th>سعرات</th></tr>${rows}
  <tr class="tt"><td>المجموع المحسوب</td><td>${+ns.toFixed(2)}</td><td>${R(T.c)}</td><td>${R(T.p)}</td><td>${R(T.f)}</td><td>${R(T.k)}</td></tr>
  <tr class="tg"><td>المستهدف</td><td>—</td><td>${t.c}</td><td>${t.p}</td><td>${t.f}</td><td>${t.k}</td></tr>
  <tr class="df"><td>الفرق</td><td>—</td>${dv(t.c,T.c)}${dv(t.p,T.p)}${dv(t.f,T.f)}${dv(t.k,T.k)}</tr></table></div><div class="sumnote">المجموع محسوب من القيم الدقيقة قبل التقريب، لذلك قد يختلف مجموع الأرقام المعروضة بسعرة واحدة.</div>${Object.values(per).some(x=>x.over>0)?'<div class="warn">بعض المجموعات تتجاوز حصصها المحددة (بالأحمر)؛ الزيادة محسوبة في المجاميع.</div>':''}</div>`;
@@ -1195,7 +1491,8 @@ function pMe(){
   <label class="f">الجنس<select id="p-sex"><option value="m"${v.sex==='m'?' selected':''}>ذكر</option><option value="f"${v.sex==='f'?' selected':''}>أنثى</option></select></label>
   <label class="f">العمر (سنة)<input id="p-a" type="number" inputmode="numeric" value="${v.a}"></label>
   <label class="f">الوزن (كجم)<input id="p-w" type="number" inputmode="decimal" value="${v.w}"></label>
-  <label class="f">الطول (سم)<input id="p-h" type="number" inputmode="decimal" value="${v.h}"></label></div>
+  <label class="f">الطول (سم)<input id="p-h" type="number" inputmode="decimal" value="${v.h}"></label>
+  <label class="f">محيط الخصر (سم) — اختياري<input id="p-wc" type="number" inputmode="decimal" step="0.5" value="${v.wc||''}" placeholder="اختياري"></label></div>
   <div class="qres"><small>ملاحظة: لمن هم أقل من 18 سنة لا يُطبَّق استبيان النشاط ولا BMI، وتُدخل السعرات يدوياً من صفحة حسابي.</small></div>${qzHTML()}
   <div class="lbl">الهدف<div class="gch">${Object.entries(GOAL).map(([k,n])=>`<button type="button" class="chp${fg===k?' on':''}" data-act="goal" data-v="${k}">${n}</button>`).join('')}</div></div><div id="adjbox">${adjHTML(fg,fadj>0?fadj:adjDef(fg),'form')}</div><div class="qres" id="adjprev"></div>
   <div class="err" id="p-e"></div><div class="acts"><button data-act="savep">حفظ البيانات</button>${p?'<button class="s" data-act="cancel">إلغاء</button>':''}</div></div><button class="r full" data-act="logout">تسجيل الخروج</button>`}
@@ -1206,10 +1503,11 @@ function pMe(){
  ${t.child||p.goal==='keep'?'':`<div class="card"><h2>${p.goal==='loss'?'مقدار العجز اليومي':'مقدار الفائض اليومي'}</h2>${adjHTML(p.goal,adjVal(p),'live')}<div class="qres"><small id="adjlive">${adjLive(p)}</small></div></div>`}
  ${t.child?childCard(p,t):`<div class="card"><h2>نتيجة استبيان النشاط البدني</h2><div class="qres"><b>مستوى النشاط: ${lvl(t.pal)[0]}</b> · معامل ${t.pal.toFixed(3).replace(/0+$/,'').replace(/\.$/,'')}<small>${lvl(t.pal)[1]}</small></div><button class="s full" data-act="redo">إعادة الاستبيان</button></div>
  <div class="card"><h2>احتياجك اليومي (Harris-Benedict)</h2><div class="qres"><small>المرجع: معادلة Harris-Benedict المعتمدة في المنهج الجامعي، مع معاملات النشاط القياسية (1.2 / 1.375 / 1.55 / 1.725 / 1.9).</small></div>
- ${[['معدل الحرق الأساسي (BMR)',t.bmr+' سعرة'],['معامل النشاط',t.pal.toFixed(3).replace(/0+$/,'').replace(/\.$/,'')],['إجمالي الحرق اليومي (TDEE)',t.tdee+' سعرة'],['السعرات المستهدفة',t.k+' سعرة'],['البروتين',t.p+' جم'],['الكارب',t.c+' جم'],['الدهون',t.f+' جم']].map(([k,v])=>`<div class="kv"><span>${k}</span><b>${v}</b></div>`).join('')}</div>${bmiCard(p)}`}
+ ${[['معدل الحرق الأساسي (BMR)',t.bmr+' سعرة'],['معامل النشاط',t.pal.toFixed(3).replace(/0+$/,'').replace(/\.$/,'')],['إجمالي الحرق اليومي (TDEE)',t.tdee+' سعرة'],['السعرات المستهدفة',t.k+' سعرة'],['البروتين',t.p+' غم'],['الكارب',t.c+' غم'],['الدهون',t.f+' غم']].map(([k,v])=>`<div class="kv"><span>${k}</span><b>${v}</b></div>`).join('')}</div>${bmiCard(p)}`}
  ${mCard(t)}
  ${isAdm()?'':(()=>{const x=who();return x&&x.exp?`<div class="card"><h2>اشتراكك</h2><div class="kv"><span>ينتهي في</span><b>${fdate(x.exp)}</b></div><div class="kv"><span>المتبقي</span><b>${Math.max(0,Math.ceil((x.exp-Date.now())/864e5))} يوم</b></div></div>`:''})()}
  ${isAdm()?'':`<div class="card"><h2>تحديث قائمة الأصناف</h2><div class="qres"><small>إن ظهر لديكِ صنف قديم أو كسر غير صحيح، اضغطي لإعادة تحميل قائمة الأصناف والمجموعات المضمّنة في هذه النسخة. وجباتك وبياناتك وأصنافك الخاصة لا تتأثر.</small></div><button class="s full" data-act="rstcat">إعادة تحميل قائمة الأصناف</button><div class="mh" id="rst-m"></div></div>`}
+<button class="full" data-act="newcase">＋ حالة جديدة (تصفير الجدول والبيانات)</button><div class="mh" style="font-size:12px;color:var(--mu);margin:6px 0 12px;text-align:center">يُصفَّر الجدول والبيانات لتبدأي بملف فارغ. لحفظ حالة ومتابعتها استخدمي تبويب «حالاتي».</div>
  <button class="r full" data-act="logout">تسجيل الخروج</button>`;
 }
 function staffBar(sp){const nm=(who()||{}).name||'';
@@ -1224,7 +1522,7 @@ function render(){
  const stf=!!(me.admin&&me.sub),sp=stf?staffPages():[];if(stf&&!sp.includes(page)){page=sp[0];open=null;editing=false}
  $('#nav').classList.toggle('hide',stf);
  $('#nav [data-p=adm]').classList.toggle('hide',!me.admin);
- const ap=$('#app');ap.className=anim?'enter':'';anim=false;ap.innerHTML=(stf?staffBar(sp):'')+{home:pHome,foods:pFoods,meals:pMeals,sum:pSum,me:pMe,adm:pAdm}[page]();
+ const ap=$('#app');ap.className=anim?'enter':'';anim=false;ap.innerHTML=(stf?staffBar(sp):'')+{home:pHome,foods:pFoods,meals:pMeals,sum:pSum,me:pMe,cases:pCases,adm:pAdm}[page]();
  document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('on',b.dataset.p===page));
  if(page==='foods')fList();
  if(page==='adm'){const go=()=>adDraw();go();try{document.fonts&&document.fonts.ready.then(go)}catch(e){}}
@@ -1248,8 +1546,8 @@ document.addEventListener('click',e=>{
  const b=e.target.closest('[data-act]');if(!b)return;const a=b.dataset.act;
  if(subAct(b))return;
  if(a==='cso'){const p=$('#csp-'+b.dataset.g);if(!p)return;const sh=p.classList.contains('hide');document.querySelectorAll('.cs-p').forEach(x=>x.classList.add('hide'));if(sh){p.classList.remove('hide');const qi=p.querySelector('.cs-q');qi.value='';p.querySelectorAll('.cs-i').forEach(x=>x.classList.remove('hide'));p.querySelector('.cs-e').classList.add('hide');const on=p.querySelector('.cs-i.on');if(on)on.scrollIntoView({block:'nearest'});setTimeout(()=>{try{p.scrollIntoView({block:'nearest',behavior:'smooth'})}catch(x){}},30)}return}
- if(a==='csp'){const g=b.dataset.g,id=b.dataset.id;pk[g]=id;const sl=$('#sel-'+g);if(sl)sl.value=id;const f=byId(id),bt=$('#csb-'+g);if(bt&&f)bt.innerHTML=csLab(f)+bt.querySelector('svg').outerHTML;const p=$('#csp-'+g);p.querySelectorAll('.cs-i').forEach(x=>x.classList.toggle('on',x===b));p.classList.add('hide');{const mp=$('#mac-'+g);if(mp&&!mp.classList.contains('hide'))macFill(g)}return}
- if(a==='nav'){page=b.dataset.p;open=null;anim=true;if(page==='me')editing=!S.profile;qz=null;render();scrollTo(0,0)}
+ if(a==='csp'){const g=b.dataset.g,id=b.dataset.id;pk[g]=id;const sl=$('#sel-'+g);if(sl)sl.value=id;const f=csGet(id),bt=$('#csb-'+g);if(bt&&f)bt.innerHTML=csLab(f)+bt.querySelector('svg').outerHTML;const p=$('#csp-'+g);p.querySelectorAll('.cs-i').forEach(x=>x.classList.toggle('on',x===b));p.classList.add('hide');{const mp=$('#mac-'+g);if(mp&&!mp.classList.contains('hide'))macFill(g)}return}
+ if(a==='nav'){page=b.dataset.p;open=null;anim=true;if(page==='me')editing=!S.profile;if(page==='cases'){cmode='list';cid=null}qz=null;render();scrollTo(0,0)}
  else if(a==='savem'){const g=x=>Math.max(0,Math.min(100,parseInt($('#m-'+x).value)||0));S.profile.pc={c:g('c'),p:g('p'),f:g('f')};save();rr()}
  else if(a==='resetm'){delete S.profile.pc;save();rr()}
  else if(a==='expo'){showCode=showCode==='all'?null:'all';if(showCode==='all'){A.pubver=Date.now();A.catver=A.pubver;A.adm=true;saveA()}rr()}
@@ -1258,12 +1556,43 @@ document.addEventListener('click',e=>{
  else if(a==='catc'){showCode=showCode==='cat'?null:'cat';if(showCode==='cat'){A.pubver=Date.now();A.catver=A.pubver;A.adm=true;saveA()}rr()}
  else if(a==='savekc'){S.profile.kc=Math.max(0,parseInt($('#kc').value)||0);save();rr()}
  else if(a==='addg'){const v=x=>Math.max(0,+$('#ng-'+x).value||0),n=$('#ng-n').value.trim();if(!n){$('#cfg-e').textContent='اكتبي اسم المجموعة.';return}const go={key:'g'+Date.now().toString(36),n,i:$('#ng-i').value.trim()||'🍽️',k:v('k'),c:v('c'),p:v('p'),f:v('f')};if($('#ng-rt').checked){const rg=rgReadG('ng');if(rg.e){$('#cfg-e').textContent=rg.e;return}go.rg=rg.r;if(!go.k&&rg.r.k)go.k=+((rg.r.k[0]+rg.r.k[1])/2).toFixed(1)}(A.cfg.groups=A.cfg.groups||[]).push(go);saveA();rebuildGR();rr()}
- else if(a==='addt'){const g=$('#nt-g').value,n=$('#nt-n').value.trim();if(!n){$('#cfg-e').textContent='اكتبي اسم النوع.';return}const r=gv(g,''),val=x=>{const q=$('#nt-'+x).value;return q===''?r[x]:Math.max(0,+q||0)};const to={g,key:'t'+Date.now().toString(36),n,k:val('k'),c:val('c'),p:val('p'),f:val('f')};if($('#nt-rt').checked){const rg=rgReadG('nt');if(rg.e){$('#cfg-e').textContent=rg.e;return}to.rg=rg.r;if(rg.r.k&&!$('#nt-k').value)to.k=+((rg.r.k[0]+rg.r.k[1])/2).toFixed(1)}(A.cfg.types=A.cfg.types||[]).push(to);saveA();rebuildGR();rr()}
+ else if(a==='addt'){const g=$('#nt-g').value,n=$('#nt-n').value.trim();if(!n){$('#cfg-e').textContent='اكتبي اسم النوع.';return}const r=gv(g,''),val=x=>{const q=$('#nt-'+x).value;return q===''?r[x]:Math.max(0,+q||0)};const ed=window.ntEdit&&window.ntEdit.g===g?window.ntEdit:null;const to={g,key:ed?ed.key:'t'+Date.now().toString(36),n,k:val('k'),c:val('c'),p:val('p'),f:val('f')};if($('#nt-rt').checked){const rg=rgReadG('nt');if(rg.e){$('#cfg-e').textContent=rg.e;return}to.rg=rg.r;if(rg.r.k&&!$('#nt-k').value)to.k=+((rg.r.k[0]+rg.r.k[1])/2).toFixed(1)}if(ed&&!to.rg&&ed.rg&&!$('#nt-rt').checked)to.rg=ed.rg;A.cfg.types=(A.cfg.types||[]).filter(x=>!(x.g===to.g&&x.key===to.key));A.cfg.types.push(to);window.ntEdit=null;saveA();rebuildGR();rr()}
  else if(a==='delg')arm(b,()=>{const g=b.dataset.g;A.cfg.groups=A.cfg.groups.filter(x=>x.key!==g);A.cfg.types=A.cfg.types.filter(x=>x.g!==g);saveA();rebuildGR();rr()});
- else if(a==='delt')arm(b,()=>{A.cfg.types=A.cfg.types.filter(x=>!(x.g===b.dataset.g&&x.key===b.dataset.t));saveA();rebuildGR();rr()});
+ else if(a==='edt'){const g=b.dataset.g,k=b.dataset.t,G=GR[g],t=G&&G.ty&&G.ty[k];if(t){window.ntEdit={g,key:k,rg:t[5]||null};$('#nt-g').value=g;$('#nt-n').value=t[0];$('#nt-k').value=t[1];$('#nt-c').value=t[2];$('#nt-p').value=t[3];$('#nt-f').value=t[4];const ab=document.querySelector('[data-act=addt]');if(ab)ab.textContent='💾 حفظ تعديل النوع';try{toast('عدّلي القيم ثم اضغطي «حفظ تعديل النوع»')}catch(e){}try{$('#nt-n').scrollIntoView({block:'center',behavior:'smooth'})}catch(e){}}}
+if(a==='delt')arm(b,()=>{const g=b.dataset.g,k=b.dataset.t,G=GR[g];if(b.dataset.m==='del'&&G&&G.ty&&Object.keys(G.ty).filter(x=>x!=='base').length<=1){try{toast('لا يمكن حذف آخر نوع في المجموعة')}catch(e){}return}A.cfg.types=(A.cfg.types||[]).filter(x=>!(x.g===g&&x.key===k));if(b.dataset.m==='del'&&g0b(g,k))A.cfg.types.push({g,key:k,del:true});saveA();rebuildGR();rr()});
  else if(a==='mp'){shift(b.dataset.g,b.dataset.i,-1,+b.dataset.m,1);save();rr()}
  else if(a==='mm'){shift(b.dataset.g,b.dataset.i,+b.dataset.m,-1,1);save();rr()}
  else if(a==='md'){shift(b.dataset.g,b.dataset.i,+b.dataset.m,-1,1e9);save();rr()}
+ else if(a==='wcadd'){const v=+($('#wc-in')||{}).value;if(!wcAdd(v,S.profile&&S.profile.w)){const e=$('#wc-e');if(e)e.textContent='أدخلي قيمة بين 40 و250 سم.';return}rr()}
+
+ else if(a==='ulog'){const id=b.dataset.id,u=A.users.find(x=>x.id===id);if(!u)return;const d=$('#sdlg');d.innerHTML='<h2>سجل '+esc(u.name||'المشتركة')+'</h2><div class="qres"><small>جارٍ التحميل…</small></div><div class="acts"><button class="s" data-act="sclose">إغلاق</button></div>';dOpen(d);
+  rpc('admin_list_cases',{p_admin:ADM_PASS,p_sub_id:id}).catch(()=>null).then(r=>{d.innerHTML=ulogHtml(u,r,r)})}
+ else if(a==='meas'){const id=b.dataset.id,u=A.users.find(x=>x.id===id);if(!u)return;const d=$('#sdlg');d.innerHTML='<h2>قياسات '+esc(u.name||'المشتركة')+'</h2><div class="qres"><small>جارٍ التحميل…</small></div><div class="acts"><button class="s" data-act="sclose">إغلاق</button></div>';dOpen(d);
+  rpc('admin_list_measurements',{p_admin:ADM_PASS,p_sub_id:id}).then(r=>{const body=!r||r.ok===false?'<div class="warn">تعذّر جلب القياسات. تأكدي من تشغيل ملف v61.sql في Supabase.</div>':measHtml(r);
+   d.innerHTML='<h2>قياسات '+esc(u.name||'المشتركة')+'</h2>'+body+'<div class="acts"><button class="s" data-act="ulog" data-id="'+esc(id)+'">رجوع للسجل</button><button class="s" data-act="sclose">إغلاق</button></div>'}).catch(()=>{d.innerHTML='<h2>قياسات</h2><div class="warn">تعذّر الاتصال بالسحابة.</div><div class="acts"><button class="s" data-act="sclose">إغلاق</button></div>'})}
+ else if(a==='newcase')arm(b,()=>{S.ex={items:{},q:{}};S.mv={};S.profile=null;editing=true;qz=null;fg=null;fadj=null;save();page='me';anim=true;render();scrollTo(0,0)})
+ else if(a==='cnew'){cmode='form';cid=null;rr();scrollTo(0,0)}
+ else if(a==='copen'){cmode='det';cid=b.dataset.id;rr();scrollTo(0,0)}
+ else if(a==='cback'){cmode=(cmode==='form'&&cid&&cget(cid))?'det':'list';if(cmode==='list')cid=null;rr();scrollTo(0,0)}
+ else if(a==='cedit'){cmode='form';cid=b.dataset.id;rr();scrollTo(0,0)}
+ else if(a==='cmo'){const e=$('#cf-m');if(e){e.value=b.dataset.v;cfPrev()}}
+ else if(a==='cfrom'){const u=S.profile;if(!u)return;const set=(i,v)=>{const e=$('#'+i);if(e&&v!=null)e.value=v};set('cf-s',u.sex);set('cf-a',u.a);set('cf-h',u.h);set('cf-w',u.w);if(u.wc)set('cf-c',u.wc);const pl=u.pal||[0,1.2,1.375,1.55,1.725][u.act]||1.375,po=PALS.reduce((a,p)=>Math.abs(p[1]-pl)<Math.abs(a[1]-pl)?p:a);set('cf-p',po[1]);cfPrev()}
+ else if(a==='csave'){const o=cfRead(),er=cfCheck(o);if(er){$('#cf-e').textContent=er;return}
+  let c=cget(cid);if(c){Object.assign(c,{name:o.name,sex:o.sex,a:o.a,h:o.h,pal:o.pal,wt:o.wt,months:o.months});c.s=0}
+  else{c=Object.assign({id:'k'+Date.now().toString(36)+Math.floor(Math.random()*1e3).toString(36),start:cToday(),plan:null,s:0},o);cases().push(c)}
+  save();cloudCase(c);cid=c.id;cmode='det';rr();scrollTo(0,0)}
+ else if(a==='cdel')arm(b,()=>{const x=who(),id=b.dataset.id;S.cases=cases().filter(c=>c.id!==id);save();if(x&&!x.admin&&x.pass)rpc('delete_case',{p_code:x.pass,p_device:devId(),p_local_id:id}).catch(()=>{});cmode='list';cid=null;rr();scrollTo(0,0)})
+ else if(a==='cfu'){const c=cget(b.dataset.id);if(!c)return;const w=+$('#fu-w').value,wcv=$('#fu-c').value===''?0:+$('#fu-c').value,d=$('#fu-d').value||cToday(),e=$('#fu-e');
+  if(!(w>=30&&w<=300)){e.textContent='أدخلي الوزن الجديد بالكيلوغرام.';return}if(wcv&&!(wcv>=40&&wcv<=250)){e.textContent='محيط الخصر بين 40 و250 سم (أو اتركيه فارغاً).';return}
+  const f={no:c.fu.length+1,at:d,w,wc:wcv,note:($('#fu-n').value||'').trim(),s:0};c.fu.push(f);f.k=cPlan(c,w).k;save();cloudFu(c,f);rr()}
+ else if(a==='cfudel')arm(b,()=>{const c=cget(b.dataset.id);if(!c||!c.fu.length)return;const f=c.fu.pop(),x=who();save();if(x&&!x.admin&&x.pass)rpc('delete_followup',{p_code:x.pass,p_device:devId(),p_local_id:c.id,p_no:f.no}).catch(()=>{});rr()})
+ else if(a==='csavep'){const c=cget(b.dataset.id),{T}=totals();if(!c)return;if(!(T.k>0)){try{toast('لا يوجد جدول حالي لحفظه. حددي حصصك من الرئيسية أولاً.')}catch(e){}return}
+  c.plan={at:cToday(),k:R(T.k),ex:hCopy(S.ex),mv:hCopy(S.mv)};c.s=0;save();cloudCase(c);try{toast('تم حفظ الخطة لهذه الحالة')}catch(e){}rr()}
+ else if(a==='copenp')arm(b,()=>{const c=cget(b.dataset.id);if(!c||!c.plan)return;S.ex=hCopy(c.plan.ex);if(!S.ex.items)S.ex.items={};if(!S.ex.q)S.ex.q={};S.mv=hCopy(c.plan.mv);save();page='home';anim=true;render();scrollTo(0,0)})
+ else if(a==='capply')arm(b,()=>{const c=cget(b.dataset.id);if(!c)return;const w=cWt(c),pl=cPlan(c,w),g=c.wt<w?'loss':c.wt>w?'gain':'keep',ad=Math.max(200,Math.min(750,Math.abs(pl.adj)));
+  const pr={sex:c.sex,a:c.a,w,h:c.h,pal:c.pal,goal:g};if(g!=='keep')pr.adj=ad;const old=S.profile;if(old&&old.qz)pr.qz=old.qz;S.profile=pr;editing=false;
+  const t=targets(pr);S.ex={items:{},q:{}};S.mv={};autoApply(t);
+  c.plan={at:cToday(),k:t.k,ex:hCopy(S.ex),mv:hCopy(S.mv)};c.s=0;save();cloudCase(c);page='home';anim=true;render();scrollTo(0,0);try{toast('طُبّقت الخطة على الرئيسية: '+t.k+' سعرة')}catch(e){}})
  else if(a==='mauto'){S.mv={};save();rr()}
  else if(a==='tog'){op[b.dataset.g]=!op[b.dataset.g];lastTog=op[b.dataset.g]?b.dataset.g:null;rr()}
  else if(a==='gty'){qg(b.dataset.g).t=b.dataset.t;save();rr()}
@@ -1274,7 +1603,7 @@ document.addEventListener('click',e=>{
  else if(a==='autoh'){ex().sug=false;save();rr()}
  else if(a==='mact'){const g=b.dataset.g,p=$('#mac-'+g);if(!p)return;p.classList.toggle('hide');if(!p.classList.contains('hide'))macFill(g)}
  else if(a==='mdel'){S.mine=(S.mine||[]).filter(x=>x.id!==b.dataset.id);delete ex().items[b.dataset.id];save();fList()}
- else if(a==='iadd'){const g=b.dataset.g,s=$('#sel-'+g);if(s&&s.value){const n=+$('#sn-'+g).value||1,r=macAdd(g,s.value,n);if(r===null)return;if(r===false)addItem(s.value,n);save();rr()}}
+ else if(a==='iadd'){const g=b.dataset.g,s=$('#sel-'+g);if(s&&s.value){const n=+$('#sn-'+g).value||1,r=macAdd(g,s.value,n);if(r===null)return;if(r===false){if(String(s.value).indexOf('gen|')===0){const q0=qg(g);q0.n=+(q0.n+n).toFixed(2);save()}else addItem(s.value,n)}save();rr()}}
  else if(a==='fadd'){addItem(b.dataset.id,1);fList()}
  else if(a==='filt'){ff=b.dataset.k;render()}
  else if(a==='reset')arm(b,()=>{S.ex={items:{},q:{}};S.mv={};save();page='home';anim=true;render();scrollTo(0,0)});
@@ -1287,7 +1616,7 @@ document.addEventListener('click',e=>{
   const n={sex:$('#p-sex').value,a:+$('#p-a').value,w:+$('#p-w').value,h:+$('#p-h').value,goal:fg||'keep'};if(n.goal!=='keep'){const av=fadj>0?fadj:adjDef(n.goal);if(!(av>=200&&av<=750)){$('#p-e').textContent='مقدار العجز أو الفائض يجب أن يكون بين 200 و750 سعرة.';return}n.adj=av}
   if(!(n.a>=2&&n.a<=100&&n.w>=8&&n.h>=70)){$('#p-e').textContent='أدخل العمر والوزن والطول بقيم صحيحة.';return}
   if(n.a>=18&&!qDone(qz)){$('#p-e').textContent='أجب عن كل أسئلة استبيان النشاط (واختر نوع التمارين إن كنت تتمرن).';return}
-  if(qDone(qz)){n.qz=Object.assign({},qz);n.pal=palOf(qz)}if(S.profile&&S.profile.pc)n.pc=S.profile.pc;if(S.profile&&S.profile.kc)n.kc=S.profile.kc;const first=!S.profile;S.profile=n;editing=false;qz=null;fg=null;fadj=null;save();if(first)page='home';render();scrollTo(0,0)}
+  if(qDone(qz)){n.qz=Object.assign({},qz);n.pal=palOf(qz)}{const wv=$('#p-wc').value.trim();if(wv!==''){const w2=+wv;if(!(w2>=40&&w2<=250)){$('#p-e').textContent='محيط الخصر يجب أن يكون بين 40 و250 سم (أو اتركيه فارغاً).';return}n.wc=w2}else if(S.profile&&S.profile.wc)n.wc=S.profile.wc}if(S.profile&&S.profile.pc)n.pc=S.profile.pc;if(S.profile&&S.profile.kc)n.kc=S.profile.kc;const first=!S.profile;S.profile=n;if(n.wc&&n.a>=18)wcAdd(n.wc,n.w);editing=false;qz=null;fg=null;fadj=null;save();if(first)page='home';render();scrollTo(0,0)}
  else if(a==='qz'){const k=b.dataset.k,v=+b.dataset.v;qz[k]=v;if(k==='gy'&&v===0)delete qz.ty;setTimeout(adjPrev,0);b.parentElement.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));if(k==='gy')$('#gt').classList.toggle('hide',v===0);qzRes()}
  else if(a==='goal'){fg=b.dataset.v;if(fg==='keep')fadj=null;else if(!(fadj>0))fadj=adjDef(fg);b.parentElement.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));$('#adjbox').innerHTML=adjHTML(fg,fadj>0?fadj:adjDef(fg),'form');adjPrev()}
  else if(a==='adjq'){adjApply(b.dataset.m,+b.dataset.v)}
@@ -1304,19 +1633,19 @@ document.addEventListener('click',e=>{
  else if(a==='admtab'){admTab=b.dataset.t;rr()}
  else if(a==='refu'){admAct(()=>admRefresh())}
  else if(a==='unb'){admAct(()=>rpc('admin_unbind',{p_admin:ADM_PASS,p_id:b.dataset.id}))}
- else if(a==='renu'){const u=A.users.find(x=>x.id===b.dataset.id);if(u)admAct(()=>rpc('admin_renew',{p_admin:ADM_PASS,p_id:u.id,p_months:u.td?0:(u.months||2)}))}
+ else if(a==='renu'){const u=A.users.find(x=>x.id===b.dataset.id);if(u)admAct(()=>rpc('admin_renew',{p_admin:ADM_PASS,p_id:u.id,p_months:u.td?(u.td===2?0:-u.td):(u.months||2)}))}
  else if(a==='togu'){const u=A.users.find(x=>x.id===b.dataset.id);if(u)admAct(()=>rpc('admin_save_sub',{p_admin:ADM_PASS,p_id:u.id,p_name:null,p_phone:null,p_code:null,p_active:!u.active,p_months:null}))}
  else if(a==='newc'){const u=A.users.find(x=>x.id===b.dataset.id);if(u)admAct(()=>rpc('admin_save_sub',{p_admin:ADM_PASS,p_id:u.id,p_name:null,p_phone:null,p_code:gen(),p_active:null,p_months:null}))}
  else if(a==='delu')arm(b,()=>{const u=A.users.find(x=>x.id===b.dataset.id);if(u)admAct(()=>rpc('admin_delete_sub',{p_admin:ADM_PASS,p_id:u.id}))});
  else if(a==='logs'){admAct(async()=>{const r=await rpc('admin_list_logs',{p_admin:ADM_PASS,p_limit:100});if(r&&r.ok)admLogs=r.logs;return r})}
  else if(a==='saveu'){
-  const n={name:cl($('#u-n').value),phone:cl($('#u-ph').value),pass:cl($('#u-p').value).replace(/[^A-Za-z0-9]/g,'').toUpperCase(),active:$('#u-s').value==='1',months:Math.max(0,parseInt($('#u-m').value,10)||0)===0?0:parseInt($('#u-m').value,10)};
-  const er=!n.name?'اكتبي اسم الطالبة.':!n.phone?'اكتبي رقم الجوال.':n.pass&&n.pass.length<4?'الكود قصير جداً (4 أحرف على الأقل).':'';
+  const n={name:cl($('#u-n').value),phone:cl($('#u-ph').value),pass:cl($('#u-p').value).replace(/[^A-Za-z0-9]/g,'').toUpperCase(),active:$('#u-s').value==='1',months:(()=>{const v=parseInt($('#u-m').value,10);return isNaN(v)?0:v})()};
+  const er=!n.name?'اكتبي الاسم.':!n.phone?'اكتبي رقم الجوال.':n.pass&&n.pass.length<4?'الكود قصير جداً (4 أحرف على الأقل).':'';
   if(er){$('#u-e').textContent=er;return}
   const id=admEdit||null,w=(!id&&n.phone)?window.open('about:blank','_blank'):null;
   admAct(async()=>{const r=await rpc('admin_save_sub',{p_admin:ADM_PASS,p_id:id,p_name:n.name,p_phone:n.phone,p_code:n.pass||null,p_active:n.active,p_months:n.months});
    if(r&&!r.ok&&r.err==='code_taken'){const e=$('#u-e');if(e)e.textContent='هذا الكود مستخدم لاشتراك آخر.';return{ok:false,err:'code_taken',silent:true}}
-   if(r&&r.ok){admEdit=null;if(w&&r.sub&&r.sub.code){const url=waLink(codeMsg(r.sub.code,n.name,n.months===0,n.months),n.phone);try{await rpc('admin_mark_delivered',{p_admin:ADM_PASS,p_id:r.sub.id,p_flag:true})}catch(e){}try{w.location.href=url}catch(e){window.open(url,'_blank')}toast('تمت الإضافة ✓ — جارٍ فتح واتساب بالرسالة الجاهزة')}else if(w){try{w.close()}catch(e){}}}
+   if(r&&r.ok){admEdit=null;if(w&&r.sub&&r.sub.code){const url=waLink(codeMsg(r.sub.code,n.name,n.months<=0?(n.months<0?-n.months:2):0,n.months),n.phone);try{await rpc('admin_mark_delivered',{p_admin:ADM_PASS,p_id:r.sub.id,p_flag:true})}catch(e){}try{w.location.href=url}catch(e){window.open(url,'_blank')}toast('تمت الإضافة ✓ — جارٍ فتح واتساب بالرسالة الجاهزة')}else if(w){try{w.close()}catch(e){}}}
    else if(w){try{w.close()}catch(e){}}
    return r})}
 });
@@ -1325,7 +1654,7 @@ function fillTy(){const G=GR[$('#a-g').value];$('#a-tl').classList.toggle('hide'
 function openAdd(id){eid=id||null;const f=id?byId(id):null;
  $('#a-g').innerHTML=Object.entries(GR).map(([k,G])=>`<option value="${k}">${G.n}</option>`).join('');
  $('#a-g').value=f?f.g:(ff!=='all'?ff:'starch');fillTy();if(f&&f.t)$('#a-ty').value=f.t;
- $('#a-n').value=f?f.name:'';$('#a-d').value=f?f.d:'';['c','p','f'].forEach(k=>{$('#a-m'+k).value=f&&f.mac?fm(f.mac[k]):''});amCalc();rgFill(f);$('#a-e').textContent='';$('#a-t2').textContent=f?'تعديل الصنف':'إضافة صنف جديد';dOpen($('#dlg'))}
+ $('#a-n').value=f?f.name:'';$('#a-d').value=f?gm(f.d):'';['c','p','f'].forEach(k=>{$('#a-m'+k).value=f&&f.mac?fm(f.mac[k]):''});amCalc();rgFill(f);cmpFill(f);$('#a-e').textContent='';$('#a-t2').textContent=f?'تعديل الصنف':'إضافة صنف جديد';try{pkSync()}catch(e){}dOpen($('#dlg'))}
 function rgFill(f){const r=f&&f.rng,on=!!(r&&r.k);$('#a-rt').checked=on;[['a-kn','k',0],['a-kx','k',1],['a-pn','p',0],['a-px','p',1],['a-fn','f',0],['a-fx','f',1]].forEach(a=>{$('#'+a[0]).value=on&&r[a[1]]?r[a[1]][a[2]]:''});$('#a-rd').value=on&&r.def==='min'?'min':'mid';rgShow()}
 function rgShow(){const on=$('#a-rt').checked;$('#a-rg').classList.toggle('hide',!on);$('#a-fx2').classList.toggle('hide',on)}
 $('#a-rt').addEventListener('change',rgShow);
@@ -1339,19 +1668,45 @@ function rgReadG(p){const n=i=>{const v=$('#'+p+'-'+i).value;return v===''?null:
 function amVals(){return ['a-mc','a-mp','a-mf'].map(i=>{const v=$('#'+i).value;return v===''?null:+v})}
 function amCalc(){const v=amVals(),e=$('#a-mk');if(v.every(x=>x===null)||v.some(x=>x!==null&&!(x>=0))){e.textContent='';return}const c=v[0]||0,p=v[1]||0,f=v[2]||0;e.innerHTML='<b>'+R(mk4(c,p,f))+' سعرة</b> للحصة الواحدة (كارب×4 + بروتين×4 + دهون×9)'}
 ['a-mc','a-mp','a-mf'].forEach(i=>$('#'+i).addEventListener('input',amCalc));
+
+/* v63: واجهة تركيب الحصص في نموذج الصنف */
+let cmpS={},cmpMode='cmp';
+const cmpMg={};
+function cmpRows(){const L=[];Object.keys(cmpMg).forEach(k=>delete cmpMg[k]);[['starch'],['veg'],['fruit'],['milk'],['meat'],['fat']].forEach(([g])=>{if(!GR[g])return;const G=GR[g];if(G.ty){const ks=Object.keys(G.ty).filter(k=>k!=='base');if(g==='meat')ks.unshift('vl');
+  /* أنواع بقيم متطابقة تُدمج في صف واحد باسم المجموعة؛ المختلفة (مثل الحليب واللحوم) تبقى منفصلة */
+  const cl={};ks.forEach(t=>{const v=cV(g,t),k=[v.k,v.c,v.p,v.f].map(x=>(+x).toFixed(1)).join('|');(cl[k]=cl[k]||[]).push(t)});
+  const seen={};ks.forEach(t=>{const v=cV(g,t),k=[v.k,v.c,v.p,v.f].map(x=>(+x).toFixed(1)).join('|'),c=cl[k];if(c.length>1){c.forEach(x=>cmpMg[g+'|'+x]=c[0]);if(seen[k])return;seen[k]=1;L.push([g,c[0],1])}else L.push([g,t])});
+  if(!ks.length)L.push([g,''])}else L.push([g,''])});L.push(['oth','']);return L}
+const cmpKey=(g,t)=>cmpMg[g+'|'+t]?g+'|'+cmpMg[g+'|'+t]:g+'|'+t;
+function cmpName(g,t,mg){if(g==='oth')return'كارب أخرى (سكريات/حلويات/غيرها)';if(g==='meat'&&t==='vl')return'اللحوم — قليلة جداً الدهون';return GR[g].n+(!mg&&t&&GR[g].ty&&GR[g].ty[t]?' — '+GR[g].ty[t][0]:'')}
+function cmpShort(g,t,mg){if(g==='oth')return'ك. أخرى';if(g==='meat')return cCode(g,t);if(g==='milk')return 'ح · '+(GR.milk.ty&&GR.milk.ty[t]?GR.milk.ty[t][0]:'');return cCode(g,t)+' '+GR[g].n}
+function cmpDraw(){const e=$('#a-crows');if(!e)return;const rows=cmpRows(),on=rows.filter(([g,t])=>(+cmpS[g+'|'+t]||0)>0);
+ const row=([g,t,mg])=>{const k=g+'|'+t,n=+cmpS[k]||0,v=cV(g,t);return `<div class="xcr on"><div class="xcn"><b>${esc(g==='milk'?'ح':cCode(g,t))}</b>${esc(cmpName(g,t,mg))}<small>${R(v.k)} سعرة • ${fm(v.c)} ك • ${fm(v.p)} ب • ${fm(v.f)} د (للحصة)</small></div><div class="xcq"><button type="button" data-d="-.5" data-k="${k}" aria-label="إنقاص نصف حصة">−</button><b class="xcv" dir="ltr">${nf(n)}</b><button type="button" data-d=".5" data-k="${k}" aria-label="زيادة نصف حصة">+</button></div></div>`};
+ e.innerHTML=(on.length?on.map(row).join(''):'<div class="mh" style="margin:4px 0 8px">لم تُضف مكوّنات بعد. اختاري من الأزرار أدناه.</div>')+'<div class="cadj" style="margin-top:6px"><div class="f">إضافة حصة من:</div><div class="xch">'+rows.map(([g,t,mg])=>`<button type="button" class="xchip${(+cmpS[g+'|'+t]||0)>0?' on':''}" data-k="${g}|${t}" data-d="1">+ ${esc(cmpShort(g,t,mg))}</button>`).join('')+'</div></div>';cmpPrev()}
+function cmpAdj(){const n=i=>{const v=$('#'+i).value;return v===''||isNaN(+v)?0:+v};return{c:n('a-xc'),p:n('a-xp'),f:n('a-xf')}}
+function cmpX(){return cmpRows().map(([g,t])=>[g,t,+cmpS[g+'|'+t]||0]).filter(a=>a[2]>0)}
+function cmpPrev(){const e=$('#a-cpv');if(!e)return;const x=cmpX(),a=cmpAdj();if(!x.length&&!a.c&&!a.p&&!a.f){e.textContent='';return}const f={mac:{x,adj:a}},v=cIv(f);e.innerHTML='<b>'+R(v.k)+' سعرة</b> للحصة الواحدة • كارب <b>'+fm(v.c)+'</b> • بروتين <b>'+fm(v.p)+'</b> • دهون <b>'+fm(v.f)+'</b> غم<br>التركيب: '+esc(cLabel(f))}
+function cmpMd(m){cmpMode=m;document.querySelectorAll('#a-mode button').forEach(b=>b.classList.toggle('on',b.dataset.m===m));$('#a-cmp').classList.toggle('hide',m!=='cmp');$('#a-man').classList.toggle('hide',m!=='man')}
+function cmpFill(f){cmpS={};const xs=isC(f)?cX(f):[];cmpRows();xs.forEach(([g,t,n])=>{const k=cmpKey(g,t);cmpS[k]=(+cmpS[k]||0)+(+n)});const a=isC(f)?cAdj(f):{c:0,p:0,f:0};['c','p','f'].forEach(k=>{$('#a-x'+k).value=a[k]?a[k]:''});cmpMd(f&&f.mac&&!isC(f)?'man':'cmp');cmpDraw()}
+document.addEventListener('click',e=>{const b=e.target.closest('#a-mode button');if(b){e.preventDefault();cmpMd(b.dataset.m);return}
+ const d=e.target.closest('#a-crows button[data-k]');if(d){e.preventDefault();const k=d.dataset.k,v=Math.max(0,Math.min(20,+((+cmpS[k]||0)+(+d.dataset.d)).toFixed(2)));if(v>0)cmpS[k]=v;else delete cmpS[k];cmpDraw()}});
+['a-xc','a-xp','a-xf'].forEach(i=>$('#'+i).addEventListener('input',cmpPrev));
 $('#a-g').onchange=fillTy;$('#a-no').onclick=()=>dClose($('#dlg'));
 $('#a-ok').onclick=()=>{if(!can('foods')){dClose($('#dlg'));return}
  const n=$('#a-n').value.trim(),d=$('#a-d').value.trim(),g=$('#a-g').value;
  if(!n||!d){$('#a-e').textContent='اكتب اسم الصنف ووصف الحصة.';return}
+ {const nz=x=>String(x||'').replace(/[\u064B-\u0652\u0640]/g,'').replace(/[إأآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/[\s()\u200f\u200e]+/g,'').toLowerCase(),t0=GR[g].ty?$('#a-ty').value:'',dup=all().find(x=>x.id!==eid&&x.g===g&&(x.t||'')===t0&&nz(x.name)===nz(n)&&nz(gm(x.d))===nz(d));
+  if(dup){$('#a-e').textContent='هذا الصنف موجود مسبقاً بنفس المجموعة ونفس حجم الحصة: «'+dup.name+'» ('+gm(dup.d)+'). لا حاجة لإضافته مرة ثانية.';try{toast('الصنف موجود مسبقاً')}catch(e){}return}}
  const o={id:eid||'c'+Date.now(),g,t:GR[g].ty?$('#a-ty').value:'',name:n,d,custom:true},mv=amVals();
 if($('#a-rt').checked){const rg=rgRead();if(rg.e){$('#a-e').textContent=rg.e;return}o.rng=rg.r}
+ else if(cmpMode==='cmp'){const x=cmpX(),a=cmpAdj();if(x.length||a.c||a.p||a.f){const v=cIv({mac:{x,adj:a}}),m={c:v.c,p:v.p,f:v.f,x:x.map(r=>r.slice())};if(a.c||a.p||a.f)m.adj={c:+a.c.toFixed(2),p:+a.p.toFixed(2),f:+a.f.toFixed(2)};o.mac=m}}
  else if(mv.some(x=>x!==null)){if(mv.some(x=>x!==null&&!(x>=0))){$('#a-e').textContent='أدخلي قيماً صحيحة (0 أو أكبر) للكارب والبروتين والدهون.';return}o.mac={c:+(mv[0]||0).toFixed(2),p:+(mv[1]||0).toFixed(2),f:+(mv[2]||0).toFixed(2)}}
  A.foods=(A.foods||[]).filter(x=>x.id!==o.id);A.foods.push(o);A.hidden=(A.hidden||[]).filter(x=>x!==o.id);saveA();dClose($('#dlg'));render();
 };
 function startCloud(){const x=who();if(x&&x.admin)adminSync();else if(x)syncCat();
  setInterval(()=>{if(document.hidden)return;const y=who();if(y&&!y.admin)syncCat()},90000);
  document.addEventListener('visibilitychange',()=>{if(!document.hidden){const y=who();if(y&&!y.admin)syncCat()}})}
-render();startCloud();
+render();startCloud();try{setTimeout(wcRetry,4000);setTimeout(()=>{casesRetry();casesPull()},3500)}catch(e){}
 (function(){try{const m=/^#staff=(.+)~([A-Za-z0-9]{4,24})$/.exec(location.hash||'');if(!m)return;history.replaceState(null,'',location.pathname+location.search);
  const u=decodeURIComponent(m[1]);if(A.sess==='admin'&&ADM_PASS)return;stfMode=true;render();const a=$('#st-user'),b=$('#st-code');if(a&&b){a.value=u;b.value=m[2];stfLogin()}}catch(e){}})();
 /* ===== custom select (bottom sheet) ===== */
@@ -1388,6 +1743,36 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#csov')){e.stopP
 new MutationObserver(()=>csAll()).observe(document.body,{childList:true,subtree:true});
 document.addEventListener('change',e=>{if(e.target.tagName==='SELECT')csEnh(e.target)},true);
 csAll();
+</script>
+<script>
+/* v62: منع قائمة الاقتراحات السوداء من المتصفح (السجل/الإكمال التلقائي) في كل خانات الإدخال */
+(function(){const fix=r=>{(r.querySelectorAll?r.querySelectorAll('input:not([type=checkbox]):not([type=radio]):not([type=password]),textarea'):[]).forEach(i=>{if(!i.hasAttribute('autocomplete')||i.getAttribute('autocomplete')==='on'){i.setAttribute('autocomplete','off')}i.setAttribute('autocorrect','off');i.setAttribute('spellcheck','false');if(i.id==='a-n'||i.id==='a-d'){i.setAttribute('autocapitalize','off')}})};
+fix(document);new MutationObserver(m=>m.forEach(x=>x.addedNodes.forEach(n=>{if(n.nodeType===1)fix(n)}))).observe(document.documentElement,{childList:true,subtree:true})})();
+</script>
+<script>
+/* v62: اختيار معيار الحصة (أكواب/ملاعق + غرامات) من قوائم تنفتح عند الضغط */
+(function(){
+const U=['⅛ كوب','¼ كوب','⅓ كوب','½ كوب','⅔ كوب','¾ كوب','1 كوب','1½ كوب','2 كوب','1 ملعقة صغيرة','1 ملعقة كبيرة','2 ملعقة كبيرة','3 ملاعق كبيرة'];
+const G=['5 غم','10 غم','15 غم','20 غم','25 غم','30 غم','40 غم','45 غم','50 غم','60 غم','75 غم','80 غم','90 غم','100 غم','120 غم','150 غم'];
+const box=document.getElementById('a-pick'),inp=document.getElementById('a-d');if(!box||!inp)return;
+const bx={u:box.querySelector('[data-g=u]'),g:box.querySelector('[data-g=g]')},bt={u:box.querySelector('[data-t=u]'),g:box.querySelector('[data-t=g]')};
+const DEF={u:'اختاري كوباً أو ملعقة',g:'اختاري الغرامات'};
+const mk=a=>a.map(v=>'<button type="button" class="chp" data-v="'+v+'">'+v+'</button>').join('');
+bx.u.innerHTML=mk(U);bx.g.innerHTML=mk(G);
+function close(){['u','g'].forEach(k=>{bx[k].classList.remove('open');bt[k].classList.remove('open')})}
+window.pkSync=function(){const parts=inp.value.split('/').map(x=>gm(x.trim().replace(/\s+/g,' '))).filter(Boolean);
+ ['u','g'].forEach(k=>{let sel=null;bx[k].querySelectorAll('.chp').forEach(b=>{const on=parts.includes(b.dataset.v);b.classList.toggle('on',on);if(on)sel=b.dataset.v});
+  bt[k].classList.toggle('has',!!sel);bt[k].firstChild.textContent=sel||DEF[k]})};
+box.addEventListener('click',e=>{
+ const t=e.target.closest('.msel');
+ if(t){e.preventDefault();e.stopPropagation();const k=t.dataset.t,was=bx[k].classList.contains('open');close();if(!was){bx[k].classList.add('open');t.classList.add('open')}return}
+ const b=e.target.closest('.chp');if(!b)return;e.preventDefault();e.stopPropagation();
+ const k=b.parentNode.dataset.g,was=b.classList.contains('on');bx[k].querySelectorAll('.chp').forEach(x=>x.classList.remove('on'));if(!was)b.classList.add('on');
+ const u=bx.u.querySelector('.on'),g=bx.g.querySelector('.on');
+ inp.value=[u&&u.dataset.v,g&&g.dataset.v].filter(Boolean).join(' / ');pkSync();close()});
+inp.addEventListener('input',()=>pkSync());
+const dl=document.getElementById('dlg');if(dl)dl.addEventListener('close',close);
+})();
 </script>
 </body>
 </html>
